@@ -115,6 +115,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red">#e40404</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -1367,7 +1368,7 @@
     <string name="city_res">City</string>
     <string name="colon">:</string>
     <string name="color">Color</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">39d98492-63df-4402-8312-0c9e14feae44</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">d1dbfd9a-fe17-4457-b97c-1b51cdc01bb3</string>
     <string name="confirm">Confirm</string>
     <string name="counselling_date">Counselling Date</string>
     <string name="dates">Date</string>
@@ -1622,14 +1623,18 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowContentOverlay">@null</item>
-        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -3214,6 +3219,10 @@
     <style name="dd_custom_radio_btn_style_isDriver_isOwner" parent="dd_custom_radio_btn_style">
         <item name="android:textSize">@dimen/_10sdp</item>
     </style>
+    <style name="detained_text_style" parent="text_style">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">@dimen/_8sdp</item>
+    </style>
     <style name="drunkdrive_text_style" parent="text_style">
         <item name="android:textSize">16dp</item>
     </style>
@@ -3273,7 +3282,7 @@
     </style>
     <style name="text_style">
         <item name="android:textSize">@dimen/_10sdp</item>
-        
+        <!-- <item name="android:textStyle">bold</item> -->
         <item name="android:textColor">@android:color/white</item>
     </style>
 </resources>

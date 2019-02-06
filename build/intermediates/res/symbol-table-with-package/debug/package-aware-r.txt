@@ -460,6 +460,7 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -1506,6 +1507,7 @@ drawable updte_btn
 drawable upload
 drawable vhcle_history
 drawable watermark
+drawable wgl_logo
 drawable white
 id Ll_buffer_display_spotresponse_xml
 id Ll_selectedchallans_spotresponse_xml
@@ -1666,7 +1668,9 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detained_Txt
 id detained_items
+id detained_lyt
 id disableHome
 id dl_img
 id dl_no
@@ -2125,6 +2129,7 @@ id textView3
 id textView30
 id textView31
 id textView4
+id textView456
 id textView5
 id textView52
 id textView56
@@ -3172,6 +3177,7 @@ style dd_custom_blue_btn_style
 style dd_custom_check_box_style
 style dd_custom_radio_btn_style
 style dd_custom_radio_btn_style_isDriver_isOwner
+style detained_text_style
 style drunkdrive_text_style
 style edt_custom_settings_style
 style edt_custom_style

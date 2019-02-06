@@ -276,6 +276,7 @@
     <color name="footer_txt_color">#374175</color>
     <color name="dialog_title">#fb0000</color>
     <color name="black">#000000</color>
+    <color name="red">#e40404</color>
 
     <!-- DUPLICATE PRINT -->
     <string name="dup_drunk_drive">Drunk &amp; Drive</string>

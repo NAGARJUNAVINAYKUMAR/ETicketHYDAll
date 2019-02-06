@@ -2020,6 +2020,10 @@
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable-hdpi\\down.png"
     },
     {
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable_wgl_logo.png.flat",
+        "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable\\wgl_logo.png"
+    },
+    {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_right_arrow.png.flat",
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable-hdpi\\right_arrow.png"
     },
