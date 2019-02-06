@@ -1367,7 +1367,7 @@
     <string name="city_res">City</string>
     <string name="colon">:</string>
     <string name="color">Color</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">9b43ab20-3e48-4582-b941-0b14b9395056</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">39d98492-63df-4402-8312-0c9e14feae44</string>
     <string name="confirm">Confirm</string>
     <string name="counselling_date">Counselling Date</string>
     <string name="dates">Date</string>

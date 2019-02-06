@@ -12,12 +12,12 @@
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
-        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\layout_spot_challan_two.xml.flat",
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\layout\\spot_challan_two.xml"
+    },
+    {
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable_layout_style.xml.flat",
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable\\layout_style.xml"
+    },
+    {
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_dark.xml.flat",
@@ -48,36 +48,36 @@
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
-        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\e357900ac8d34e601116f8893569277e\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_capture.png.flat",
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable-hdpi\\capture.png"
     },
     {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sp_drive.png.flat",
-        "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable-hdpi\\sp_drive.png"
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\e357900ac8d34e601116f8893569277e\\res\\color\\design_error.xml"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_efp_dark__ic_action_new_folder.png.flat",
-        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\exfilepicker-2.1.aar\\598eed837aeec10c49d179e90a206b4d\\res\\drawable-xxhdpi-v4\\efp_dark__ic_action_new_folder.png"
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_sp_drive.png.flat",
+        "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable-hdpi\\sp_drive.png"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\layout_reports.xml.flat",
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\layout\\reports.xml"
+    },
+    {
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_efp_dark__ic_action_new_folder.png.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\exfilepicker-2.1.aar\\598eed837aeec10c49d179e90a206b4d\\res\\drawable-xxhdpi-v4\\efp_dark__ic_action_new_folder.png"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",

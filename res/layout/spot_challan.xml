@@ -400,7 +400,7 @@
                     android:maxLength="25"></EditText>
             </LinearLayout>
 
-            <Button
+            <!--<Button
                 android:id="@+id/dob_input"
                 style="@style/dd_custom_blue_btn_style"
                 android:layout_width="fill_parent"
@@ -414,6 +414,17 @@
                 android:textColor="#000000"
                 android:textColorHint="#000000"
                 android:textSize="@dimen/_9sdp"
+                android:visibility="gone" />-->
+
+            <Button
+                android:id="@+id/dob_input"
+                style="@style/dd_custom_blue_btn_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_driver_challans"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/header_grnt_padding_five"
+                android:text="Select Date of Birth"
                 android:visibility="gone" />
 
             <LinearLayout
@@ -1572,6 +1583,7 @@
 
                     <TextView
                         android:id="@+id/star"
+                        style="@style/navi_text_style"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.03"
