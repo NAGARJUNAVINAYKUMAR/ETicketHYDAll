@@ -1190,4 +1190,22 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         progress.setProgressDrawable(getResources().getDrawable(R.drawable.green_progress));
     }
 
+    private class TestAsync extends AsyncTask<String, String, String> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String doInBackground(String... strings) {
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+        }
+    }
+
 }

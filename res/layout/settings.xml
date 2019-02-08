@@ -193,7 +193,6 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="@dimen/header_grnt_padding_ten"
                     android:clickable="false"
-                    android:textSize="22dp"
                     android:text="Responsible PS Name" />
 
                 <EditText

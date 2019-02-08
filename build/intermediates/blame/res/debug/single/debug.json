@@ -2012,16 +2012,16 @@
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\f2de87a4c9eae9a004ca016c59e1539f\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable_wgl_logo.png.flat",
+        "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable\\wgl_logo.png"
+    },
+    {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\e357900ac8d34e601116f8893569277e\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_down.png.flat",
         "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable-hdpi\\down.png"
-    },
-    {
-        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable_wgl_logo.png.flat",
-        "source": "E:\\Android\\Workspace\\ETicketHYDAll\\res\\drawable\\wgl_logo.png"
     },
     {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_right_arrow.png.flat",
