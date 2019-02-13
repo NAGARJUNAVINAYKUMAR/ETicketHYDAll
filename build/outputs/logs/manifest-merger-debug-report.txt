@@ -3,24 +3,24 @@ manifest
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\819177c5cb6995e552f2f61985290137\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:17:1-31:12
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:17:1-31:12
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\b097cc289dffbd399c66c18347b3b11d\AndroidManifest.xml:2:1-11:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\c5c1449d06772a52981ef76335c7a7cc\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\199f25b1fbba1a485a289def5f944f17\AndroidManifest.xml:17:1-24:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:22:1-33:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\be3703e56a59d743935dd7aadca073be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:17:1-31:12
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:17:1-31:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\d04b3b57b8a3f1a61c527d90351bc422\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\2da92252ffa099c2c3221e399a8afb83\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\a1f663753179c761a732f6bfe4fe9d06\AndroidManifest.xml:17:1-24:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:22:1-33:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
 	package
@@ -41,16 +41,16 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:9:5-73
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:9:22-70
 uses-permission#android.permission.INTERNET
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -67,14 +67,14 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:5-79
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:5-81
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:12:5-81
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:12:5-81
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:12:5-81
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:5-80
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:11:5-80
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:11:5-80
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:11:5-80
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:22-77
 uses-permission#android.permission.READ_PHONE_STATE
@@ -115,36 +115,36 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:5-74
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:22-71
 application
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:26:5-280:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:29:5-20
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:14:5-18:19
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:14:5-18:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:29:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\199f25b1fbba1a485a289def5f944f17\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\199f25b1fbba1a485a289def5f944f17\AndroidManifest.xml:22:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:29:5-20
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:14:5-18:19
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:29:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\a1f663753179c761a732f6bfe4fe9d06\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\a1f663753179c761a732f6bfe4fe9d06\AndroidManifest.xml:22:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:31:5-20
 	android:label
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:29:9-41
 	android:largeHeap
@@ -541,46 +541,46 @@ uses-sdk
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\819177c5cb6995e552f2f61985290137\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\819177c5cb6995e552f2f61985290137\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:21:5-23:62
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:7:5-9:41
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:21:5-23:61
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\b097cc289dffbd399c66c18347b3b11d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\b097cc289dffbd399c66c18347b3b11d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\9e58f090348edffbd86966a79ac08037\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\c5c1449d06772a52981ef76335c7a7cc\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\c5c1449d06772a52981ef76335c7a7cc\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\199f25b1fbba1a485a289def5f944f17\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\199f25b1fbba1a485a289def5f944f17\AndroidManifest.xml:20:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\58db79651d11ba97c1ad7b67c5e923e7\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\368281964c1de55c9b19b4ea8882a997\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\ab096321e31ce437a90a115004f1a6a9\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\bb47dd0700581e609c32471c157ca205\AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\be3703e56a59d743935dd7aadca073be\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\be3703e56a59d743935dd7aadca073be\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:21:5-23:62
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:7:5-9:41
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:21:5-23:61
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\d04b3b57b8a3f1a61c527d90351bc422\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\sdp-android-1.0.5.aar\d04b3b57b8a3f1a61c527d90351bc422\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\f11bfc24654516e80696b5b990a11cdc\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\2da92252ffa099c2c3221e399a8afb83\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\2da92252ffa099c2c3221e399a8afb83\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\a1f663753179c761a732f6bfe4fe9d06\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\cardview-v7-25.2.0.aar\a1f663753179c761a732f6bfe4fe9d06\AndroidManifest.xml:20:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\5c753dc49a5bb9765e9c419314e811b3\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\65148e77bd6205df4faf9ba7b18c54f1\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\cbe8df678a2cab81e559a36c982cafa3\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\05923be4810333ae827afc85b595201d\AndroidManifest.xml:27:5-43
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
@@ -590,30 +590,30 @@ INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\f2de87a4c9eae9a004ca016c59e1539f\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\2f221268074b154aa325dd8ca5a82e7c\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\68194ef7700e3adbdd03051ae59ab5a1\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\f7048446fbdd0924211620b186e8ea56\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\c5c1449d06772a52981ef76335c7a7cc\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\c5c1449d06772a52981ef76335c7a7cc\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\d8c8d6c97893f7446184e66a8f1b885d\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\69ec2eb7f44bfdfec000f5bca957e450\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\5db836775e308764f1eb7dde473890d3\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\ed924b74be68f65f64c6237eef24c5b9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\25195bcd9f56f17c087f876d931d9d88\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\b2887317cd47f9510d66d745e5fbcf4f\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\8b9f982df2c60209712674251730a380\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\2da92252ffa099c2c3221e399a8afb83\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.3.1.aar\2da92252ffa099c2c3221e399a8afb83\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\transition-25.3.1.aar\1c5f7816a1198a112e387587c0a88fea\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\1c89b9efff0d6d8e8b0b615b974e27d8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\c1c15b6532ac7df8acf9b61f8792fe54\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\e357900ac8d34e601116f8893569277e\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\2eca003c591c247d90184b6421b52bea\AndroidManifest.xml:26:9-47
 activity#ru.bartwell.exfilepicker.ui.activity.ExFilePickerActivity
-ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:15:9-17:61
+ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:15:9-17:61
 	android:theme
-		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:17:13-58
+		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:17:13-58
 	android:name
-		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\598eed837aeec10c49d179e90a206b4d\AndroidManifest.xml:16:13-85
+		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-1\files-1.1\exfilepicker-2.1.aar\fc4bfcc526499f986d2dc224abebae9c\AndroidManifest.xml:16:13-85
