@@ -191,6 +191,8 @@ public class Dashboard extends Activity implements OnClickListener {
         UNIT_CODE = MainActivity.arr_logindetails[0].substring(0, 2);
 
         LoadUIComponents();
+       
+
 
         db = new DBHelper(getApplicationContext());
 
@@ -204,14 +206,16 @@ public class Dashboard extends Activity implements OnClickListener {
         current_version = sharedPreference.getString("CURRENT_VERSION", "");
 
         img_logo = (ImageView) findViewById(R.id.img_logo);
-        if (MainActivity.uintCode.equals("22")) {
+        if (MainActivity.uintCode.equals("22")) { //Cyberabad
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.cyb_logo));
-        } else if (MainActivity.uintCode.equals("23")) {
+        } else if (MainActivity.uintCode.equals("23")) { //Hyderabad
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
-        } else if (MainActivity.uintCode.equals("24")) {
+        } else if (MainActivity.uintCode.equals("24")) { //RachaKonda
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.rac_logo));
-        } else {
-            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
+        } else if (MainActivity.uintCode.equals("44")) { //44 Warangal
+            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.wgl_logo));
+        }else {//  69 Siddipet
+            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
         }
         officer_Name = (TextView) findViewById(R.id.officer_Name);
         officer_Cadre = (TextView) findViewById(R.id.officer_cadre);
@@ -297,7 +301,7 @@ public class Dashboard extends Activity implements OnClickListener {
             FTPClient ftpClient = new FTPClient();
 
             try {
-                if (null != MainActivity.services_url && MainActivity.services_url.contains("https://www.echallan.org/")) {
+                if (null != MainActivity.service_type&& MainActivity.service_type.contains("live")) {
                     server = "125.16.1.69";
                 } else {
                     server = "192.168.11.9";
@@ -469,10 +473,16 @@ public class Dashboard extends Activity implements OnClickListener {
 
             } catch (SocketException e) {
                 e.printStackTrace();
+                removeDialog(PROGRESS_DIALOG);
+                showToast("Please contact e-Challan team !");
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
+                removeDialog(PROGRESS_DIALOG);
+                showToast("Please contact e-Challan team !");
             } catch (IOException e) {
                 e.printStackTrace();
+                removeDialog(PROGRESS_DIALOG);
+                showToast("Please contact e-Challan team !");
             }
             return null;
         }
@@ -1043,7 +1053,7 @@ public class Dashboard extends Activity implements OnClickListener {
         }
     }
 
-    public class Async_About_Version extends AsyncTask<Void, Void, String> {
+    private class Async_About_Version extends AsyncTask<Void, Void, String> {
 
         @SuppressWarnings("deprecation")
         @Override
@@ -1345,6 +1355,7 @@ public class Dashboard extends Activity implements OnClickListener {
         }
         return super.onCreateDialog(id);
     }
+
 
     public class Async_getViolationPoint_SystemMasterData extends AsyncTask<Void, Void, String> {
         @Override

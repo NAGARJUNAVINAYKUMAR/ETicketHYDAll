@@ -374,8 +374,10 @@ public class GenerateDrunkDriveCase extends Activity implements OnClickListener,
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
         }else if (MainActivity.uintCode.equals("24")){
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.rac_logo));
-        }else{
-            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
+        }else if (MainActivity.uintCode.equals("44")) { //44 Warangal
+            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.wgl_logo));
+        }else {//  69 Siddipet
+            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
         }
         officer_Name=(TextView)findViewById(R.id.officer_Name);
         officer_Cadre=(TextView)findViewById(R.id.officer_cadre);
@@ -1835,7 +1837,7 @@ public class GenerateDrunkDriveCase extends Activity implements OnClickListener,
 
                         canvas.save();
                         canvas.rotate(270f, xPos, yPos);
-                        canvas.drawText("Date & Time: " + Current_Date, xPos + 10, yPos, paint);
+                        canvas.drawText("Date & Time: " + Current_Date, xPos + 10, yPos+300, paint);
                         canvas.restore();
 
                         canvas.save();

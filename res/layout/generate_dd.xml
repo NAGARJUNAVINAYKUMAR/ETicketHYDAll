@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg">
 
+    <!-- Header aligned to top -->
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
@@ -17,8 +19,60 @@
 
         </include>
 
+        <!--<RelativeLayout
+             android:id="@+id/relativeLayout1"
+             style="@style/header_style"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true" >
+
+             <ImageView
+                 android:id="@+id/imageView1"
+                 style="@style/header_images_style_left"
+                 android:layout_alignParentLeft="true"
+                 android:layout_centerVertical="true" />
+
+             <ImageView
+                 android:id="@+id/imageView2"
+                 style="@style/header_images_style_right"
+                 android:layout_alignParentRight="true"
+                 android:layout_centerVertical="true" />
+
+             <TextView
+                 android:id="@+id/textView1"
+                 style="@style/header_text_style"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerHorizontal="true"
+                 android:layout_centerVertical="true"
+                 android:text="@string/header_txt" />
+
+             <TextView
+                 android:id="@+id/textView2"
+                 style="@style/cust_text_style"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/textView1"
+                 android:layout_centerHorizontal="true"
+                 android:layout_marginTop="23dp"
+                 android:text="@string/app_version"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:textStyle="bold" />
+
+             <TextView
+                 android:id="@+id/textView_header_spot_challan_xml"
+                 style="@style/cust_text_style"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_alignBottom="@+id/imageView2"
+                 android:layout_centerHorizontal="true"
+                 android:text="@string/drunk_drive"
+                 android:textAppearance="?android:attr/textAppearanceSmall" />
+         </RelativeLayout>-->
     </RelativeLayout>
 
+    <!-- Footer aligned to bottom -->
     <RelativeLayout
         android:id="@+id/footer"
         android:layout_width="match_parent"
@@ -32,8 +86,7 @@
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
             android:src="@drawable/footer"
-            android:visibility="gone"
-            android:contentDescription="@null" />
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/textView"
@@ -43,8 +96,15 @@
             android:layout_centerHorizontal="true"
             android:gravity="center"
             android:textStyle="bold" />
-
     </RelativeLayout>
+
+    <!-- Scrollable Content below header and above footer -->
+    <!--  <ScrollView
+       android:id="@+id/container"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_above="@id/footer"
+       android:layout_below="@id/header" > -->
 
     <ScrollView
         android:id="@+id/container"
@@ -56,7 +116,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/textView22"
@@ -72,7 +132,7 @@
                 style="@style/navi_text_style"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_below="@+id/textView22"
                 android:layout_marginBottom="@dimen/header_grnt_padding_five"
                 android:text="@string/regno" />
@@ -89,24 +149,24 @@
                     style="@style/edt_custom_style"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                    android:layout_marginRight="@dimen/header_grnt_padding_five"
                     android:layout_weight="1"
                     android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                     android:gravity="center"
                     android:inputType="textCapCharacters"
-                    android:maxLength="4"/>
+                    android:maxLength="4"></EditText>
 
                 <EditText
                     android:id="@+id/edt_regncidname_dd_xml"
                     style="@style/edt_custom_style"
                     android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                    android:layout_marginRight="@dimen/header_grnt_padding_five"
                     android:layout_weight="1"
                     android:digits="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
                     android:gravity="center"
                     android:inputType="text|textCapCharacters"
-                    android:maxLength="4"/>
+                    android:maxLength="4"></EditText>
 
                 <EditText
                     android:id="@+id/edt_regncid_lastnum_dd_xml"
@@ -117,7 +177,7 @@
                     android:digits="0123456789"
                     android:gravity="center"
                     android:inputType="number"
-                    android:maxLength="4"/>
+                    android:maxLength="4"></EditText>
             </LinearLayout>
 
             <LinearLayout
@@ -133,7 +193,7 @@
                     style="@style/dd_custom_blue_btn_style"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                    android:layout_marginRight="@dimen/header_grnt_padding_five"
                     android:layout_weight="1"
                     android:text="@string/select" />
 
@@ -152,6 +212,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/ll_offnce_date"
+
                 android:layout_marginTop="15dp"
                 android:text="Driver Details :"
                 android:textStyle="bold" />
@@ -164,7 +225,7 @@
                 android:layout_below="@+id/drive_details"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/driver_name"
-                android:inputType="text|textCapCharacters"/>
+                android:inputType="text|textCapCharacters"></EditText>
 
             <EditText
                 android:id="@+id/edt_driver_fname_dd_xml"
@@ -175,16 +236,16 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/driver_father_name"
-                android:inputType="text|textCapCharacters"/>
+                android:inputType="text|textCapCharacters"></EditText>
 
             <LinearLayout
                 android:id="@+id/ll_contactnum_dd_xml"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:weightSum="1"
                 android:layout_below="@+id/edt_identification_mark"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="3">
 
                 <EditText
                     android:id="@+id/edt_drvr_cnctno_dd_xml"
@@ -192,22 +253,88 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_weight="0.3"
+                    android:layout_weight="1"
                     android:hint="@string/driver_contact_no"
                     android:inputType="number"
-                    android:maxLength="10"/>
+                    android:maxLength="10"></EditText>
 
                 <Button
                     android:id="@+id/btn_sendOTPtoMobile_dd_xml"
                     style="@style/naviblue_custom_style"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.7"
-                    android:layout_marginStart="@dimen/header_grnt_padding_five"
-                    android:text="@string/send_otp" />
-
+                    android:layout_marginLeft="@dimen/header_grnt_padding_five"
+                    android:text="@string/send_otp"
+                    android:layout_weight="2"/>
             </LinearLayout>
 
+
+            <!--  <RelativeLayout
+                 android:id="@+id/drunk_location"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@id/ll_contactnum_dd_xml"
+                 android:orientation="horizontal"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginRight="15dp"
+                 android:visibility="gone"
+                 android:layout_marginTop="15dp">
+
+                <TextView
+                     android:id="@+id/alcohol_place"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     style="@style/navi_text_style"
+                     android:textStyle="bold"
+                     android:textSize="30sp"
+                     android:text="Liquor Served Location Details :"/>
+
+                 <RadioButton
+                     android:id="@+id/bar"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     style="@style/navi_text_style"
+                     android:text="@string/bar"
+                     android:layout_below="@id/alcohol_place"
+                     android:paddingLeft="10dp"
+                     android:checked="true"
+                     android:textSize="22sp"/>
+
+                 <RadioButton
+                     android:id="@+id/permit_room"
+                     style="@style/navi_text_style"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginLeft="150dp"
+                     android:layout_toRightOf="@id/bar"
+                     android:layout_below="@id/alcohol_place"
+                     android:paddingLeft="10dp"
+                     android:text="@string/permit_room"
+                     android:textSize="22sp" />
+
+                 <RadioButton
+                     android:id="@+id/wine_shop"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     style="@style/navi_text_style"
+                     android:text="@string/wine_shop"
+                     android:paddingLeft="10dp"
+                     android:layout_below="@id/permit_room"
+                     android:textSize="22sp"/>
+
+                 <RadioButton
+                     android:id="@+id/others"
+                     style="@style/navi_text_style"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_below="@id/permit_room"
+                     android:layout_marginLeft="215dp"
+                     android:layout_toRightOf="@id/wine_shop"
+                     android:paddingLeft="10dp"
+                     android:text="@string/others"
+                     android:textSize="22sp" />
+
+             </RelativeLayout> -->
             <TextView
                 android:id="@+id/breath_details"
                 style="@style/navi_text_style"
@@ -227,7 +354,8 @@
                 android:layout_marginTop="15dp"
                 android:hint="@string/check_sino"
                 android:inputType="number"
-                android:maxLength="15"/>
+                android:maxLength="15"></EditText>
+
 
             <EditText
                 android:id="@+id/edt_alchl_reading_dd2_xml"
@@ -238,7 +366,7 @@
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/alcohol_reading"
                 android:inputType="numberDecimal"
-                android:maxLength="4"/>
+                android:maxLength="4"></EditText>
 
             <TextView
                 android:id="@+id/alcohol_place"
@@ -256,8 +384,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/alcohol_place"
-                android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                android:layout_marginRight="@dimen/header_grnt_padding_five"
                 android:layout_marginTop="8dp"
+                android:layout_weight="1"
                 android:text="@string/bar_type" />
 
             <LinearLayout
@@ -276,7 +405,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/header_grnt_padding_five"
-                    android:inputType="textCapCharacters"/>
+                    android:hint=""
+                    android:inputType="textCapCharacters"></EditText>
 
                 <EditText
                     android:id="@+id/edt_bar_Address"
@@ -284,7 +414,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/header_grnt_padding_five"
-                    android:inputType="textCapCharacters"/>
+                    android:hint=""
+                    android:inputType="textCapCharacters"></EditText>
 
             </LinearLayout>
 
@@ -310,8 +441,8 @@
                     android:id="@+id/btn_select_profession"
                     style="@style/dd_custom_blue_btn_style"
                     android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/header_grnt_padding_five"
                     android:layout_marginTop="8dp"
                     android:layout_weight="1"
                     android:entries="@array/profession_arrays"
@@ -325,7 +456,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/header_grnt_padding_five"
                     android:hint="@string/dd_name"
-                    android:inputType="textCapCharacters"/>
+                    android:inputType="textCapCharacters"></EditText>
 
                 <EditText
                     android:id="@+id/edt_candidate_Address"
@@ -334,7 +465,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/header_grnt_padding_five"
                     android:hint="@string/dd_address"
-                    android:inputType="textCapCharacters"/>
+                    android:inputType="textCapCharacters"></EditText>
 
                 <EditText
                     android:id="@+id/edt_email_ID"
@@ -343,7 +474,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/header_grnt_padding_five"
                     android:hint="@string/email"
-                    android:inputType="textEmailAddress"/>
+                    android:inputType="textEmailAddress"></EditText>
             </LinearLayout>
 
 
@@ -357,7 +488,7 @@
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="Enter Address"
                 android:inputType="text|textCapCharacters"
-                android:visibility="gone"/>
+                android:visibility="gone"></EditText>
 
             <EditText
                 android:id="@+id/et_dd_city"
@@ -369,7 +500,7 @@
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="Enter City"
                 android:inputType="text|textCapCharacters"
-                android:visibility="gone"/>
+                android:visibility="gone"></EditText>
 
             <LinearLayout
                 android:id="@+id/ll_confirmotp_dd_xml"
@@ -389,16 +520,17 @@
                     android:layout_weight="1"
                     android:hint="@string/enter_otp"
                     android:inputType="number"
-                    android:maxLength="10"/>
+                    android:maxLength="10"></EditText>
 
                 <Button
                     android:id="@+id/btn_confrmotp_dd_xml"
                     style="@style/naviblue_custom_style"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/header_grnt_padding_five"
+                    android:layout_marginLeft="@dimen/header_grnt_padding_five"
                     android:text="@string/confirm" />
             </LinearLayout>
+            <!--  -->
 
             <EditText
                 android:id="@+id/edt_owner_dlno_dd_xml"
@@ -409,7 +541,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/owner_dl_no"
-                android:visibility="gone"/>
+                android:visibility="gone"></EditText>
 
             <EditText
                 android:id="@+id/edt_driver_dlno_dd_xml"
@@ -420,7 +552,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/driver_dl_no"
-                android:visibility="gone"/>
+                android:visibility="gone"></EditText>
+
 
             <EditText
                 android:id="@+id/edt_age_reading_dd2_xml"
@@ -431,7 +564,7 @@
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/age"
                 android:inputType="number"
-                android:maxLength="2"/>
+                android:maxLength="2"></EditText>
 
             <EditText
                 android:id="@+id/edt_identification_mark"
@@ -441,7 +574,7 @@
                 android:layout_below="@+id/edt_age_reading_dd2_xml"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/mole_mark"
-                android:inputType="textCapCharacters"/>
+                android:inputType="textCapCharacters"></EditText>
 
             <EditText
                 android:id="@+id/edt_address_dd2_xml"
@@ -452,7 +585,7 @@
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:gravity="top"
                 android:hint="@string/address"
-                android:visibility="gone"/>
+                android:visibility="gone"></EditText>
 
             <EditText
                 android:id="@+id/edt_city_dd2_xml"
@@ -462,7 +595,7 @@
                 android:layout_below="@+id/edt_address_dd2_xml"
                 android:layout_marginTop="@dimen/header_grnt_padding_five"
                 android:hint="@string/city"
-                android:visibility="gone"/>
+                android:visibility="gone"></EditText>
 
             <LinearLayout
                 android:id="@+id/ll_idproof"
@@ -478,7 +611,7 @@
                     style="@style/dd_custom_blue_btn_style"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                    android:layout_marginRight="@dimen/header_grnt_padding_five"
                     android:layout_weight="1"
                     android:text="@string/select_idproof" />
 
@@ -488,7 +621,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:inputType="textCapCharacters|number"/>
+                    android:inputType="textCapCharacters|number"></EditText>
             </LinearLayout>
 
             <LinearLayout
@@ -522,8 +655,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="true"
-                        android:paddingStart="@dimen/header_grnt_padding_ten"
-                        android:paddingEnd="@dimen/header_grnt_padding_ten"
+                        android:paddingLeft="@dimen/header_grnt_padding_ten"
                         android:text="@string/gen_male" />
 
                     <RadioButton
@@ -531,8 +663,7 @@
                         style="@style/dd_custom_radio_btn_style"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingStart="@dimen/header_grnt_padding_ten"
-                        android:paddingEnd="@dimen/header_grnt_padding_ten"
+                        android:paddingLeft="@dimen/header_grnt_padding_ten"
                         android:text="@string/gen_female" />
 
                     <RadioButton
@@ -540,12 +671,54 @@
                         style="@style/dd_custom_radio_btn_style"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingStart="@dimen/header_grnt_padding_ten"
-                        android:paddingEnd="@dimen/header_grnt_padding_ten"
+                        android:paddingLeft="@dimen/header_grnt_padding_ten"
                         android:text="@string/gen_others" />
                 </RadioGroup>
-
             </LinearLayout>
+
+
+            <!-- <LinearLayout
+                android:id="@+id/ll_finnedby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_gender"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/header_grnt_padding_five" >
+
+                <TextView
+                    android:id="@+id/tv_finedbyname"
+                    style="@style/navi_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:gravity="center_vertical"
+                    android:text="@string/fined_by" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_finedby"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/radioGroupButton_finedby1"
+                        style="@style/dd_custom_radio_btn_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/header_grnt_padding_ten"
+                        android:text="@string/finedby_policestation" />
+
+                    <RadioButton
+                        android:id="@+id/radioGroupButton_finedby0"
+                        style="@style/dd_custom_radio_btn_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:paddingLeft="@dimen/header_grnt_padding_ten"
+                        android:text="@string/finedby_court" />
+                </RadioGroup>
+            </LinearLayout> -->
 
             <RelativeLayout
                 android:id="@+id/rl_detaineditems_spotchallantwo_xml"
@@ -573,7 +746,7 @@
                     <CheckBox
                         android:id="@+id/checkBox_dt_rc_dd2_xml"
                         style="@style/dd_custom_check_box_style"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.95"
                         android:gravity="center_horizontal|center_vertical"
@@ -599,7 +772,7 @@
                     <CheckBox
                         android:id="@+id/checkBox_dt_lcns_dd2_xml"
                         style="@style/dd_custom_check_box_style"
-                        android:layout_width="0dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.95"
                         android:gravity="center_horizontal|center_vertical"
@@ -612,10 +785,82 @@
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal|center_vertical"
                         android:text="@string/detained_items_permit" />
-
                 </LinearLayout>
 
+
             </RelativeLayout>
+
+            <!-- <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_detaineditems_spotchallantwo_xml"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_twenty"
+                android:layout_marginTop="@dimen/margin_twenty"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/tv_detaineditems_name"
+                    style="@style/navi_text_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/header_grnt_padding_five"
+                    android:text="@string/detained_items" />
+
+                <LinearLayout
+                    android:id="@+id/ll_detaineditems1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_detaineditems_name"
+                    android:layout_centerHorizontal="true" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_dt_rc_dd2_xml"
+                        style="@style/dd_custom_check_box_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.95"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/detained_items_rc" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_dt_vchle_dd2_xml"
+                        style="@style/dd_custom_check_box_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/detained_items_vhcle" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_detaineditems2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ll_detaineditems1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/header_grnt_padding_five" >
+
+                    <CheckBox
+                        android:id="@+id/checkBox_dt_lcns_dd2_xml"
+                        style="@style/dd_custom_check_box_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.95"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/detained_items_licence" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox_dt_permit_dd2_xml"
+                        style="@style/dd_custom_check_box_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="@string/detained_items_permit" />
+                </LinearLayout>
+            </LinearLayout> -->
 
             <FrameLayout
                 android:id="@+id/fl_web"
@@ -626,15 +871,20 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="5dp">
 
+                <!-- <WebView
+                    android:id="@+id/wv_image_dd3_xml"
+                    android:layout_width="wrap_content"
+                    android:layout_height="400dp"
+                    android:layout_centerHorizontal="true" /> -->
+
                 <ImageView
                     android:id="@+id/offender_image"
-                    android:layout_width="@dimen/_200sdp"
-                    android:layout_height="@dimen/_200sdp"
+                    android:layout_width="380dp"
+                    android:layout_height="400dp"
                     android:layout_gravity="center"
                     android:contentDescription="@null"
                     android:scaleType="fitXY"
                     android:src="@drawable/photo" />
-
             </FrameLayout>
 
             <RelativeLayout
@@ -651,22 +901,19 @@
                     android:id="@+id/imgbtn_browseimage_dd3_xml"
                     android:layout_width="107dp"
                     android:layout_height="106dp"
-                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
                     android:background="@null"
-                    android:src="@drawable/gallery"
-                    android:contentDescription="@null" />
+                    android:src="@drawable/gallery" />
 
                 <ImageButton
                     android:id="@+id/imgbtn_capture_dd3_xml"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:background="@null"
-                    android:contentDescription="@null"
                     android:src="@drawable/capture" />
-
             </RelativeLayout>
 
             <LinearLayout
@@ -682,7 +929,7 @@
                     style="@style/naviblue_custom_style"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/header_grnt_padding_five"
+                    android:layout_marginRight="@dimen/header_grnt_padding_five"
                     android:layout_weight="1"
                     android:text="@string/cancel" />
 
@@ -693,11 +940,8 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/submit" />
-
             </LinearLayout>
-
         </RelativeLayout>
-
     </ScrollView>
 
 </RelativeLayout>

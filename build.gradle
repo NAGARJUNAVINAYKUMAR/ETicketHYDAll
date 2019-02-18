@@ -1,7 +1,3 @@
-//noinspection GradleDeprecated
-apply plugin: 'android'
-apply plugin: 'io.fabric'
-
 buildscript {
     repositories {
         mavenCentral()
@@ -10,15 +6,14 @@ buildscript {
             url 'https://maven.google.com/'
             name 'Google'
         }
-        google()
     }
     dependencies {
-        //noinspection GradleDependency
         classpath 'com.android.tools.build:gradle:3.3.1'
-        //noinspection GradleDynamicVersion
         classpath 'io.fabric.tools:gradle:1.+'
     }
 }
+apply plugin: 'android'
+apply plugin: 'io.fabric'
 
 repositories {
     maven { url 'https://maven.fabric.io/public' }
@@ -30,6 +25,7 @@ repositories {
         name 'Google'
     }
 }
+
 
 dependencies {
     implementation fileTree(include: '*.jar', dir: 'libs')
@@ -43,8 +39,13 @@ dependencies {
     implementation('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
         transitive = true
     }
+    implementation project(':dsprint')
+    implementation (
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.1']
+    )
 }
-
 configurations {
     all*.exclude group: 'com.android.support', module: 'support-v4'
     all*.exclude group: 'com.android.support', module: 'support-annotations'
@@ -61,7 +62,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        minSdkVersion 18
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -71,7 +72,6 @@ android {
         }
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
-
     aaptOptions {
         cruncherEnabled = false
     }
@@ -86,8 +86,8 @@ android {
             assets.srcDirs = ['assets']
         }
 
-        // Move the tests to tests/java, tests/res, etc...
-        //instrumentTest.setRoot('tests')
+        // Move the tests to tests/java, tests/res, etc...   instrumentTest replaced with androidTest
+        androidTest.setRoot('tests')
 
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
@@ -98,9 +98,21 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
-    /*buildTypes {
+    buildTypes {
         debug {
             signingConfig signingConfigs.config
         }
-    }*/
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
 }

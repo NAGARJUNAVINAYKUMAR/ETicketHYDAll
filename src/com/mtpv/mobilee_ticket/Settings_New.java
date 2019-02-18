@@ -186,8 +186,10 @@ public class Settings_New extends Activity implements OnClickListener {
 			img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
 		}else if (MainActivity.uintCode.equals("24")){
 			img_logo.setImageDrawable(getResources().getDrawable(R.drawable.rac_logo));
-		}else{
-			img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
+		}else if (MainActivity.uintCode.equals("44")) { //44 Warangal
+			img_logo.setImageDrawable(getResources().getDrawable(R.drawable.wgl_logo));
+		}else {//  69 Siddipet
+			img_logo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
 		}
 		officer_Name=(TextView)findViewById(R.id.officer_Name);
 		officer_Cadre=(TextView)findViewById(R.id.officer_cadre);
@@ -775,7 +777,7 @@ public class Settings_New extends Activity implements OnClickListener {
 				final ProgressDialog progressDialog = new ProgressDialog(
 						Settings_New.this);
 				progressDialog
-						.setMessage("Please wait BlueTooth Scan is in Process!!!");
+						.setMessage("Please wait \n BlueTooth Scan is in Process!!!");
 				progressDialog.setCancelable(false);
 				progressDialog.show();
 
@@ -793,7 +795,7 @@ public class Settings_New extends Activity implements OnClickListener {
 					public void run() {
 						super.run();
 						try {
-							Thread.sleep(6000);
+							Thread.sleep(5000);
 							if (progressDialog.isShowing())
 								progressDialog.dismiss();
 
@@ -888,7 +890,7 @@ public class Settings_New extends Activity implements OnClickListener {
 
 			try {
 
-				if (null != MainActivity.services_url && MainActivity.services_url.contains("https://www.echallan.org")) {
+				if (null != MainActivity.service_type&& MainActivity.service_type.contains("live")) {
 					server = IPSettings.open_ftp_fix;
 				}else{
 					server = IPSettings.ftp_fix;
@@ -905,10 +907,8 @@ public class Settings_New extends Activity implements OnClickListener {
 				File downloadFile1 = new File("/sdcard/Download/ETicketHYD.apk");
 				//String remoteFile1 = "/23/TabAPK" + "/" + version;
 				String remoteFile1 = "/23/TabAPK" + "/ETicketHYD.apk";
-
 				OutputStream outputStream = new BufferedOutputStream(new FileOutputStream(downloadFile1));
 				boolean success = ftpClient.retrieveFile(remoteFile1, outputStream);
-
 				FileOutputStream fileOutput = new FileOutputStream(downloadFile1);
 				InputStream inputStream = ftpClient.retrieveFileStream(remoteFile1);
 
@@ -1072,12 +1072,18 @@ public class Settings_New extends Activity implements OnClickListener {
 			} catch (SocketException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+                removeDialog(PROGRESS_DIALOG);
+                showToast("Please contact e-Challan team !");
 			} catch (FileNotFoundException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+                removeDialog(PROGRESS_DIALOG);
+                showToast("Please contact e-Challan team !");
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+                removeDialog(PROGRESS_DIALOG);
+                showToast("Please contact e-Challan team !");
 			}
 			return null;
 		}

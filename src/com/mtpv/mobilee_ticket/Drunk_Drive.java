@@ -300,8 +300,10 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
         }else if (MainActivity.uintCode.equals("24")){
             img_logo.setImageDrawable(getResources().getDrawable(R.drawable.rac_logo));
-        }else{
-            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.htp_left));
+        }else if (MainActivity.uintCode.equals("44")) { //44 Warangal
+            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.wgl_logo));
+        }else {//  69 Siddipet
+            img_logo.setImageDrawable(getResources().getDrawable(R.drawable.logo));
         }
 
         officer_Name=(TextView)findViewById(R.id.officer_Name);
@@ -915,12 +917,12 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                                 title.setBackgroundColor(Color.RED);
                                 title.setGravity(Gravity.CENTER);
                                 title.setTextColor(Color.WHITE);
-                                title.setTextSize(26);
+                                title.setTextSize(22);
                                 title.setTypeface(title.getTypeface(), Typeface.BOLD);
                                 title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.dialog_logo, 0,
                                         R.drawable.dialog_logo, 0);
                                 title.setPadding(20, 0, 20, 0);
-                                title.setHeight(70);
+                                title.setHeight(85);
 
                                 String otp_message = "\n It's a Fake Vehicle !!!\n";
 
@@ -943,7 +945,7 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                                 alertDialog.getWindow().getAttributes();
 
                                 TextView textView = (TextView) alertDialog.findViewById(android.R.id.message);
-                                textView.setTextSize(28);
+                                textView.setTextSize(20);
                                 textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
                                 textView.setGravity(Gravity.CENTER);
 
@@ -1593,7 +1595,7 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                 title.setBackgroundColor(Color.parseColor("#007300"));
                 title.setGravity(Gravity.CENTER);
                 title.setTextColor(Color.WHITE);
-                title.setTextSize(26);
+                title.setTextSize(20);
                 title.setTypeface(title.getTypeface(), Typeface.BOLD);
                 title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.dialog_logo, 0, R.drawable.dialog_logo, 0);
                 title.setPadding(20, 0, 20, 0);
@@ -1640,11 +1642,11 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                 title2.setBackgroundColor(Color.RED);
                 title2.setGravity(Gravity.CENTER);
                 title2.setTextColor(Color.WHITE);
-                title2.setTextSize(26);
+                title2.setTextSize(22);
                 title2.setTypeface(title2.getTypeface(), Typeface.BOLD);
                 title2.setCompoundDrawablesWithIntrinsicBounds(R.drawable.dialog_logo, 0, R.drawable.dialog_logo, 0);
                 title2.setPadding(20, 0, 20, 0);
-                title2.setHeight(70);
+                title2.setHeight(80);
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this, AlertDialog.THEME_HOLO_LIGHT);
                 alertDialogBuilder.setCustomTitle(title2);
@@ -1674,7 +1676,7 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                 alertDialog.getWindow().getAttributes();
 
                 TextView textView = (TextView) alertDialog.findViewById(android.R.id.message);
-                textView.setTextSize(28);
+                textView.setTextSize(20);
                 textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
                 textView.setGravity(Gravity.CENTER);
 
@@ -1946,7 +1948,7 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
 
         ViewGroup group = (ViewGroup) toast.getView();
         TextView messageTextView = (TextView) group.getChildAt(0);
-        messageTextView.setTextSize(24);
+        messageTextView.setTextSize(20);
 
         toastView.setBackgroundResource(R.drawable.toast_background);
         toast.show();
@@ -2062,8 +2064,6 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
 
                     rtaAprroved_Master = ServiceHelper.rtaapproovedresponse.split("\\|");
 
-
-
                     SpotChallan.OtpStatus=rtaAprroved_Master[3].toString()!= null ? rtaAprroved_Master[3].toString().trim() : "N";
                     SpotChallan.OtpResponseDelayTime=rtaAprroved_Master[4].toString()!= null ? rtaAprroved_Master[4].toString().trim(): "0";
 
@@ -2110,11 +2110,11 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                 title.setBackgroundColor(Color.RED);
                 title.setGravity(Gravity.CENTER);
                 title.setTextColor(Color.WHITE);
-                title.setTextSize(26);
+                title.setTextSize(20);
                 title.setTypeface(title.getTypeface(), Typeface.BOLD);
                 title.setCompoundDrawablesWithIntrinsicBounds(R.drawable.dialog_logo, 0, R.drawable.dialog_logo, 0);
                 title.setPadding(20, 0, 20, 0);
-                title.setHeight(70);
+                title.setHeight(80);
 
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(Drunk_Drive.this,
                         AlertDialog.THEME_HOLO_LIGHT);
@@ -2134,7 +2134,7 @@ public class Drunk_Drive extends Activity implements OnClickListener, LocationLi
                 alertDialog.getWindow().getAttributes();
 
                 TextView textView = (TextView) alertDialog.findViewById(android.R.id.message);
-                textView.setTextSize(28);
+                textView.setTextSize(20);
                 textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
                 textView.setGravity(Gravity.CENTER);
 

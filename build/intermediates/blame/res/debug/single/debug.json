@@ -2516,6 +2516,10 @@
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ed924b74be68f65f64c6237eef24c5b9\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\layout_camera_layout.xml.flat",
+        "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\dsprint.aar\\e6f8993bffb75155aad3f83ba004bfde\\res\\layout\\camera_layout.xml"
+    },
+    {
         "merged": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ed924b74be68f65f64c6237eef24c5b9\\res\\drawable-xxxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },

@@ -190,7 +190,7 @@
 
                 <ImageView
                     android:id="@+id/offender_image"
-                    android:layout_width="@dimen/_200sdp"
+                    android:layout_width="match_parent"
                     android:layout_height="@dimen/_200sdp"
                     android:layout_gravity="center"
                     android:contentDescription="@null"
@@ -395,31 +395,19 @@
                     android:maxLength="25"></EditText>
             </LinearLayout>
 
-            <!--<Button
+            <Button
                 android:id="@+id/dob_input"
                 style="@style/dd_custom_blue_btn_style"
                 android:layout_width="fill_parent"
-                android:layout_height="@dimen/_40sdp"
+                android:layout_height="wrap_content"
                 android:layout_below="@+id/ll_driver_challans"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:editable="false"
                 android:gravity="center"
                 android:hint="Select Date of Birth"
                 android:textColor="#000000"
                 android:textColorHint="#000000"
                 android:textSize="@dimen/_9sdp"
-                android:visibility="gone" />-->
-
-            <Button
-                android:id="@+id/dob_input"
-                style="@style/dd_custom_blue_btn_style"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/ll_driver_challans"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="@dimen/header_grnt_padding_five"
-                android:text="Select Date of Birth"
                 android:visibility="gone" />
 
             <LinearLayout
@@ -1563,6 +1551,7 @@
                         android:layout_weight="0.03"
                         android:text="*"
                         android:textColor="#ff0000"/>
+
 
                     <EditText
                         android:id="@+id/edt_driverdname_isOD"

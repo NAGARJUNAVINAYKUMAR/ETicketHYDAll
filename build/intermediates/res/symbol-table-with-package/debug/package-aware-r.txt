@@ -1622,9 +1622,11 @@ id btnsubmit_login_xml
 id btnsubmit_settings_xml
 id buttonPanel
 id buttons
+id camerapreview
 id cancel
 id cancel_action
 id cancel_dialog
+id capturebtn
 id cardView
 id cb_fake
 id center
@@ -1978,6 +1980,7 @@ id pp_device_Address
 id pp_paired
 id pp_tv_address
 id pp_tv_name
+id previewImage
 id print
 id print_layout
 id proffession_layout
@@ -1989,6 +1992,7 @@ id progressBar1
 id progress_bar
 id progress_circular
 id progress_horizontal
+id prompt
 id ps_name
 id qr_code
 id radio
@@ -2038,6 +2042,7 @@ id relativeLayout1
 id relativeLayout2
 id release_detained
 id response
+id retakebtn
 id rg_fakegroup
 id right
 id right_icon
@@ -2059,6 +2064,7 @@ id rl_selectedchallans_root_spotresponse_xml
 id rl_selectedchallans_sub_header_spotresponse_xml
 id rl_vhlehstry_root_pchallans_xml
 id rta_name
+id savebtn
 id screen
 id scroll
 id scrollIndicatorDown
@@ -2378,6 +2384,7 @@ layout activity_special_drive
 layout activity_specialdrive
 layout apk_progressbar
 layout blutooth_list_devices
+layout camera_layout
 layout cust_pen_challans
 layout cust_toast
 layout custom_progress_dialog

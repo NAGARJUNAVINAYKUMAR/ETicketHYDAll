@@ -3,6 +3,8 @@ package com.mtpv.mobilee_ticket_services;
 import android.widget.EditText;
 
 public class Utils {
+
+	public static String dev_Model="BIZZPOS WHQ2(Wizarhand Q2)";
 	String REG_CD = "regnCd";
 	String VEH_NO = "vehicleNo";
 	String REG_NO = "regnNo";

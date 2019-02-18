@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:dsprint:unspecified@jar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dsprint.aar/e6f8993bffb75155aad3f83ba004bfde/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/dsprint.aar/e6f8993bffb75155aad3f83ba004bfde/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

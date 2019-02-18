@@ -676,15 +676,15 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int give_us_a_review_landmine_button = 0x7f090104;
-        public static final int give_us_a_review_landmine_main_layout = 0x7f090105;
-        public static final int give_us_a_review_landmine_text_1 = 0x7f090106;
-        public static final int give_us_a_review_landmine_text_2 = 0x7f090107;
+        public static final int give_us_a_review_landmine_button = 0x7f090106;
+        public static final int give_us_a_review_landmine_main_layout = 0x7f090107;
+        public static final int give_us_a_review_landmine_text_1 = 0x7f090108;
+        public static final int give_us_a_review_landmine_text_2 = 0x7f090109;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int dp_example = 0x7f0b004f;
-        public static final int sdp_example = 0x7f0b0075;
+        public static final int dp_example = 0x7f0b0050;
+        public static final int sdp_example = 0x7f0b0076;
     }
 }
