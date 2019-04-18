@@ -4,7 +4,7 @@
             "outputFile": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ed924b74be68f65f64c6237eef24c5b9\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\bc627ed01267dfb4a20e707ae099c82e\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-25.2.0.aar\\a1f663753179c761a732f6bfe4fe9d06\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\8ef8292a70ca94362cbfdaae9ab82d59\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

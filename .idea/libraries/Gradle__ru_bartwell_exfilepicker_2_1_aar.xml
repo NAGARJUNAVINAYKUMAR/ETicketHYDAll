@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: ru.bartwell:exfilepicker:2.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/exfilepicker-2.1.aar/fc4bfcc526499f986d2dc224abebae9c/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/exfilepicker-2.1.aar/fc4bfcc526499f986d2dc224abebae9c/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/108082f71a0b1f9afc71833735a4b7c2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/108082f71a0b1f9afc71833735a4b7c2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
