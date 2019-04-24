@@ -927,7 +927,7 @@ public class Settings_New extends Activity implements OnClickListener {
 
 							// showToast("your is Upto Date");
 							TextView title = new TextView(Settings_New.this);
-							title.setText("Hyderabad E-Ticket");
+							title.setText("Telangana E-Ticket");
 							title.setBackgroundColor(Color.RED);
 							title.setGravity(Gravity.CENTER);
 							title.setTextColor(Color.WHITE);

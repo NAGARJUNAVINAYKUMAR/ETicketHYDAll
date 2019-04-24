@@ -79,7 +79,7 @@ public class Login_otp extends Activity {
             @Override
             public void onClick(View v) {
                 TextView title = new TextView(Login_otp.this);
-                title.setText("Hyderabad E-Ticket");
+                title.setText("Telangana E-Ticket");
                 title.setBackgroundColor(Color.RED);
                 title.setGravity(Gravity.CENTER);
                 title.setTextColor(Color.WHITE);

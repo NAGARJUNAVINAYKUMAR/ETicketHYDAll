@@ -1083,7 +1083,7 @@ public class PopupDetails extends Activity implements LocationListener {
 	
 			}else {
 				TextView title = new TextView(PopupDetails.this);
-				title.setText("Hyderabad E-Ticket");
+				title.setText("Telangana E-Ticket");
 				title.setBackgroundColor(Color.RED);
 				title.setGravity(Gravity.CENTER);
 				title.setTextColor(Color.WHITE);

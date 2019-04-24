@@ -81,7 +81,7 @@ public class Drunk_Drive_Fake_Dialog extends Activity {
 						fake_action = "not fake";
 
 						TextView title = new TextView(Drunk_Drive_Fake_Dialog.this);
-						title.setText("Hyderabad E-Ticket");
+						title.setText("Telangana E-Ticket");
 						title.setBackgroundColor(Color.RED);
 						title.setGravity(Gravity.CENTER);
 						title.setTextColor(Color.WHITE);
@@ -135,7 +135,7 @@ public class Drunk_Drive_Fake_Dialog extends Activity {
 						fake_action = "fake";
 
 						TextView title = new TextView(Drunk_Drive_Fake_Dialog.this);
-						title.setText("Hyderabad E-Ticket");
+						title.setText("Telangana E-Ticket");
 						title.setBackgroundColor(Color.RED);
 						title.setGravity(Gravity.CENTER);
 						title.setTextColor(Color.WHITE);

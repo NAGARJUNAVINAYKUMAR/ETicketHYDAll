@@ -227,7 +227,7 @@ public class Dashboard extends Activity implements OnClickListener {
         if (current_version.equals("N")) {
 
             TextView title = new TextView(this);
-            title.setText("Hyderabad E-Ticket");
+            title.setText("Telangana E-Ticket");
             title.setBackgroundColor(Color.RED);
             title.setGravity(Gravity.CENTER);
             title.setTextColor(Color.WHITE);
@@ -330,7 +330,7 @@ public class Dashboard extends Activity implements OnClickListener {
                             removeDialog(PROGRESS_DIALOG);
 
                             TextView title = new TextView(Dashboard.this);
-                            title.setText("Hyderabad E-Ticket");
+                            title.setText("Telangana E-Ticket");
                             title.setBackgroundColor(Color.RED);
                             title.setGravity(Gravity.CENTER);
                             title.setTextColor(Color.WHITE);
@@ -1112,7 +1112,7 @@ public class Dashboard extends Activity implements OnClickListener {
         switch (id) {
             case EXIT_DIALOG:
                 TextView title = new TextView(this);
-                title.setText("Hyderabad E-Ticket");
+                title.setText("Telangana E-Ticket");
                 title.setBackgroundColor(Color.RED);
                 title.setGravity(Gravity.CENTER);
                 title.setTextColor(Color.WHITE);
@@ -2021,7 +2021,7 @@ public class Dashboard extends Activity implements OnClickListener {
     public void onBackPressed() {
         // TODO Auto-generated method stub
         TextView title = new TextView(this);
-        title.setText("Hyderabad E-Ticket");
+        title.setText("Telangana E-Ticket");
         title.setBackgroundColor(Color.RED);
         title.setGravity(Gravity.CENTER);
         title.setTextColor(Color.WHITE);

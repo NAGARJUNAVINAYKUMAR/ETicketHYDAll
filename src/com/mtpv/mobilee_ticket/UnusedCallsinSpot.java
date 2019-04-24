@@ -109,7 +109,7 @@ public class UnusedCallsinSpot {
 //                }
 //            } else if (ServiceHelper.aadhaarDetailsCheck_resp.equals("EXIST")) {
 //                TextView title = new TextView(SpotChallan.this);
-//                title.setText("Hyderabad E-Ticket");
+//                title.setText("Telangana E-Ticket");
 //                title.setBackgroundColor(Color.RED);
 //                title.setGravity(Gravity.CENTER);
 //                title.setTextColor(Color.WHITE);

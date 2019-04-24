@@ -1547,7 +1547,7 @@ public class GenerateDrunkDriveCase extends Activity implements OnClickListener,
             case ERROR_DIALOG:
 
                 TextView title2 = new TextView(this);
-                title2.setText("Hyderabad \n E-Ticket");
+                title2.setText("Telangana \n E-Ticket");
                 title2.setBackgroundColor(Color.RED);
                 title2.setGravity(Gravity.CENTER);
                 title2.setTextColor(Color.WHITE);
@@ -1593,7 +1593,7 @@ public class GenerateDrunkDriveCase extends Activity implements OnClickListener,
             case OTP_CNFRMTN_DIALOG:
 
                 TextView title3 = new TextView(this);
-                title3.setText("Hyderabad \n E-Ticket");
+                title3.setText("Telangana \n E-Ticket");
                 title3.setBackgroundColor(Color.RED);
                 title3.setGravity(Gravity.CENTER);
                 title3.setTextColor(Color.WHITE);
