@@ -186,14 +186,12 @@ public class Dashboard extends Activity implements OnClickListener {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.activity_dashboard_new);
 
         UNIT_CODE = MainActivity.arr_logindetails[0].substring(0, 2);
 
         LoadUIComponents();
        
-
-
         db = new DBHelper(getApplicationContext());
 
         netwrk_info_txt = "" + getResources().getString(R.string.newtork_txt);
@@ -304,7 +302,7 @@ public class Dashboard extends Activity implements OnClickListener {
                 if (null != MainActivity.service_type&& MainActivity.service_type.contains("live")) {
                     server = "125.16.1.69";
                 } else {
-                    server = "192.168.11.9";
+                    server = "125.16.1.69";
                 }
                 ftpClient.connect(server, port);
                 ftpClient.login(username, password);
@@ -413,7 +411,6 @@ public class Dashboard extends Activity implements OnClickListener {
                             public void run() {
                                 progress.setProgress(downloadedSize);
                                 float per = ((float) downloadedSize / totalSize) * 100;
-
                                 cur_val.setText((int) per / 225000 + "%");
                             }
                         });

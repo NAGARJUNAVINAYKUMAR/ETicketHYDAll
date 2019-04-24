@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: artifacts:dsprint:unspecified@jar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3b23651bfd1fccb6a8d343f77de01eb/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b3b23651bfd1fccb6a8d343f77de01eb/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd000ae31ff528b19b472b2db12c06d8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cd000ae31ff528b19b472b2db12c06d8/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

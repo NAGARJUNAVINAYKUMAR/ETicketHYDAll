@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.mtpv.mobilee_ticket"
     android:versionCode="2"
-    android:versionName="1.2" >
+    android:versionName="1.2">
 
+
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -26,6 +29,7 @@
         android:icon="@drawable/logo_hyd"
         android:label="@string/app_name"
         android:largeHeap="true"
+        tools:replace="android:allowBackup"
         android:theme="@style/AppTheme" >
 
         <provider
@@ -263,10 +267,7 @@
 
         <activity android:name=".mtpv_SpecialDrive"></activity>
         <activity android:name=".SpecialDriveResponse_Print"></activity>
-        <activity android:name=".E_Challan_Non_ContactModule"
-
-
-            ></activity>
+        <activity android:name=".E_Challan_Non_ContactModule"></activity>
 
 
 
@@ -276,7 +277,7 @@
             android:value="2cdc37f0ea9fc03062bf6c77c47b64d3bb01fda8" />
 
 
-
+        <service android:name="com.mtpv.mobilee_ticket_services.RingToneService" />
     </application>
 
 </manifest>

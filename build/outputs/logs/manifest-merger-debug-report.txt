@@ -1,597 +1,677 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
-INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
-INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ce879a258509dbbb3153983497843ab7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:17:1-31:12
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:2:1-20:12
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:17:1-31:12
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7b90e09dd3c1c6cf6f775cc743ee0edb\AndroidManifest.xml:2:1-11:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:2:1-13:12
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:2:1-26:12
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1bd14a611ac905aee7565d5c8d252c7c\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8ef8292a70ca94362cbfdaae9ab82d59\AndroidManifest.xml:17:1-24:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:22:1-33:12
-INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
-INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-282:12
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
+INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
+INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:17:1-24:12
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:2:1-20:12
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5caf6e371a42505872cc9b2fa33d59df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fc7d1fc0835f9268cdc24eefe67f6fb9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2655e8e79ca4ec1be5c24d539f5cd546\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\34854ce38224652c3e680598fd32ad4f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\252dcb7ffb106760bea65358386f6e0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3c1922a49b420bcec899e495ebe2f459\AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a713fe871122f2fc46e82c18580bd00e\AndroidManifest.xml:2:1-11:12
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:2:1-13:12
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc153812aca5d90909939baa0d6bc83f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\78035dcda74d8b4c31d90b5f63f5e883\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\65bfee36bc09f0da0090ae260299f37a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e896811ad5aee38b83cf4ff235226536\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\9a5227ec3f565822c8cf2cd3ebcb168f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\17ef80ab1a73a71f905ca3072fc58f41\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\07033bbc136c6c8e48c499fd3307e7f0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3fddeab3649f30e406e6891c3f6a6b37\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\77c8780d27f5e0993e08bc51da63d6a9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1ec2d328f2b9c02fe4bf8327150cab63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0657217e4f32cadd356883209d5996ef\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2b4ecdc3fcac3c92e728370cdcf27430\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\68a6b9f678f58df978ef591e66971c0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f893d08ffd13f276a3ed761cfd39b584\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\710bb2d2b70107da08e673cf91d364d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f49ad187da6f1eedf7f500c66d4f304\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4bdcfe500af0cfd7ee815ae3a57b7258\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7c3ee98081165d22157025daf570ddf2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b1d9a149ea571211ef9fb4601c4f75a6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\549036fe93b5d85f3010cae7d8344082\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5fb74fdd9aef2ba78b7d46fd92a796bd\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
+INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
 	package
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:3:5-38
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:4:5-38
 	android:versionName
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:5:5-30
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:6:5-30
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:3:5-51
 	xmlns:android
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:4:5-28
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:5:5-28
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:9:5-66
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:9:22-63
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:7:5-73
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:5-73
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:7:22-70
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:22-70
 uses-permission#android.permission.INTERNET
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:8:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:29:5-67
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:8:22-64
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:9:5-81
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:9:22-78
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:5-79
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:22-76
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:22-76
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:12:5-81
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:12:5-81
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:12:5-81
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:15:5-81
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:15:5-81
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:5-81
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:12:5-81
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:12:5-81
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:15:5-81
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:5-80
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:11:5-80
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:11:5-80
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:14:5-80
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:14:5-80
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:5-80
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:11:5-80
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:11:5-80
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:14:5-80
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:14:5-80
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:22-77
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:5-75
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:5-75
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:22-72
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:22-72
 uses-permission#android.permission.CAMERA
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:5-65
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:13:5-65
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:13:5-65
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:5-65
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:13:5-65
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:22-62
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:22-62
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:5-76
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:22-73
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:19:22-73
 uses-permission#android.permission.BLUETOOTH
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:5-68
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:22-65
-uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:5-74
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:22-71
-uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:19:5-88
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:19:22-85
-uses-permission#android.permission.READ_LOGS
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:20:5-68
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:20:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:21:5-74
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:21:22-71
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:22:5-88
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:22:22-85
+uses-permission#android.permission.READ_LOGS
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:23:22-65
 uses-permission#android.permission.INSTALL_PACKAGES
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:21:5-75
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:5-75
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:21:22-72
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:22-72
 uses-permission#android.permission.DELETE_PACKAGES
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:22:5-74
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:5-74
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:22:22-71
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:22-71
 application
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:5-280:19
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:29:5-20
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:14:5-18:19
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:14:5-18:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:29:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:11:5-20
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:17:5-24:19
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:17:5-24:19
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8ef8292a70ca94362cbfdaae9ab82d59\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8ef8292a70ca94362cbfdaae9ab82d59\AndroidManifest.xml:22:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:31:5-20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:27:5-281:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:22:5-20
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:14:5-18:19
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:14:5-18:19
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:11:5-15:19
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:11:5-20
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:9:5-20
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:11:5-20
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:17:5-24:19
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:17:5-24:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:31:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:27:9-41
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:30:9-41
 	android:largeHeap
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:28:9-33
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:31:9-33
 	android:icon
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:26:9-42
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:29:9-42
 	android:allowBackup
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:9-36
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:28:9-36
+		REJECTED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:29:9-40
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:33:9-40
+	tools:replace
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:32:9-44
 provider#android.support.v4.content.FileProvider
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:31:9-39:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:35:9-43:20
 	android:grantUriPermissions
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:35:13-47
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:39:13-47
 	android:authorities
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:33:13-67
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:37:13-67
 	android:exported
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:34:13-37
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:32:13-67
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:36:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:36:13-38:53
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:40:13-42:53
 	android:resource
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:38:17-51
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:42:17-51
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:37:17-67
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:41:17-67
 activity#com.mtpv.mobilee_ticket.MainActivity
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:41:9-51:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:45:9-55:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:44:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:48:13-49
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:43:13-45
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:47:13-45
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:45:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:49:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:42:13-41
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:46:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:46:13-50:29
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:50:13-54:29
 action#android.intent.action.MAIN
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:47:17-69
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:47:25-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:51:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:49:17-77
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:53:17-77
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:49:27-74
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:53:27-74
 activity#com.mtpv.mobilee_ticket.GenerateDrunkDriveCase
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:52:9-57:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:56:9-61:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:55:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:59:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:54:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:58:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:56:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:60:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:53:13-51
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:57:13-51
 activity#com.mtpv.mobilee_ticket.Dashboard
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:58:9-63:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:62:9-67:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:61:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:65:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:60:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:64:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:62:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:66:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:59:13-38
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:63:13-38
 activity#com.mtpv.mobilee_ticket.Settings_New
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:66:9-71:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:70:9-75:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:69:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:73:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:68:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:72:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:70:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:74:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:67:13-41
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:71:13-41
 activity#com.mtpv.mobilee_ticket.DrunkResponse
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:72:9-77:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:76:9-81:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:75:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:79:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:74:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:78:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:76:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:80:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:73:13-42
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:77:13-42
 activity#com.mtpv.mobilee_ticket.PendingChallans
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:78:9-83:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:82:9-87:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:81:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:85:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:80:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:84:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:82:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:86:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:79:13-44
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:83:13-44
 activity#com.mtpv.mobilee_ticket.Drunk_Drive
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:84:9-91:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:88:9-95:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:87:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:91:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:86:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:90:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:88:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:92:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:85:13-40
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:89:13-40
 activity#com.mtpv.mobilee_ticket.DuplicatePrint
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:92:9-97:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:96:9-101:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:95:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:99:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:94:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:98:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:96:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:100:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:93:13-43
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:97:13-43
 activity#com.mtpv.mobilee_ticket.IPSettings
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:98:9-103:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:102:9-107:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:101:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:105:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:100:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:104:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:102:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:106:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:99:13-39
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:103:13-39
 activity#com.mtpv.mobilee_ticket.SpotChallan
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:104:9-109:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:108:9-113:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:107:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:111:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:106:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:110:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:108:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:112:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:105:13-40
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:109:13-40
 activity#com.mtpv.mobilee_ticket.SpotResponse
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:110:9-115:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:114:9-119:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:113:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:117:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:112:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:116:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:114:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:118:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:111:13-41
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:115:13-41
 activity#com.mtpv.mobilee_ticket.VehicleHistoryPendingChallans
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:116:9-121:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:120:9-125:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:119:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:123:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:118:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:122:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:120:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:124:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:117:13-58
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:121:13-58
 activity#com.mtpv.mobilee_ticket.OfflineDashboardActivity
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:122:9-126:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:126:9-130:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:124:13-69
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:128:13-69
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:125:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:129:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:123:13-53
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:127:13-53
 activity#com.mtpv.mobilee_ticket.Offline_GenerateCase
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:127:9-131:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:131:9-135:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:129:13-74
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:133:13-74
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:130:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:134:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:128:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:132:13-49
 activity#com.mtpv.mobilee_ticket.Offline_Settings
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:132:9-136:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:136:9-140:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:134:13-69
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:138:13-69
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:135:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:139:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:133:13-45
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:137:13-45
 activity#com.mtpv.mobilee_ticket.Respone_Print
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:137:9-141:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:141:9-145:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:139:13-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:143:13-66
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:140:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:144:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:138:13-42
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:142:13-42
 activity#com.mtpv.mobilee_ticket.Fake_NO_Dialog
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:142:9-147:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:146:9-151:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:144:13-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:148:13-66
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:146:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:150:13-52
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:145:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:149:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:143:13-43
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:147:13-43
 activity#com.mtpv.mobilee_ticket.OTP_input
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:148:9-152:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:152:9-156:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:150:13-61
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:154:13-61
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:151:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:155:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:149:13-38
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:153:13-38
 activity#com.mtpv.mobilee_ticket.ExtraPassengers
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:153:9-157:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:157:9-161:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:155:13-59
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:159:13-59
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:156:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:160:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:154:13-44
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:158:13-44
 activity#com.mtpv.mobilee_ticket.E_Challan
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:158:9-162:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:162:9-166:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:160:13-62
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:164:13-62
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:161:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:165:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:159:13-38
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:163:13-38
 activity#com.mtpv.mobilee_ticket.E_Challan_Reports
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:163:9-167:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:167:9-171:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:165:13-71
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:169:13-71
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:166:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:170:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:164:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:168:13-46
 activity#com.mtpv.mobilee_ticket.MinorActivity
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:168:9-172:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:172:9-176:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:170:13-57
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:174:13-57
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:171:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:175:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:169:13-42
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:173:13-42
 activity#com.mtpv.mobilee_ticket.DD_Print
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:173:9-176:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:177:9-180:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:175:13-61
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:179:13-61
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:174:13-37
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:178:13-37
 activity#com.mtpv.mobilee_ticket.PopupDetails
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:177:9-181:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:181:9-185:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:179:13-43
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:183:13-43
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:180:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:184:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:178:13-41
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:182:13-41
 activity#com.mtpv.mobilee_ticket.DeviceListActivity
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:182:9-189:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:186:9-193:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:184:13-45
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:188:13-45
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:185:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:189:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:183:13-47
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:187:13-47
 intent-filter#action:name:android.intent.action.VIEW
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:186:13-188:29
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:190:13-192:29
 action#android.intent.action.VIEW
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:187:17-69
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:191:17-69
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:187:25-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:191:25-66
 activity#com.pinpad.mtpv.PinPad_ListActivity
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:190:9-197:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:194:9-201:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:192:13-65
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:196:13-65
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:193:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:197:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:191:13-63
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:195:13-63
 activity#com.pinpad.mtpv.PinPadList
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:198:9-201:20
-	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:200:13-64
-	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:199:13-54
-activity#com.pinpad.mtpv.GetPinPad
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:202:9-205:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:204:13-63
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:204:13-64
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:203:13-53
-activity#com.mtpv.mobilee_ticket.Bluetooth
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:203:13-54
+activity#com.pinpad.mtpv.GetPinPad
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:206:9-209:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:208:13-67
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:208:13-63
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:207:13-38
-activity#com.mtpv.mobilee_ticket.BluetoothListActivity
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:207:13-53
+activity#com.mtpv.mobilee_ticket.Bluetooth
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:210:9-213:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:212:13-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:212:13-67
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:211:13-50
-activity#com.mtpv.mobilee_ticket.Settings_Old
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:211:13-38
+activity#com.mtpv.mobilee_ticket.BluetoothListActivity
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:214:9-217:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:216:13-65
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:216:13-66
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:215:13-41
-activity#com.mtpv.mobilee_ticket.Dashboard_Old
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:215:13-50
+activity#com.mtpv.mobilee_ticket.Settings_Old
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:218:9-221:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:220:13-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:220:13-65
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:219:13-42
-activity#com.mtpv.mobilee_ticket.DD_Response_Print
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:219:13-41
+activity#com.mtpv.mobilee_ticket.Dashboard_Old
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:222:9-225:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:224:13-71
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:224:13-66
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:223:13-46
-activity#com.mtpv.mobilee_ticket.AadhaarUpdate
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:223:13-42
+activity#com.mtpv.mobilee_ticket.DD_Response_Print
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:226:9-229:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:228:13-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:228:13-71
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:227:13-42
-activity#com.mtpv.mobilee_ticket.Aadhaar_Update_Print
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:227:13-46
+activity#com.mtpv.mobilee_ticket.AadhaarUpdate
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:230:9-233:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:232:13-74
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:232:13-66
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:231:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:231:13-42
+activity#com.mtpv.mobilee_ticket.Aadhaar_Update_Print
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:234:9-237:20
+	android:label
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:236:13-74
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:235:13-49
 activity#com.mtpv.mobilee_ticket.DateOfBirth_Update
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:234:9-238:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:238:9-242:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:236:13-73
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:240:13-73
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:237:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:241:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:235:13-47
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:239:13-47
 activity#com.mtpv.mobilee_ticket.ChangePassword
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:239:9-243:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:243:9-247:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:241:13-67
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:245:13-67
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:242:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:246:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:240:13-43
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:244:13-43
 activity#com.mtpv.mobilee_ticket.ReleaseversionActivity
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:244:9-247:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:248:9-251:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:246:13-66
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:250:13-66
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:245:13-51
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:249:13-51
 activity#com.mtpv.mobilee_ticket.Dashboard_PC
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:248:9-253:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:252:9-257:20
 	android:screenOrientation
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:251:13-49
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:255:13-49
 	android:excludeFromRecents
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:250:13-46
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:254:13-46
 	android:windowSoftInputMode
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:252:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:256:13-52
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:249:13-41
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:253:13-41
 activity#com.mtpv.mobilee_ticket.Login_otp
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:254:9-258:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:258:9-262:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:256:13-61
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:260:13-61
 	android:theme
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:257:13-56
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:261:13-56
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:255:13-38
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:259:13-38
 activity#com.mtpv.mobilee_ticket.Drunk_Drive_Fake_Dialog
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:259:9-262:20
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:263:9-266:20
 	android:label
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:261:13-78
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:265:13-78
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:260:13-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:264:13-52
 activity#com.mtpv.mobilee_ticket.mtpv_SpecialDrive
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:264:9-64
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:268:9-64
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:264:19-52
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:268:19-52
 activity#com.mtpv.mobilee_ticket.SpecialDriveResponse_Print
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:265:9-73
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:269:9-73
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:265:19-61
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:269:19-61
 activity#com.mtpv.mobilee_ticket.E_Challan_Non_ContactModule
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:266:9-269:25
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:270:9-74
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:266:19-62
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:270:19-62
 meta-data#io.fabric.ApiKey
-ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:274:9-276:72
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:275:9-277:72
 	android:value
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:276:13-69
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:277:13-69
 	android:name
-		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:275:13-44
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:276:13-44
+service#com.mtpv.mobilee_ticket_services.RingToneService
+ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:280:9-84
+	android:name
+		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:280:18-81
 uses-sdk
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ce879a258509dbbb3153983497843ab7\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ce879a258509dbbb3153983497843ab7\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:21:5-23:62
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:7:5-9:41
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:21:5-23:61
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7b90e09dd3c1c6cf6f775cc743ee0edb\AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7b90e09dd3c1c6cf6f775cc743ee0edb\AndroidManifest.xml:7:5-9:41
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3daa72cbb56ec8f521f3c055ee5bc623\AndroidManifest.xml:7:5-43
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:7:5-9:41
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1bd14a611ac905aee7565d5c8d252c7c\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1bd14a611ac905aee7565d5c8d252c7c\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8ef8292a70ca94362cbfdaae9ab82d59\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.2.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8ef8292a70ca94362cbfdaae9ab82d59\AndroidManifest.xml:20:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2afdd7b55cbfc6b419ef7a8f3dbd60dd\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf0faf446f9bcbc2d5c97d13f5e340d5\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e8b1dffc61505895240b420c9093bf6a\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\198e5057e6414241d7b2d3326f3e3175\AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:20:5-44
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:7:5-9:41
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5caf6e371a42505872cc9b2fa33d59df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5caf6e371a42505872cc9b2fa33d59df\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fc7d1fc0835f9268cdc24eefe67f6fb9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fc7d1fc0835f9268cdc24eefe67f6fb9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2655e8e79ca4ec1be5c24d539f5cd546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2655e8e79ca4ec1be5c24d539f5cd546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\34854ce38224652c3e680598fd32ad4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\34854ce38224652c3e680598fd32ad4f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\252dcb7ffb106760bea65358386f6e0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\252dcb7ffb106760bea65358386f6e0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3c1922a49b420bcec899e495ebe2f459\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3c1922a49b420bcec899e495ebe2f459\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a713fe871122f2fc46e82c18580bd00e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a713fe871122f2fc46e82c18580bd00e\AndroidManifest.xml:7:5-9:41
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:7:5-43
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:7:5-43
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:7:5-9:41
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc153812aca5d90909939baa0d6bc83f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc153812aca5d90909939baa0d6bc83f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\78035dcda74d8b4c31d90b5f63f5e883\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\78035dcda74d8b4c31d90b5f63f5e883\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\65bfee36bc09f0da0090ae260299f37a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\65bfee36bc09f0da0090ae260299f37a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e896811ad5aee38b83cf4ff235226536\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e896811ad5aee38b83cf4ff235226536\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\9a5227ec3f565822c8cf2cd3ebcb168f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\9a5227ec3f565822c8cf2cd3ebcb168f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\17ef80ab1a73a71f905ca3072fc58f41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\17ef80ab1a73a71f905ca3072fc58f41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\07033bbc136c6c8e48c499fd3307e7f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\07033bbc136c6c8e48c499fd3307e7f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3fddeab3649f30e406e6891c3f6a6b37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3fddeab3649f30e406e6891c3f6a6b37\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\77c8780d27f5e0993e08bc51da63d6a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\77c8780d27f5e0993e08bc51da63d6a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1ec2d328f2b9c02fe4bf8327150cab63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1ec2d328f2b9c02fe4bf8327150cab63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0657217e4f32cadd356883209d5996ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0657217e4f32cadd356883209d5996ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2b4ecdc3fcac3c92e728370cdcf27430\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2b4ecdc3fcac3c92e728370cdcf27430\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\68a6b9f678f58df978ef591e66971c0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\68a6b9f678f58df978ef591e66971c0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f893d08ffd13f276a3ed761cfd39b584\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f893d08ffd13f276a3ed761cfd39b584\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\710bb2d2b70107da08e673cf91d364d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\710bb2d2b70107da08e673cf91d364d8\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f49ad187da6f1eedf7f500c66d4f304\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f49ad187da6f1eedf7f500c66d4f304\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4bdcfe500af0cfd7ee815ae3a57b7258\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4bdcfe500af0cfd7ee815ae3a57b7258\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7c3ee98081165d22157025daf570ddf2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7c3ee98081165d22157025daf570ddf2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b1d9a149ea571211ef9fb4601c4f75a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b1d9a149ea571211ef9fb4601c4f75a6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\549036fe93b5d85f3010cae7d8344082\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\549036fe93b5d85f3010cae7d8344082\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5fb74fdd9aef2ba78b7d46fd92a796bd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5fb74fdd9aef2ba78b7d46fd92a796bd\AndroidManifest.xml:20:5-44
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
@@ -600,51 +680,29 @@ INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc627ed01267dfb4a20e707ae099c82e\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ad7be16dec2288d10edb79848572f8fe\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\399be61f902a510faee1a51914eda36d\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fe23332bd52d5e72541bd995a9bca976\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1bd14a611ac905aee7565d5c8d252c7c\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1bd14a611ac905aee7565d5c8d252c7c\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\45aa43e7fa1bec75ce0648abee46e7d0\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ed1dc985483dca67d6ff3f7c6d77e308\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\96b20988b1327283aa33fcc6f0c3e2dd\AndroidManifest.xml:25:5-27:34
-	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:27:9-31
-	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1a958bb25dabad044719219e3a47ffd1\AndroidManifest.xml:26:9-47
 activity#ru.bartwell.exfilepicker.ui.activity.ExFilePickerActivity
-ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:15:9-17:61
+ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:15:9-17:61
 	android:theme
-		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:17:13-58
+		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:17:13-58
 	android:name
-		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\108082f71a0b1f9afc71833735a4b7c2\AndroidManifest.xml:16:13-85
+		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:16:13-85
 uses-permission#android.permission.CLOUDPOS_PRINTER
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:11:5-75
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:11:22-72
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:11:22-72
 uses-permission#android.permission.WIZARPOS_PRINTER
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:12:5-75
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:12:22-72
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:12:22-72
 activity#com.digitsecure.pymnt.SampleActivity
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:18:9-20:52
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:18:9-20:52
 	android:screenOrientation
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:20:13-49
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:20:13-49
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:19:13-64
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:19:13-64
 activity#com.digitsecure.camera.CameraActivity
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:21:9-23:52
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:21:9-23:52
 	android:screenOrientation
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:23:13-49
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:23:13-49
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b3b23651bfd1fccb6a8d343f77de01eb\AndroidManifest.xml:22:13-65
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:22:13-65
