@@ -1713,42 +1713,42 @@ public class SpotChallan extends Activity
                                             "\nWith out DL Section is not allowed when Offender had Driving License !\n");
                                 } else {
 
-                                    if (otherStateVehicle.equals("YES")) {
-                                        otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-                                    } else {
+//                                    if (otherStateVehicle.equals("YES")) {
+//                                        otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+//                                    } else {
 
                                         spotNextCall();
 
 
-                                    }
+                                    //}
 
                                 }
                             }
 
                         } else {
 
-                            if (otherStateVehicle.equals("YES")) {
-                                otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-                            } else {
+//                            if (otherStateVehicle.equals("YES")) {
+//                                otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+//                            } else {
 
                                 spotNextCall();
 
 
-                            }
+                            //}
 
                         }
 
                     } else {
 
 
-                        if (otherStateVehicle.equals("YES")) {
-                            otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-                        } else {
+//                        if (otherStateVehicle.equals("YES")) {
+//                            otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+//                        } else {
 
                             spotNextCall();
 
 
-                        }
+                        //}
 
                     }
 
