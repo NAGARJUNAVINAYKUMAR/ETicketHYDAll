@@ -4,7 +4,7 @@
             "outputFile": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\5d6940051cae46e1e25c12aeed70e124\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\bdcc180f1f7892a89b821046aeae4f6d\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\5caf6e371a42505872cc9b2fa33d59df\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\b2eca4b623b16954a5847a5b263204aa\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

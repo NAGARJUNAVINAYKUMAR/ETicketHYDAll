@@ -14,7 +14,9 @@ import org.ksoap2.SoapFault;
 import org.ksoap2.serialization.SoapObject;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
+import org.xmlpull.v1.XmlPullParserException;
 
+import java.io.IOException;
 import java.util.Map;
 
 @SuppressWarnings("unused")
@@ -65,6 +67,39 @@ public class ServiceHelper {
     static StringBuffer sbuffer_allViolations;
 
     public static StringBuffer onlinebuff = new StringBuffer();
+
+    private static String frsResponse;
+
+    public static String getPrevFRSInfo(String driverBase64ImgData) {
+        SoapObject request = new SoapObject(NAMESPACE, "getPrevFRSInfo");
+        request.addProperty("driverBase64ImgData", driverBase64ImgData);
+
+        SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+        envelope.dotNet = true;
+        envelope.setOutputSoapObject(request);
+
+        HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+        try {
+            httpTransportSE.call(SOAP_ACTION, envelope);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (XmlPullParserException e) {
+            e.printStackTrace();
+        }
+        try {
+            Object result = envelope.getResponse();
+            try {
+                frsResponse = new PidSecEncrypt().decrypt(result.toString());
+                Log.i("frsResponse-->", "" + frsResponse);
+                //return frsResponse;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        } catch (SoapFault soapFault) {
+            soapFault.printStackTrace();
+        }
+        return frsResponse;
+    }
 
     public static void login(String pid, String pidpwd, String mob_imei, String sim_No, String lat, String log,
                              String appVersion) {

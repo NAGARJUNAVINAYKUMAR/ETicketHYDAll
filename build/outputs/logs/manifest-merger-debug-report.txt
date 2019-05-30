@@ -3,48 +3,48 @@ manifest
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:17:1-24:12
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:2:1-20:12
-MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5caf6e371a42505872cc9b2fa33d59df\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fc7d1fc0835f9268cdc24eefe67f6fb9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2655e8e79ca4ec1be5c24d539f5cd546\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\34854ce38224652c3e680598fd32ad4f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\252dcb7ffb106760bea65358386f6e0b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3c1922a49b420bcec899e495ebe2f459\AndroidManifest.xml:17:1-22:12
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a713fe871122f2fc46e82c18580bd00e\AndroidManifest.xml:2:1-11:12
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:2:1-11:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:2:1-13:12
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:2:1-26:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc153812aca5d90909939baa0d6bc83f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\78035dcda74d8b4c31d90b5f63f5e883\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\65bfee36bc09f0da0090ae260299f37a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e896811ad5aee38b83cf4ff235226536\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\9a5227ec3f565822c8cf2cd3ebcb168f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\17ef80ab1a73a71f905ca3072fc58f41\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\07033bbc136c6c8e48c499fd3307e7f0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3fddeab3649f30e406e6891c3f6a6b37\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\77c8780d27f5e0993e08bc51da63d6a9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1ec2d328f2b9c02fe4bf8327150cab63\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0657217e4f32cadd356883209d5996ef\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2b4ecdc3fcac3c92e728370cdcf27430\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\68a6b9f678f58df978ef591e66971c0e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f893d08ffd13f276a3ed761cfd39b584\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\710bb2d2b70107da08e673cf91d364d8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:22:1-33:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f49ad187da6f1eedf7f500c66d4f304\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4bdcfe500af0cfd7ee815ae3a57b7258\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7c3ee98081165d22157025daf570ddf2\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b1d9a149ea571211ef9fb4601c4f75a6\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\549036fe93b5d85f3010cae7d8344082\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5fb74fdd9aef2ba78b7d46fd92a796bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bdcc180f1f7892a89b821046aeae4f6d\AndroidManifest.xml:17:1-24:12
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:2:1-20:12
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b2eca4b623b16954a5847a5b263204aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\51115f2a07395769bef66e9c5c442390\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\67aa4d9bca993c9bbf998e4f116998f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a2e287037ad85a578972c3ca2ce8cf32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b000600516db38a50b123a392fa75a98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f32a5383b4e515149e204119dd3ffb2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\061a04c38fad976145ed6779a5792ab1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8b47286513a8687df3db605417146544\AndroidManifest.xml:2:1-11:12
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b0726d4c3da564861b616347cb434dc6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:2:1-13:12
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\c4dba5a627a578f3720050280d42adf5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\59016c405231277273233e62fb20ae03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1003a16e8bfd53f60b5b005758082f65\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\d37fa22e5643fb24708c56f471e0f02e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2866c8a3ed9f78a8555f9bae8f4f4535\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5a952471e757cccbcef177988352ab83\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4444e04b094fa99dbd0b7b2e99577578\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f53ecbeae8c27607db9243f6b130400\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ac7588bfe496f641c42ee6405f50802c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1cfc3aa7e2414356a596ec079e25bdec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\47b8986b75911cbd9770eb404e8e37a9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\311665b6b9d46d14cf2686b09592a44d\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\13cb36881ff7da757e699c5ba97cf28d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7b0ab1d1d15c05183f58cfd01ac514bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\efe725d554f27e0711f162bdf401ddde\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2d5f0917f46f512b593b1e5a5350e3f2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f8fc4bfa8c8ec2de8e78624dc9068ca9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf3894a4e199ec9ff341f0bf106464e1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\59c3f133e0a9353fd050c899e7d0c2c7\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\950ab32b1ff3ffae140ff87373d6ceb2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a474e06ca7a56c9f0af9dff6bc6e1760\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\6bdf638b6ca5a98cc3c712af99006691\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\28be77218e0ea024fbf2aba44aadac66\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\6a24e5975d4ded751bfaa410a4f62749\AndroidManifest.xml:17:1-22:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:2:1-283:12
 	package
@@ -71,16 +71,16 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:5-73
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:22-70
 uses-permission#android.permission.INTERNET
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:29:5-67
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
@@ -97,18 +97,18 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:5-79
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:5-81
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:12:5-81
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:12:5-81
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:15:5-81
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:15:5-81
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:12:5-81
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:12:5-81
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:15:5-81
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:15:5-81
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:5-80
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:11:5-80
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:11:5-80
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:14:5-80
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:14:5-80
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:11:5-80
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:11:5-80
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:14:5-80
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.READ_PHONE_STATE
@@ -117,8 +117,8 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:5-75
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:22-72
 uses-permission#android.permission.CAMERA
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:5-65
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:13:5-65
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:13:5-65
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:13:5-65
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:13:5-65
 	android:name
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:22-62
 uses-permission#android.permission.ACCESS_WIFI_STATE
@@ -151,38 +151,38 @@ ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:5-74
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:22-71
 application
 ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:27:5-281:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:22:5-20
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:14:5-18:19
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:14:5-18:19
-MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:11:5-15:19
-MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:11:5-20
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:11:5-20
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:9:5-20
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:9:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:11:5-20
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:17:5-24:19
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:17:5-24:19
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:22:5-23:19
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:9:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bdcc180f1f7892a89b821046aeae4f6d\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bdcc180f1f7892a89b821046aeae4f6d\AndroidManifest.xml:22:5-20
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:14:5-18:19
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:14:5-18:19
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:11:5-15:19
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\51115f2a07395769bef66e9c5c442390\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\51115f2a07395769bef66e9c5c442390\AndroidManifest.xml:11:5-20
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b0726d4c3da564861b616347cb434dc6\AndroidManifest.xml:9:5-20
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b0726d4c3da564861b616347cb434dc6\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:11:5-20
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:17:5-24:19
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:17:5-24:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\47b8986b75911cbd9770eb404e8e37a9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\47b8986b75911cbd9770eb404e8e37a9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\311665b6b9d46d14cf2686b09592a44d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\311665b6b9d46d14cf2686b09592a44d\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf3894a4e199ec9ff341f0bf106464e1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf3894a4e199ec9ff341f0bf106464e1\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:31:5-20
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\47b8986b75911cbd9770eb404e8e37a9\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:14:9-35
+		ADDED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:14:9-35
 	android:label
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:30:9-41
 	android:largeHeap
@@ -191,7 +191,7 @@ MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:29:9-42
 	android:allowBackup
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:28:9-36
-		REJECTED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:12:9-35
+		REJECTED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:33:9-40
 	tools:replace
@@ -586,90 +586,90 @@ uses-sdk
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
-MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5d6940051cae46e1e25c12aeed70e124\AndroidManifest.xml:20:5-44
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:7:5-9:41
-MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:7:5-9:41
-MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:7:5-9:41
-MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\731b99d5ca984f8bad8a8e8124802862\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5caf6e371a42505872cc9b2fa33d59df\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5caf6e371a42505872cc9b2fa33d59df\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\54968d60f43ac5ec0e1d01252ea27705\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fc7d1fc0835f9268cdc24eefe67f6fb9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fc7d1fc0835f9268cdc24eefe67f6fb9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2655e8e79ca4ec1be5c24d539f5cd546\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2655e8e79ca4ec1be5c24d539f5cd546\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\34854ce38224652c3e680598fd32ad4f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\34854ce38224652c3e680598fd32ad4f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\252dcb7ffb106760bea65358386f6e0b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\252dcb7ffb106760bea65358386f6e0b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3c1922a49b420bcec899e495ebe2f459\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3c1922a49b420bcec899e495ebe2f459\AndroidManifest.xml:20:5-44
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a713fe871122f2fc46e82c18580bd00e\AndroidManifest.xml:7:5-9:41
-MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a713fe871122f2fc46e82c18580bd00e\AndroidManifest.xml:7:5-9:41
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:7:5-43
-MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\39c92a421475ca9046676d5d8f5ddf5d\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\fd8f8f1ef57acd2a1bedf5e7b1893d14\AndroidManifest.xml:7:5-43
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:7:5-9:41
-MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc153812aca5d90909939baa0d6bc83f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bc153812aca5d90909939baa0d6bc83f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\78035dcda74d8b4c31d90b5f63f5e883\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\78035dcda74d8b4c31d90b5f63f5e883\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\65bfee36bc09f0da0090ae260299f37a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\65bfee36bc09f0da0090ae260299f37a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e896811ad5aee38b83cf4ff235226536\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e896811ad5aee38b83cf4ff235226536\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\9a5227ec3f565822c8cf2cd3ebcb168f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\9a5227ec3f565822c8cf2cd3ebcb168f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\17ef80ab1a73a71f905ca3072fc58f41\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\17ef80ab1a73a71f905ca3072fc58f41\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\07033bbc136c6c8e48c499fd3307e7f0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\07033bbc136c6c8e48c499fd3307e7f0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3fddeab3649f30e406e6891c3f6a6b37\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3fddeab3649f30e406e6891c3f6a6b37\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\77c8780d27f5e0993e08bc51da63d6a9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\77c8780d27f5e0993e08bc51da63d6a9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1ec2d328f2b9c02fe4bf8327150cab63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1ec2d328f2b9c02fe4bf8327150cab63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\40c8a6156f8aa00c14fb49455f3eb2b5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ec658b7a62aaf1b45e624a275d809808\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0657217e4f32cadd356883209d5996ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0657217e4f32cadd356883209d5996ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2b4ecdc3fcac3c92e728370cdcf27430\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2b4ecdc3fcac3c92e728370cdcf27430\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\68a6b9f678f58df978ef591e66971c0e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\68a6b9f678f58df978ef591e66971c0e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f893d08ffd13f276a3ed761cfd39b584\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f893d08ffd13f276a3ed761cfd39b584\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\710bb2d2b70107da08e673cf91d364d8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\710bb2d2b70107da08e673cf91d364d8\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ff1a421ab8f9571e0c39f09d3e25a6f4\AndroidManifest.xml:5:5-7:41
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e18f4fb773d557d4804428f780a7dd39\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b8c2555933dfc2d52a2de67bf04ee6b9\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\e720a1379e29d390ba75ca3e60039582\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f575141763d97ebd1575e7e525c1da13\AndroidManifest.xml:27:5-43
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f49ad187da6f1eedf7f500c66d4f304\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f49ad187da6f1eedf7f500c66d4f304\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4bdcfe500af0cfd7ee815ae3a57b7258\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4bdcfe500af0cfd7ee815ae3a57b7258\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7c3ee98081165d22157025daf570ddf2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7c3ee98081165d22157025daf570ddf2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b1d9a149ea571211ef9fb4601c4f75a6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b1d9a149ea571211ef9fb4601c4f75a6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\549036fe93b5d85f3010cae7d8344082\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\549036fe93b5d85f3010cae7d8344082\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5fb74fdd9aef2ba78b7d46fd92a796bd\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5fb74fdd9aef2ba78b7d46fd92a796bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bdcc180f1f7892a89b821046aeae4f6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\bdcc180f1f7892a89b821046aeae4f6d\AndroidManifest.xml:20:5-44
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:7:5-9:41
+MERGED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\0b7c7fbd6d50eba804180952eaae08b4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b2eca4b623b16954a5847a5b263204aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b2eca4b623b16954a5847a5b263204aa\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\51115f2a07395769bef66e9c5c442390\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\51115f2a07395769bef66e9c5c442390\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\67aa4d9bca993c9bbf998e4f116998f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\67aa4d9bca993c9bbf998e4f116998f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a2e287037ad85a578972c3ca2ce8cf32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a2e287037ad85a578972c3ca2ce8cf32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b000600516db38a50b123a392fa75a98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b000600516db38a50b123a392fa75a98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f32a5383b4e515149e204119dd3ffb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\3f32a5383b4e515149e204119dd3ffb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\061a04c38fad976145ed6779a5792ab1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\061a04c38fad976145ed6779a5792ab1\AndroidManifest.xml:20:5-44
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8b47286513a8687df3db605417146544\AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8b47286513a8687df3db605417146544\AndroidManifest.xml:7:5-9:41
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b0726d4c3da564861b616347cb434dc6\AndroidManifest.xml:7:5-43
+MERGED from [dev.dworks.libs:volleyplus:0.1.4] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\b0726d4c3da564861b616347cb434dc6\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a79ce7efb392cd29bf010e8bfeed6ed5\AndroidManifest.xml:7:5-43
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:7:5-9:41
+MERGED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\c4dba5a627a578f3720050280d42adf5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\c4dba5a627a578f3720050280d42adf5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\59016c405231277273233e62fb20ae03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\59016c405231277273233e62fb20ae03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1003a16e8bfd53f60b5b005758082f65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1003a16e8bfd53f60b5b005758082f65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\d37fa22e5643fb24708c56f471e0f02e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\d37fa22e5643fb24708c56f471e0f02e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2866c8a3ed9f78a8555f9bae8f4f4535\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2866c8a3ed9f78a8555f9bae8f4f4535\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5a952471e757cccbcef177988352ab83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\5a952471e757cccbcef177988352ab83\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4444e04b094fa99dbd0b7b2e99577578\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\4444e04b094fa99dbd0b7b2e99577578\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f53ecbeae8c27607db9243f6b130400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f53ecbeae8c27607db9243f6b130400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ac7588bfe496f641c42ee6405f50802c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ac7588bfe496f641c42ee6405f50802c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1cfc3aa7e2414356a596ec079e25bdec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\1cfc3aa7e2414356a596ec079e25bdec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\47b8986b75911cbd9770eb404e8e37a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\47b8986b75911cbd9770eb404e8e37a9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\311665b6b9d46d14cf2686b09592a44d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\311665b6b9d46d14cf2686b09592a44d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\13cb36881ff7da757e699c5ba97cf28d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\13cb36881ff7da757e699c5ba97cf28d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7b0ab1d1d15c05183f58cfd01ac514bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\7b0ab1d1d15c05183f58cfd01ac514bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\efe725d554f27e0711f162bdf401ddde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\efe725d554f27e0711f162bdf401ddde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2d5f0917f46f512b593b1e5a5350e3f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2d5f0917f46f512b593b1e5a5350e3f2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f8fc4bfa8c8ec2de8e78624dc9068ca9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f8fc4bfa8c8ec2de8e78624dc9068ca9\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf3894a4e199ec9ff341f0bf106464e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cf3894a4e199ec9ff341f0bf106464e1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\2f80232ae93e63dbcdf614857e01b2fb\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\87ea99f3069ddce074627369805e4f30\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dc5db074bf1d54af0ab576cdbf27c967\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\484cce4fbc72aa528b0961cc64c2af75\AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\59c3f133e0a9353fd050c899e7d0c2c7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\59c3f133e0a9353fd050c899e7d0c2c7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\950ab32b1ff3ffae140ff87373d6ceb2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\950ab32b1ff3ffae140ff87373d6ceb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a474e06ca7a56c9f0af9dff6bc6e1760\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\a474e06ca7a56c9f0af9dff6bc6e1760\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\6bdf638b6ca5a98cc3c712af99006691\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\6bdf638b6ca5a98cc3c712af99006691\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\28be77218e0ea024fbf2aba44aadac66\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\28be77218e0ea024fbf2aba44aadac66\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\6a24e5975d4ded751bfaa410a4f62749\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\6a24e5975d4ded751bfaa410a4f62749\AndroidManifest.xml:20:5-44
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 	android:targetSdkVersion
@@ -681,28 +681,28 @@ INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		ADDED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 		INJECTED from E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
 activity#ru.bartwell.exfilepicker.ui.activity.ExFilePickerActivity
-ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:15:9-17:61
+ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:15:9-17:61
 	android:theme
-		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:17:13-58
+		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:17:13-58
 	android:name
-		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\dd35ea4619d353adcebefa720d14f066\AndroidManifest.xml:16:13-85
+		ADDED from [ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2a64124b287574e90426b34c0f39d96\AndroidManifest.xml:16:13-85
 uses-permission#android.permission.CLOUDPOS_PRINTER
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:11:5-75
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:11:22-72
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:11:22-72
 uses-permission#android.permission.WIZARPOS_PRINTER
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:12:5-75
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:12:5-75
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:12:22-72
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:12:22-72
 activity#com.digitsecure.pymnt.SampleActivity
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:18:9-20:52
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:18:9-20:52
 	android:screenOrientation
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:20:13-49
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:20:13-49
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:19:13-64
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:19:13-64
 activity#com.digitsecure.camera.CameraActivity
-ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:21:9-23:52
+ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:21:9-23:52
 	android:screenOrientation
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:23:13-49
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:23:13-49
 	android:name
-		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cd000ae31ff528b19b472b2db12c06d8\AndroidManifest.xml:22:13-65
+		ADDED from [:dsprint] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\ba062bd0e83ac5f317598dcabb12d84f\AndroidManifest.xml:22:13-65

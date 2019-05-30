@@ -1709,15 +1709,14 @@ public class SpotChallan extends Activity
                             } else {
 
                                 if (check.getId() == 64 || check.getId() == 123) {
-                                    ShowMessageDL(
-                                            "\nWith out DL Section is not allowed when Offender had Driving License !\n");
+                                    ShowMessageDL("\nWith out DL Section is not allowed when Offender had Driving License !\n");
                                 } else {
 
 //                                    if (otherStateVehicle.equals("YES")) {
 //                                        otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
 //                                    } else {
 
-                                        spotNextCall();
+                                    spotNextCall();
 
 
                                     //}
@@ -1731,7 +1730,7 @@ public class SpotChallan extends Activity
 //                                otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
 //                            } else {
 
-                                spotNextCall();
+                            spotNextCall();
 
 
                             //}
@@ -1745,7 +1744,7 @@ public class SpotChallan extends Activity
 //                            otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
 //                        } else {
 
-                            spotNextCall();
+                        spotNextCall();
 
 
                         //}
@@ -2126,6 +2125,9 @@ public class SpotChallan extends Activity
 
                         offender_image.setVisibility(View.VISIBLE);
                         offender_image.setImageBitmap(mutableBitmap);
+
+                        // here we have to call the service
+
                         offender_image.setRotation(0);
 
                         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
@@ -2134,6 +2136,8 @@ public class SpotChallan extends Activity
                         byteArray = bytes.toByteArray();
                         final_image_data_tosend = Base64.encodeToString(byteArray, Base64.NO_WRAP);
                         offender_image.setVisibility(View.VISIBLE);
+
+                        new AsyncTaskFRS().execute();
 
                     } else if (bitmap == null) {
                         showToast("Image Cannot be Loaded !");
@@ -2194,6 +2198,9 @@ public class SpotChallan extends Activity
                     byteArray = bytes.toByteArray();
                     final_image_data_tosend = Base64.encodeToString(byteArray, Base64.NO_WRAP);
                     offender_image.setVisibility(View.VISIBLE);
+
+                    new AsyncTaskFRS().execute();
+
                 } else if (thumbnail == null) {
                     showToast("Image Cannot be Loaded !");
                 }
@@ -7817,19 +7824,17 @@ public class SpotChallan extends Activity
                     if ((et_driver_lcnce_num_spot.getText().toString().trim().equals(""))
                             && (btn_violation.getText().toString().equals("" + getResources().getString(R.string.select_violation)))
                             || ((dl_points != null && !"".equalsIgnoreCase(dl_points) && Integer.parseInt(dl_points) > 12) && ("C".equals(DLvalidFLG) || "S".equals(DLvalidFLG)))
-                            || (et_driver_lcnce_num_spot.getText().length() <= 5 && !btn_violation.getText().toString().contains("W/o Driving Licence")
-                            && !btn_violation.getText().toString().contains("Minor driving the vehicle")
-                            && !btn_violation.getText().toString().contains("W/o Carring Driving License")) && ("N".equalsIgnoreCase(theftRemarkFlag))) {
+                            || (et_driver_lcnce_num_spot.getText().length() <= 5 && check.getId() != 64 && check.getId() != 123 && check.getId() != 30)
+                            && ("N".equalsIgnoreCase(theftRemarkFlag))) {
 
                         licence_details_spot_master = new String[0];
                         otp_msg = "\n Please select  violation -without driving license \n";
                         removeDialog(OTP_CNFRMTN_DIALOG);
                         showDialog(OTP_CNFRMTN_DIALOG);
 
-
                     } else if ((et_driver_lcnce_num_spot.getText().toString().trim().equals(""))
                             && (!btn_violation.getText().toString()
-                            .equals("" + getResources().getString(R.string.select_violation)))&& ("N".equalsIgnoreCase(theftRemarkFlag))) {
+                            .equals("" + getResources().getString(R.string.select_violation))) && ("N".equalsIgnoreCase(theftRemarkFlag))) {
 
                         temp_violations_ids = new String[violation_checked_violations.size()];
                         int status = 0;
@@ -8206,7 +8211,7 @@ public class SpotChallan extends Activity
                         if (rtaApproveFlg) {
                             commomAsync();
                         }
-                        if ("Y".equalsIgnoreCase(theftRemarkFlag)){
+                        if ("Y".equalsIgnoreCase(theftRemarkFlag)) {
                             commomAsync();
                         }
                       /*  if (status == 1) {
@@ -8365,4 +8370,26 @@ public class SpotChallan extends Activity
         }
     }
 
+    private String frsResponse;
+    private class AsyncTaskFRS extends AsyncTask<Void, Void, String> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            showDialog(PROGRESS_DIALOG);
+        }
+
+        @Override
+        protected String doInBackground(Void... voids) {
+            frsResponse = ServiceHelper.getPrevFRSInfo(final_image_data_tosend);
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            super.onPostExecute(s);
+            removeDialog(PROGRESS_DIALOG);
+            //Log.i("frsResponse-->", frsResponse);
+        }
+    }
 }
