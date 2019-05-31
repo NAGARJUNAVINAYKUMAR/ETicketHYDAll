@@ -224,7 +224,7 @@ public class SpotChallan extends Activity
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     StringBuffer violations_details_send, violation_desc_append;
-    static String vioDetainCheckFlag = null;
+    static String vioDetainCheckFlag = "0";
     public static StringBuffer sb_selected_penlist_send;
     public static ArrayList<String> sb_selected_penlist, sb_selected_penlist_positions;
     FTPClient client;
@@ -7794,6 +7794,7 @@ public class SpotChallan extends Activity
         } else */
         if ("0".equals(imgSelected) && vioDetainCheckFlag.equals("1")) {
             showToast("Please Take Driver's Photo !");
+
         } else if (et_regcid_spot.getText().toString().trim().equals("")) {
             System.out.println(">>>>>>>>2");
             et_regcid_spot.setError(Html.fromHtml("<font color='black'>Enter Registration Code</font>"));
@@ -7826,6 +7827,11 @@ public class SpotChallan extends Activity
                             || ((dl_points != null && !"".equalsIgnoreCase(dl_points) && Integer.parseInt(dl_points) > 12) && ("C".equals(DLvalidFLG) || "S".equals(DLvalidFLG)))
                             || (et_driver_lcnce_num_spot.getText().length() <= 5 && check.getId() != 64 && check.getId() != 123 && check.getId() != 30)
                             && ("N".equalsIgnoreCase(theftRemarkFlag))) {
+
+                        if ((et_driver_lcnce_num_spot.getText().length() <= 5 && check.getId() != 64 && check.getId() != 123 && check.getId() != 30)
+                                && ("N".equalsIgnoreCase(theftRemarkFlag))) {
+                            Log.i("with-out-DL-enter--->", "Successs");
+                        }
 
                         licence_details_spot_master = new String[0];
                         otp_msg = "\n Please select  violation -without driving license \n";
@@ -8371,6 +8377,7 @@ public class SpotChallan extends Activity
     }
 
     private String frsResponse;
+
     private class AsyncTaskFRS extends AsyncTask<Void, Void, String> {
 
         @Override
