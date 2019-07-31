@@ -244,7 +244,6 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         db = new DBHelper(getApplicationContext());
     }
 
-    @SuppressLint({"MissingPermission", "HardwareIds"})
     @SuppressWarnings("unused")
     public void getLocation() {
 
@@ -736,7 +735,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
     public void onBackPressed() {
         // TODO Auto-generated method stub
         TextView title = new TextView(this);
-        title.setText("Telangana E-Ticket");
+        title.setText("Hyderabad E-Ticket");
         title.setBackgroundColor(Color.RED);
         title.setGravity(Gravity.CENTER);
         title.setTextColor(Color.WHITE);
@@ -900,7 +899,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
     public void showMessageforUpdatePatch() {
 
         TextView title = new TextView(this);
-        title.setText("Telangana E-Ticket");
+        title.setText("Hyderabad E-Ticket");
         title.setBackgroundColor(Color.RED);
         title.setGravity(Gravity.CENTER);
         title.setTextColor(Color.WHITE);
@@ -999,7 +998,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
                             removeDialog(PROGRESS_DIALOG);
 
                             TextView title = new TextView(MainActivity.this);
-                            title.setText("Telangana E-Ticket");
+                            title.setText("Hyderabad E-Ticket");
                             title.setBackgroundColor(Color.RED);
                             title.setGravity(Gravity.CENTER);
                             title.setTextColor(Color.WHITE);

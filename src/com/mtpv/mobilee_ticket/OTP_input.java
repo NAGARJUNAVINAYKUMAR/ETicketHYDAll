@@ -307,7 +307,7 @@ public class OTP_input extends Activity {
 			@Override
 			public void run() {
 				TextView title = new TextView(OTP_input.this);
-				title.setText("Telangana E-Ticket");
+				title.setText("Hyderabad E-Ticket");
 				title.setBackgroundColor(Color.RED);
 				title.setGravity(Gravity.CENTER);
 				title.setTextColor(Color.WHITE);

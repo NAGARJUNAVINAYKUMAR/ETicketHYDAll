@@ -91,7 +91,7 @@ public class Fake_NO_Dialog extends Activity {
 						fake_action = "not fake";
 
 						TextView title = new TextView(Fake_NO_Dialog.this);
-						title.setText("Telangana E-Ticket");
+						title.setText("Hyderabad E-Ticket");
 						title.setBackgroundColor(Color.RED);
 						title.setGravity(Gravity.CENTER);
 						title.setTextColor(Color.WHITE);
@@ -142,7 +142,7 @@ public class Fake_NO_Dialog extends Activity {
 						fake_action = "fake";
 
 						TextView title = new TextView(Fake_NO_Dialog.this);
-						title.setText("Telangana E-Ticket");
+						title.setText("Hyderabad E-Ticket");
 						title.setBackgroundColor(Color.RED);
 						title.setGravity(Gravity.CENTER);
 						title.setTextColor(Color.WHITE);
@@ -199,7 +199,7 @@ public class Fake_NO_Dialog extends Activity {
 						fake_action = "not fake";
 
 						TextView title = new TextView(Fake_NO_Dialog.this);
-						title.setText("Telangana E-Ticket");
+						title.setText("Hyderabad E-Ticket");
 						title.setBackgroundColor(Color.RED);
 						title.setGravity(Gravity.CENTER);
 						title.setTextColor(Color.WHITE);
@@ -252,7 +252,7 @@ public class Fake_NO_Dialog extends Activity {
 						fake_action = "fake";
 
 						TextView title = new TextView(Fake_NO_Dialog.this);
-						title.setText("Telangana E-Ticket");
+						title.setText("Hyderabad E-Ticket");
 						title.setBackgroundColor(Color.RED);
 						title.setGravity(Gravity.CENTER);
 						title.setTextColor(Color.WHITE);

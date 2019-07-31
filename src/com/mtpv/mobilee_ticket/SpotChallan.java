@@ -115,7 +115,7 @@ import mother.com.test.PidSecEncrypt;
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 
 public class SpotChallan extends Activity
-        implements OnClickListener, LocationListener, android.widget.CompoundButton.OnCheckedChangeListener {
+        implements OnClickListener, LocationListener, CompoundButton.OnCheckedChangeListener {
 
     public static String dl_points = "0", spot_Lic_Flag = "", imgSelected = "0", is_govt_police = "9",
             extraPassengers = "1", aadhaar, licence_no, otp_number = "", driver_mobileNo = "",
@@ -165,7 +165,7 @@ public class SpotChallan extends Activity
     TelephonyManager telephonyManager;
     Utils utils;
     LocationManager m_locationlistner;
-    android.location.Location location;
+    Location location;
     public static double latitude = 0.0, longitude = 0.0, total_amount = 0, grand_total = 0;
     DBHelper db;
     Cursor c_whlr, c_occptn;
@@ -224,7 +224,7 @@ public class SpotChallan extends Activity
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
     StringBuffer violations_details_send, violation_desc_append;
-    static String vioDetainCheckFlag = "0";
+    static String vioDetainCheckFlag = null;
     public static StringBuffer sb_selected_penlist_send;
     public static ArrayList<String> sb_selected_penlist, sb_selected_penlist_positions;
     FTPClient client;
@@ -300,7 +300,7 @@ public class SpotChallan extends Activity
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+        this.getWindow().setSoftInputMode(LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
         setContentView(R.layout.spot_challan);
 
         imgSelected = "0";
@@ -333,7 +333,7 @@ public class SpotChallan extends Activity
         newtimer = new CountDownTimer(1000000000, 50) {
 
             public void onTick(long millisUntilFinished) {
-                date = (DateFormat.format("dd/MM/yyyy hh:mm:ss", new java.util.Date()).toString());
+                date = (DateFormat.format("dd/MM/yyyy hh:mm:ss", new Date()).toString());
                 Calendar c1 = Calendar.getInstance();
                 @SuppressWarnings("unused")
                 int mSec = c1.get(Calendar.MILLISECOND);
@@ -606,7 +606,7 @@ public class SpotChallan extends Activity
                     dob_input.setVisibility(View.VISIBLE);
 
 
-                    dob_input.setOnClickListener(new View.OnClickListener() {
+                    dob_input.setOnClickListener(new OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             {
@@ -1709,45 +1709,46 @@ public class SpotChallan extends Activity
                             } else {
 
                                 if (check.getId() == 64 || check.getId() == 123) {
-                                    ShowMessageDL("\nWith out DL Section is not allowed when Offender had Driving License !\n");
+                                    ShowMessageDL(
+                                            "\nWith out DL Section is not allowed when Offender had Driving License !\n");
                                 } else {
 
-//                                    if (otherStateVehicle.equals("YES")) {
-//                                        otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-//                                    } else {
+                                    if (otherStateVehicle.equals("YES")) {
+                                        otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+                                    } else {
 
-                                    spotNextCall();
+                                        spotNextCall();
 
 
-                                    //}
+                                    }
 
                                 }
                             }
 
                         } else {
 
-//                            if (otherStateVehicle.equals("YES")) {
-//                                otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-//                            } else {
+                            if (otherStateVehicle.equals("YES")) {
+                                otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+                            } else {
 
-                            spotNextCall();
+                                spotNextCall();
 
 
-                            //}
+                            }
 
                         }
 
                     } else {
 
 
-//                        if (otherStateVehicle.equals("YES")) {
-//                            otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-//                        } else {
+                        if (otherStateVehicle.equals("YES")) {
+                            otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+                        } else {
 
-                        spotNextCall();
+                            spotNextCall();
 
 
-                        //}
+                        }
 
                     }
 
@@ -1972,7 +1973,7 @@ public class SpotChallan extends Activity
 
     private void selectImagefrom_Gallery() {
         // TODO Auto-generated method stub
-        Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+        Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(intent, 2);
         imgSelected = "1";
     }
@@ -1996,13 +1997,13 @@ public class SpotChallan extends Activity
 
         if (Build.VERSION.SDK_INT <= 23) {
             Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            File f = new File(android.os.Environment.getExternalStorageDirectory(), "temp.jpg");
+            File f = new File(Environment.getExternalStorageDirectory(), "temp.jpg");
             intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(f));
             startActivityForResult(intent, 1);
             imgSelected = "1";
         } else {
             Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            File f = new File(android.os.Environment.getExternalStorageDirectory(), "temp.jpg");
+            File f = new File(Environment.getExternalStorageDirectory(), "temp.jpg");
             intent.putExtra(MediaStore.EXTRA_OUTPUT, FileProvider.getUriForFile(SpotChallan.this,
                     BuildConfig.APPLICATION_ID + ".provider", f));
             intent.setFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
@@ -2037,7 +2038,7 @@ public class SpotChallan extends Activity
                     BitmapFactory.Options bitmapOptions = new BitmapFactory.Options();
                     bitmap = BitmapFactory.decodeFile(f.getAbsolutePath(), bitmapOptions);
 
-                    String path = android.os.Environment.getExternalStorageDirectory() + File.separator + "E-Ticket"
+                    String path = Environment.getExternalStorageDirectory() + File.separator + "E-Ticket"
                             + File.separator + current_date;
                     File camerapath = new File(path);
 
@@ -2125,9 +2126,6 @@ public class SpotChallan extends Activity
 
                         offender_image.setVisibility(View.VISIBLE);
                         offender_image.setImageBitmap(mutableBitmap);
-
-                        // here we have to call the service
-
                         offender_image.setRotation(0);
 
                         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
@@ -2136,8 +2134,6 @@ public class SpotChallan extends Activity
                         byteArray = bytes.toByteArray();
                         final_image_data_tosend = Base64.encodeToString(byteArray, Base64.NO_WRAP);
                         offender_image.setVisibility(View.VISIBLE);
-
-                        //new AsyncTaskFRS().execute();
 
                     } else if (bitmap == null) {
                         showToast("Image Cannot be Loaded !");
@@ -2198,9 +2194,6 @@ public class SpotChallan extends Activity
                     byteArray = bytes.toByteArray();
                     final_image_data_tosend = Base64.encodeToString(byteArray, Base64.NO_WRAP);
                     offender_image.setVisibility(View.VISIBLE);
-
-                    new AsyncTaskFRS().execute();
-
                 } else if (thumbnail == null) {
                     showToast("Image Cannot be Loaded !");
                 }
@@ -3372,7 +3365,7 @@ public class SpotChallan extends Activity
 
                 Dialog dg_scond = new Dialog(this, android.R.style.Theme_Black_NoTitleBar);
                 dg_scond.setContentView(R.layout.spot_challan_two);
-                Objects.requireNonNull(dg_scond.getWindow()).setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+                Objects.requireNonNull(dg_scond.getWindow()).setSoftInputMode(LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
                 img_logo = (ImageView) dg_scond.findViewById(R.id.img_logo);
                 if (MainActivity.uintCode.equals("22")) {
@@ -3529,7 +3522,7 @@ public class SpotChallan extends Activity
                             ll[i].setLayoutParams(params);
                             ll[i].setOrientation(LinearLayout.HORIZONTAL);
                             cb[i] = new CheckBox(getApplicationContext());
-                            android.widget.LinearLayout.LayoutParams params1 = new android.widget.LinearLayout.LayoutParams(
+                            LinearLayout.LayoutParams params1 = new LinearLayout.LayoutParams(
                                     LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, 1f);
                             int identifier = getResources().getIdentifier(
                                     getApplicationContext().getPackageName() + ":drawable/custom_chec_box", null, null);
@@ -3670,6 +3663,10 @@ public class SpotChallan extends Activity
                         sb_detained_items.append("");
                         setCheckedValues(false, "donotedit");
                         chck_detainedItems_none.setChecked(true);
+
+                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                            setDetainedItemsForOtherStateVehiclesPaymentNO();
+                        }
                     }
 
 
@@ -3681,6 +3678,10 @@ public class SpotChallan extends Activity
                         } else {
                             sb_detained_items.append("donotedit");
                             chck_detainedItems_none.setChecked(true);
+
+                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                                setDetainedItemsForOtherStateVehiclesPaymentNO();
+                            }
                         }
 
                     } else if (totaldl_points != 0 && totaldl_points > 12) {
@@ -3702,6 +3703,10 @@ public class SpotChallan extends Activity
                         } else {
                             sb_detained_items.append("donotedit");
                             chck_detainedItems_none.setChecked(true);
+
+                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                                setDetainedItemsForOtherStateVehiclesPaymentNO();
+                            }
                         }
 
                         chck_detainedItems_none.setOnClickListener(new OnClickListener() {
@@ -3726,6 +3731,9 @@ public class SpotChallan extends Activity
                         chck_detainedItems_none.setChecked(true);
                         // ------------------------------------------
 
+                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                            setDetainedItemsForOtherStateVehiclesPaymentNO();
+                        }
                     }
 
                 } else if (Dashboard.check_vhleHistory_or_Spot.equals("spot")) {
@@ -3748,7 +3756,6 @@ public class SpotChallan extends Activity
                         chck_detainedItems_none.setChecked(false);
                         chck_detainedItems_none.setEnabled(false);
                         if (radioGroupButton_spotpaymentNo.isChecked()) {
-
                             rl_detained_items.setVisibility(View.VISIBLE);
                             ll_detained_items_root.setVisibility(View.GONE);
                             ll_cash_or_card.setVisibility(View.GONE);
@@ -3756,8 +3763,10 @@ public class SpotChallan extends Activity
                             chck_detainedItems_vhcle.setChecked(true);
                             chck_detainedItems_none.setChecked(false);
                             chck_detainedItems_none.setEnabled(false);
-
                         }
+                        //if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                            setDetainedItemsForOtherStateVehiclesPaymentNO();
+                        //}
                     } else {
                         radioGroupButton_spotpaymentYes.setChecked(false);
                         radioGroupButton_spotpaymentNo.setChecked(true);
@@ -3769,6 +3778,10 @@ public class SpotChallan extends Activity
                         chck_detainedItems_vhcle.setChecked(false);
                         chck_detainedItems_none.setChecked(true);
                         chck_detainedItems_none.setEnabled(false);
+
+                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                            setDetainedItemsForOtherStateVehiclesPaymentNO();
+                        }
                     }
 
                     int presentviolatedpoints = 0;
@@ -3909,7 +3922,9 @@ public class SpotChallan extends Activity
                             chck_detainedItems_none.setEnabled(false);
                         }
                         //showToast("This is an Other State Vehicle \n Please make Spot Payment !");
-
+                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                            setDetainedItemsForOtherStateVehiclesPaymentNO();
+                        }
                     }
 
 
@@ -3930,6 +3945,9 @@ public class SpotChallan extends Activity
                             sb_detained_items.append("donotedit");
                             chck_detainedItems_none.setChecked(true);
 
+                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                                setDetainedItemsForOtherStateVehiclesPaymentNO();
+                            }
                         }
 
                         chck_detainedItems_none.setOnClickListener(new OnClickListener() {
@@ -4039,7 +4057,6 @@ public class SpotChallan extends Activity
 
                     else {
                         try {
-
                             if ("Y".equals(otherStateVehiclePayment)) {
                                 setCheckedValues(false, "donotedit");
                                 chck_detainedItems_none.setChecked(true);
@@ -4049,11 +4066,13 @@ public class SpotChallan extends Activity
                                 chck_detainedItems_none.setEnabled(true);
                                 chck_detainedItems_vhcle.setChecked(false);
                                 setCheckedValues(true, "edit");
+                                if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                                    setDetainedItemsForOtherStateVehiclesPaymentNO();
+                                }
                             }
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
-
                     }
 
 
@@ -4124,6 +4143,10 @@ public class SpotChallan extends Activity
                             sb_detained_items.append("");
                             setCheckedValues(false, "donotedit");
                             chck_detainedItems_none.setChecked(true);
+
+                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                                setDetainedItemsForOtherStateVehiclesPaymentNO();
+                            }
                         }
                     }
                     if (cb.length > 0) {
@@ -4262,6 +4285,10 @@ public class SpotChallan extends Activity
                             sb_detained_items.append("");
                             setCheckedValues(false, "donotedit");
                             chck_detainedItems_none.setChecked(true);
+
+                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+                                setDetainedItemsForOtherStateVehiclesPaymentNO();
+                            }
                         }
                     }
                     if (cb.length > 0) {
@@ -4695,8 +4722,8 @@ public class SpotChallan extends Activity
                 }
 
                 LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
-                        android.widget.LinearLayout.LayoutParams.MATCH_PARENT,
-                        android.widget.LinearLayout.LayoutParams.WRAP_CONTENT);
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT);
 
                 /* DYNAMIC LAYOUTS START */
 
@@ -4734,7 +4761,7 @@ public class SpotChallan extends Activity
                         check_dynamic_vltn[i] = new CheckBox(getApplicationContext());
 
                         LinearLayout.LayoutParams sp_params = new LinearLayout.LayoutParams(90,
-                                android.widget.LinearLayout.LayoutParams.WRAP_CONTENT);
+                                LinearLayout.LayoutParams.WRAP_CONTENT);
                         sp_params.setMargins(0, 15, 5, 15);
 
 
@@ -5481,7 +5508,6 @@ public class SpotChallan extends Activity
     /* TO SET NON-EDITABLE AND TO CLEAR */
     private void setCheckedValues(boolean b_val, String edit_val) {
         // TODO Auto-generated method stub
-
         chck_detainedItems_rc.setEnabled(b_val);
         chck_detainedItems_vhcle.setEnabled(b_val);
         chck_detainedItems_licence.setEnabled(b_val);
@@ -5493,6 +5519,23 @@ public class SpotChallan extends Activity
             chck_detainedItems_licence.setChecked(b_val);
             chck_detainedItems_permit.setChecked(b_val);
         }
+    }
+
+    private void setDetainedItemsForOtherStateVehiclesPaymentNO() {
+        radioGroupButton_spotpaymentYes.setChecked(false);
+        radioGroupButton_spotpaymentYes.setEnabled(false);
+        radioGroupButton_spotpaymentNo.setChecked(true);
+        radioGroupButton_spotpaymentNo.setEnabled(true);
+
+        chck_detainedItems_vhcle.setEnabled(true);
+        chck_detainedItems_vhcle.setChecked(true);
+
+        chck_detainedItems_rc.setEnabled(true);
+        chck_detainedItems_licence.setEnabled(true);
+        chck_detainedItems_permit.setEnabled(true);
+
+        chck_detainedItems_none.setChecked(false);
+        chck_detainedItems_none.setEnabled(false);
     }
 
     /* SERVICE CALL TO MOBILE SPOT PAYMENT */
@@ -7719,11 +7762,7 @@ public class SpotChallan extends Activity
                     // }
                 } catch (Exception e) {
                     e.printStackTrace();
-
-
                 }
-
-
             } else {
                 rtaAprroved_Master = new String[0];
                 SpotChallan.OtpStatus = "N";
@@ -7794,7 +7833,6 @@ public class SpotChallan extends Activity
         } else */
         if ("0".equals(imgSelected) && vioDetainCheckFlag.equals("1")) {
             showToast("Please Take Driver's Photo !");
-
         } else if (et_regcid_spot.getText().toString().trim().equals("")) {
             System.out.println(">>>>>>>>2");
             et_regcid_spot.setError(Html.fromHtml("<font color='black'>Enter Registration Code</font>"));
@@ -7825,13 +7863,9 @@ public class SpotChallan extends Activity
                     if ((et_driver_lcnce_num_spot.getText().toString().trim().equals(""))
                             && (btn_violation.getText().toString().equals("" + getResources().getString(R.string.select_violation)))
                             || ((dl_points != null && !"".equalsIgnoreCase(dl_points) && Integer.parseInt(dl_points) > 12) && ("C".equals(DLvalidFLG) || "S".equals(DLvalidFLG)))
-                            || (et_driver_lcnce_num_spot.getText().length() <= 5 && check.getId() != 64 && check.getId() != 123 && check.getId() != 30)
-                            && ("N".equalsIgnoreCase(theftRemarkFlag))) {
-
-                        if ((et_driver_lcnce_num_spot.getText().length() <= 5 && check.getId() != 64 && check.getId() != 123 && check.getId() != 30)
-                                && ("N".equalsIgnoreCase(theftRemarkFlag))) {
-                            Log.i("with-out-DL-enter--->", "Successs");
-                        }
+                            || (et_driver_lcnce_num_spot.getText().length() <= 5 && !btn_violation.getText().toString().contains("W/o Driving Licence")
+                            && !btn_violation.getText().toString().contains("Minor driving the vehicle")
+                            && !btn_violation.getText().toString().contains("W/o Carring Driving License"))) {
 
                         licence_details_spot_master = new String[0];
                         otp_msg = "\n Please select  violation -without driving license \n";
@@ -7840,7 +7874,7 @@ public class SpotChallan extends Activity
 
                     } else if ((et_driver_lcnce_num_spot.getText().toString().trim().equals(""))
                             && (!btn_violation.getText().toString()
-                            .equals("" + getResources().getString(R.string.select_violation))) && ("N".equalsIgnoreCase(theftRemarkFlag))) {
+                            .equals("" + getResources().getString(R.string.select_violation)))) {
 
                         temp_violations_ids = new String[violation_checked_violations.size()];
                         int status = 0;
@@ -8022,15 +8056,12 @@ public class SpotChallan extends Activity
                             }
                         }
 
-                        if (status == 1 && ("N".equalsIgnoreCase(theftRemarkFlag))) {
-
+                        if (status == 1) {
 
                             licence_details_spot_master = new String[0];
-
                             otp_msg = "Please select  violation -without driving license";
                             removeDialog(OTP_CNFRMTN_DIALOG);
                             showDialog(OTP_CNFRMTN_DIALOG);
-
                             // }
 
                         }
@@ -8217,9 +8248,6 @@ public class SpotChallan extends Activity
                         if (rtaApproveFlg) {
                             commomAsync();
                         }
-                        if ("Y".equalsIgnoreCase(theftRemarkFlag)) {
-                            commomAsync();
-                        }
                       /*  if (status == 1) {
                             licence_details_spot_master = new String[0];
                             otp_msg = "Please select  violation -without driving license";
@@ -8376,27 +8404,4 @@ public class SpotChallan extends Activity
         }
     }
 
-    private String frsResponse;
-
-    private class AsyncTaskFRS extends AsyncTask<Void, Void, String> {
-
-        @Override
-        protected void onPreExecute() {
-            super.onPreExecute();
-            showDialog(PROGRESS_DIALOG);
-        }
-
-        @Override
-        protected String doInBackground(Void... voids) {
-            frsResponse = ServiceHelper.getPrevFRSInfo(final_image_data_tosend);
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(String s) {
-            super.onPostExecute(s);
-            removeDialog(PROGRESS_DIALOG);
-            //Log.i("frsResponse-->", frsResponse);
-        }
-    }
 }

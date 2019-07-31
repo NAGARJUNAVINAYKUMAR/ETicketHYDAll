@@ -227,7 +227,7 @@ public class Dashboard extends Activity implements OnClickListener {
         if (current_version.equals("N")) {
 
             TextView title = new TextView(this);
-            title.setText("Telangana E-Ticket");
+            title.setText("Hyderabad E-Ticket");
             title.setBackgroundColor(Color.RED);
             title.setGravity(Gravity.CENTER);
             title.setTextColor(Color.WHITE);
@@ -302,7 +302,7 @@ public class Dashboard extends Activity implements OnClickListener {
                 if (null != MainActivity.service_type&& MainActivity.service_type.contains("live")) {
                     server = "125.16.1.69";
                 } else {
-                    server = "125.16.1.69";
+                    server = "192.168.11.9";
                 }
                 ftpClient.connect(server, port);
                 ftpClient.login(username, password);
@@ -330,7 +330,7 @@ public class Dashboard extends Activity implements OnClickListener {
                             removeDialog(PROGRESS_DIALOG);
 
                             TextView title = new TextView(Dashboard.this);
-                            title.setText("Telangana E-Ticket");
+                            title.setText("Hyderabad E-Ticket");
                             title.setBackgroundColor(Color.RED);
                             title.setGravity(Gravity.CENTER);
                             title.setTextColor(Color.WHITE);
@@ -411,6 +411,7 @@ public class Dashboard extends Activity implements OnClickListener {
                             public void run() {
                                 progress.setProgress(downloadedSize);
                                 float per = ((float) downloadedSize / totalSize) * 100;
+
                                 cur_val.setText((int) per / 225000 + "%");
                             }
                         });
@@ -1112,7 +1113,7 @@ public class Dashboard extends Activity implements OnClickListener {
         switch (id) {
             case EXIT_DIALOG:
                 TextView title = new TextView(this);
-                title.setText("Telangana E-Ticket");
+                title.setText("Hyderabad E-Ticket");
                 title.setBackgroundColor(Color.RED);
                 title.setGravity(Gravity.CENTER);
                 title.setTextColor(Color.WHITE);
@@ -2021,7 +2022,7 @@ public class Dashboard extends Activity implements OnClickListener {
     public void onBackPressed() {
         // TODO Auto-generated method stub
         TextView title = new TextView(this);
-        title.setText("Telangana E-Ticket");
+        title.setText("Hyderabad E-Ticket");
         title.setBackgroundColor(Color.RED);
         title.setGravity(Gravity.CENTER);
         title.setTextColor(Color.WHITE);

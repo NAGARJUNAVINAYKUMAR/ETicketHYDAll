@@ -97,12 +97,12 @@
         android:layout_alignLeft="@+id/lvpendingchallans_xml"
         android:text="Total Amount : " />
     
-    <!--<ImageView
+    <ImageView
         android:id="@+id/imagefd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:layout_below="@id/lvpendingchallans_xml"
-        android:src="@drawable/footer"/>-->
+        android:src="@drawable/footer"/>
 
 </RelativeLayout>
