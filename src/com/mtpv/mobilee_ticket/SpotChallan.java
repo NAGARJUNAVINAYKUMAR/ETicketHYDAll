@@ -2137,7 +2137,7 @@ public class SpotChallan extends Activity
                         final_image_data_tosend = Base64.encodeToString(byteArray, Base64.NO_WRAP);
                         offender_image.setVisibility(View.VISIBLE);
 
-                        new AsyncTaskFRS().execute();
+                        //new AsyncTaskFRS().execute();
 
                     } else if (bitmap == null) {
                         showToast("Image Cannot be Loaded !");

@@ -703,14 +703,14 @@ public class GenerateDrunkDriveCase extends Activity implements OnClickListener,
         et_regn_cid_name.setText("" + (Drunk_Drive.details_regncid_name.toUpperCase()));
         et_regn_last_num.setText("" + (Drunk_Drive.details_regn_last_num.toUpperCase()));
 
-        if (ServiceHelper.license_data.equals(null) || ServiceHelper.license_data.equals("")) {
+        if (ServiceHelper.license_data == null || ServiceHelper.license_data.equals("")) {
 
             et_driver_name.setText("");
             et_driver_fname.setText("");
             et_driver_contact_no.setText("");
             et_dd_address.setText("");
 
-        } else if (ServiceHelper.license_data != null && !"0".equals(ServiceHelper.license_data) && SpotChallan.licence_details_spot_master.length > 4) {
+        } else if (!"0".equals(ServiceHelper.license_data) && SpotChallan.licence_details_spot_master.length > 4) {
 
             et_driver_name.setText("" + SpotChallan.licence_details_spot_master != null
                     ? SpotChallan.licence_details_spot_master[0].toUpperCase() : "");
@@ -723,14 +723,15 @@ public class GenerateDrunkDriveCase extends Activity implements OnClickListener,
 
         }
 
-        if (ServiceHelper.aadhar_data.equals("")) {
+        if (ServiceHelper.aadhar_data != null && ServiceHelper.aadhar_data.equals("")) {
 
             et_driver_name.setText("");
             et_driver_fname.setText("");
             et_driver_contact_no.setText("");
             et_dd_address.setText("");
 
-        } else if (!"null".equals(ServiceHelper.aadhar_data) && !"0".equals(ServiceHelper.aadhar_data) && ServiceHelper.aadhar_details.length > 0) {
+        } else if (ServiceHelper.aadhar_data != null && !"null".equals(ServiceHelper.aadhar_data)
+                && !"0".equals(ServiceHelper.aadhar_data) && ServiceHelper.aadhar_details.length > 0) {
             // et_driver_name.setText(""+ServiceHelper.aadhar_details[0].toUpperCase());
             et_driver_name.setText("" + (!ServiceHelper.aadhar_details[0].equalsIgnoreCase("0")
                     ? ServiceHelper.aadhar_details[0].toUpperCase() : ""));
