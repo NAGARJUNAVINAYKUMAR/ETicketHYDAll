@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Wed Jul 31 13:12:37 IST 2019
-0.baseType=DIRECTORY
-0.base=E\:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\merged_assets\\debug\\out
-0.path=musicm.mp3
-0.set=ASSET
-count=1

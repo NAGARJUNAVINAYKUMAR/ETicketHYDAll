@@ -194,7 +194,7 @@ public class SpotChallan extends Activity
     ArrayList<Boolean> detained_items_status;
     ArrayList<String> releasedDetained_items_list;
     StringBuffer releasedDetained_items_list_toSend;
-    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10, MIN_TIME_BW_UPDATES = 1000 * 60 * 1;
+    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10, MIN_TIME_BW_UPDATES = 1000 * 60;
     private int mYear, mMonth, mDay;
     RadioGroup radiogrp_release_detained_items;
     RadioButton radioGroupButton_isOwner, radioGroupButton_isDriver, radioGroupButton_detaineditems_yes, radioGroupButton_detaineditems_no;
@@ -1699,60 +1699,36 @@ public class SpotChallan extends Activity
                             || !et_driver_lcnce_num_spot.getText().toString().equalsIgnoreCase(null)) {
 
                         if (et_driver_lcnce_num_spot.getText().length() >= 5) {
-
                             if ((btn_violation.getText().toString()
                                     .equals("" + getResources().getString(R.string.select_violation)))) {
                                 otp_msg = "Please select violation";
                                 removeDialog(OTP_CNFRMTN_DIALOG);
                                 showDialog(OTP_CNFRMTN_DIALOG);
-
                             } else {
-
                                 if (check.getId() == 64 || check.getId() == 123) {
-                                    ShowMessageDL(
-                                            "\nWith out DL Section is not allowed when Offender had Driving License !\n");
+                                    ShowMessageDL("\nWith out DL Section is not allowed when Offender had Driving License !\n");
                                 } else {
-
-                                    if (otherStateVehicle.equals("YES")) {
-                                        otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-                                    } else {
-
+                                    //if (otherStateVehicle.equals("YES")) {
+                                        //otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+                                    //} else {
                                         spotNextCall();
-
-
-                                    }
-
+                                    //}
                                 }
                             }
-
                         } else {
-
-                            if (otherStateVehicle.equals("YES")) {
-                                otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-                            } else {
-
+                            //if (otherStateVehicle.equals("YES")) {
+                                //otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+                            //} else {
                                 spotNextCall();
-
-
-                            }
-
+                            //}
                         }
-
                     } else {
-
-
-                        if (otherStateVehicle.equals("YES")) {
-                            otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
-                        } else {
-
+                        //if (otherStateVehicle.equals("YES")) {
+                            //otherStateVehicleAlert(" This is an Other State Vehicle \n Do you want to collect Amount!");
+                        //} else {
                             spotNextCall();
-
-
-                        }
-
+                        //}
                     }
-
-
                 } else if ((Dashboard_PC.check_vhleHistory_or_Spot.equals("vehiclehistory"))
                         || (Dashboard_PC.check_vhleHistory_or_Spot.equals("releasedocuments"))) {
 
@@ -3664,9 +3640,8 @@ public class SpotChallan extends Activity
                         setCheckedValues(false, "donotedit");
                         chck_detainedItems_none.setChecked(true);
 
-                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                            setDetainedItemsForOtherStateVehiclesPaymentNO();
-                        }
+                        setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                     }
 
 
@@ -3679,9 +3654,8 @@ public class SpotChallan extends Activity
                             sb_detained_items.append("donotedit");
                             chck_detainedItems_none.setChecked(true);
 
-                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                                setDetainedItemsForOtherStateVehiclesPaymentNO();
-                            }
+                            setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                         }
 
                     } else if (totaldl_points != 0 && totaldl_points > 12) {
@@ -3704,9 +3678,8 @@ public class SpotChallan extends Activity
                             sb_detained_items.append("donotedit");
                             chck_detainedItems_none.setChecked(true);
 
-                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                                setDetainedItemsForOtherStateVehiclesPaymentNO();
-                            }
+                            setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                         }
 
                         chck_detainedItems_none.setOnClickListener(new OnClickListener() {
@@ -3729,11 +3702,9 @@ public class SpotChallan extends Activity
                         sb_detained_items.append("");
                         setCheckedValues(false, "donotedit");
                         chck_detainedItems_none.setChecked(true);
-                        // ------------------------------------------
 
-                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                            setDetainedItemsForOtherStateVehiclesPaymentNO();
-                        }
+                        setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                     }
 
                 } else if (Dashboard.check_vhleHistory_or_Spot.equals("spot")) {
@@ -3752,6 +3723,7 @@ public class SpotChallan extends Activity
                         radioGroupButton_spotpaymentYes.setChecked(false);
                         radioGroupButton_spotpaymentNo.setChecked(true);
                         radioGroupButton_spotpaymentYes.setEnabled(false);
+
                         chck_detainedItems_vhcle.setChecked(true);
                         chck_detainedItems_none.setChecked(false);
                         chck_detainedItems_none.setEnabled(false);
@@ -3764,9 +3736,9 @@ public class SpotChallan extends Activity
                             chck_detainedItems_none.setChecked(false);
                             chck_detainedItems_none.setEnabled(false);
                         }
-                        //if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                            setDetainedItemsForOtherStateVehiclesPaymentNO();
-                        //}
+
+                        setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                     } else {
                         radioGroupButton_spotpaymentYes.setChecked(false);
                         radioGroupButton_spotpaymentNo.setChecked(true);
@@ -3779,9 +3751,8 @@ public class SpotChallan extends Activity
                         chck_detainedItems_none.setChecked(true);
                         chck_detainedItems_none.setEnabled(false);
 
-                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                            setDetainedItemsForOtherStateVehiclesPaymentNO();
-                        }
+                        setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                     }
 
                     int presentviolatedpoints = 0;
@@ -3922,9 +3893,8 @@ public class SpotChallan extends Activity
                             chck_detainedItems_none.setEnabled(false);
                         }
                         //showToast("This is an Other State Vehicle \n Please make Spot Payment !");
-                        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                            setDetainedItemsForOtherStateVehiclesPaymentNO();
-                        }
+                        setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                     }
 
 
@@ -3945,9 +3915,8 @@ public class SpotChallan extends Activity
                             sb_detained_items.append("donotedit");
                             chck_detainedItems_none.setChecked(true);
 
-                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                                setDetainedItemsForOtherStateVehiclesPaymentNO();
-                            }
+                            setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                         }
 
                         chck_detainedItems_none.setOnClickListener(new OnClickListener() {
@@ -4066,9 +4035,9 @@ public class SpotChallan extends Activity
                                 chck_detainedItems_none.setEnabled(true);
                                 chck_detainedItems_vhcle.setChecked(false);
                                 setCheckedValues(true, "edit");
-                                if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                                    setDetainedItemsForOtherStateVehiclesPaymentNO();
-                                }
+
+                                setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                             }
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -4144,9 +4113,8 @@ public class SpotChallan extends Activity
                             setCheckedValues(false, "donotedit");
                             chck_detainedItems_none.setChecked(true);
 
-                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                                setDetainedItemsForOtherStateVehiclesPaymentNO();
-                            }
+                            setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                         }
                     }
                     if (cb.length > 0) {
@@ -4286,9 +4254,8 @@ public class SpotChallan extends Activity
                             setCheckedValues(false, "donotedit");
                             chck_detainedItems_none.setChecked(true);
 
-                            if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
-                                setDetainedItemsForOtherStateVehiclesPaymentNO();
-                            }
+                            setCheckedItemsForOtherStateVehiclesPaymentNO();
+
                         }
                     }
                     if (cb.length > 0) {
@@ -5521,21 +5488,24 @@ public class SpotChallan extends Activity
         }
     }
 
-    private void setDetainedItemsForOtherStateVehiclesPaymentNO() {
-        radioGroupButton_spotpaymentYes.setChecked(false);
-        radioGroupButton_spotpaymentYes.setEnabled(false);
-        radioGroupButton_spotpaymentNo.setChecked(true);
-        radioGroupButton_spotpaymentNo.setEnabled(true);
+    private void setCheckedItemsForOtherStateVehiclesPaymentNO() {
 
-        chck_detainedItems_vhcle.setEnabled(true);
-        chck_detainedItems_vhcle.setChecked(true);
+        if ("YES".equals(otherStateVehicle) && "N".equals(otherStateVehiclePayment)) {
+            radioGroupButton_spotpaymentYes.setChecked(false);
+            radioGroupButton_spotpaymentYes.setEnabled(false);
+            radioGroupButton_spotpaymentNo.setChecked(true);
+            radioGroupButton_spotpaymentNo.setEnabled(true);
 
-        chck_detainedItems_rc.setEnabled(true);
-        chck_detainedItems_licence.setEnabled(true);
-        chck_detainedItems_permit.setEnabled(true);
+            chck_detainedItems_vhcle.setEnabled(true);
+            chck_detainedItems_vhcle.setChecked(true);
 
-        chck_detainedItems_none.setChecked(false);
-        chck_detainedItems_none.setEnabled(false);
+            chck_detainedItems_rc.setEnabled(true);
+            chck_detainedItems_licence.setEnabled(true);
+            chck_detainedItems_permit.setEnabled(true);
+
+            chck_detainedItems_none.setChecked(false);
+            chck_detainedItems_none.setEnabled(false);
+        }
     }
 
     /* SERVICE CALL TO MOBILE SPOT PAYMENT */
