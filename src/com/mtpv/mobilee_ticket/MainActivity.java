@@ -61,7 +61,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.HttpURLConnection;
 import java.net.SocketException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Objects;
@@ -93,18 +95,12 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
             user_pwd = "", e_user_id = null, sim_No = null, e_user_tmp = "";
     ProgressBar progress;
     boolean isGPSEnabled = false, isNetworkEnabled = false, canGetLocation = false;
-    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10, MIN_TIME_BW_UPDATES = 1000 * 60 * 1;
+    private static final long MIN_DISTANCE_CHANGE_FOR_UPDATES = 10, MIN_TIME_BW_UPDATES = 1000 * 60;
     SharedPreferences preference;
     SharedPreferences.Editor editor;
     public static String service_type = "", services_url = "", ftps_url = "";
     TextView textView2;
     private String url_to_fix = "/services/MobileEticketServiceImpl?wsdl";
-    @SuppressWarnings("unused")
-    private String test_service_url = "http://192.168.11.55:8080/eTicketMobileHyd";
-    @SuppressWarnings("unused")
-    private String live_service_url = "http://192.168.11.4/eTicketMobileHyd";
-
-    public String open_NW_URL = "https://www.echallan.org/eTicketMobileHyd";
 
     private static final String[] requiredPermissions = new String[]{
             Manifest.permission.READ_EXTERNAL_STORAGE,
@@ -122,10 +118,13 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
             Manifest.permission.CAMERA,
             Manifest.permission.INSTALL_SHORTCUT
     };
-
     private static final int REQUEST_PERMISSIONS = 20;
     private SparseIntArray mErrorString;
     public static String psName, cadre_name, pidName, uintCode;
+    private String local_url = "http://125.16.1.70:8080/TSeTicketMobile";
+    private String ip_url = "https://www.echallan.org/TSeTicketMobile"; // Two years from 09-09-2019
+    private String live_url = "https://echallan.tspolice.gov.in/TSeTicketMobile";
+    boolean isLive = false;
 
     @SuppressWarnings("deprecation")
     @SuppressLint("NewApi")
@@ -168,25 +167,14 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
             }
         }, 2500);
 
-        textView2 = (TextView) findViewById(R.id.textView2);
+        textView2 = findViewById(R.id.textView2);
         appVersion = textView2.getText().toString().trim();
-
-/*      if(isOnline()) {
-            asyn_Version_Check asyn_version_check = new asyn_Version_Check();
-            asyn_version_check.execute();
-        }else {
-            showToast("Please Check Your Network Connection For Checking Patch Details");
-        }*/
-
-
         LoadUIcomponents();
-
 
         if (android.os.Build.VERSION.SDK_INT > 11) {
             StrictMode.ThreadPolicy polocy = new StrictMode.ThreadPolicy.Builder().build();
             StrictMode.setThreadPolicy(polocy);
         }
-
 
         preference = getSharedPreferences("preferences", Context.MODE_PRIVATE);
         service_type = preference.getString("servicetype", "test");
@@ -203,9 +191,31 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
 
         if ((!services_url.equals("url1") && (service_type.equals("live")))) {
             URL = "" + services_url + "" + url_to_fix;
+            isLive = true;
         } else if ((!services_url.equals("url1") && (service_type.equals("test")))) {
             URL = "" + services_url + "" + url_to_fix;
+            isLive = false;
         }
+    }
+
+    public boolean isAvailable(String wsdlUrl) {
+
+        boolean result = false;
+        try {
+            java.net.URL url = new URL(wsdlUrl);
+            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+            connection.setRequestProperty("Connection", "close");
+            connection.setConnectTimeout(10000); // Timeout 10 seconds
+            connection.connect();
+            if (connection.getResponseCode() == 200) {
+                result = true;
+            }
+
+        } catch (Exception e) {
+            // TODO: handle exception
+            result = false;
+        }
+        return result;
     }
 
     private void addShortcut() {
@@ -229,11 +239,11 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
     private void LoadUIcomponents() {
         // TODO Auto-generated method stub
 
-        et_pid = (EditText) findViewById(R.id.edtpidcode_login_xml);
-        et_pid_pwd = (EditText) findViewById(R.id.edtpidpwd_login_xml);
-        btn_cancel = (Button) findViewById(R.id.btncancel_login_xml);
-        btn_submit = (Button) findViewById(R.id.btnsubmit_login_xml);
-        tv_ip_settings = (TextView) findViewById(R.id.tv_ipsettings);
+        et_pid = findViewById(R.id.edtpidcode_login_xml);
+        et_pid_pwd = findViewById(R.id.edtpidpwd_login_xml);
+        btn_cancel = findViewById(R.id.btncancel_login_xml);
+        btn_submit = findViewById(R.id.btnsubmit_login_xml);
+        tv_ip_settings = findViewById(R.id.tv_ipsettings);
 
        /* et_pid.setText("23001004");
         et_pid_pwd.setText("Ranga2018");*/
@@ -244,6 +254,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         db = new DBHelper(getApplicationContext());
     }
 
+    @SuppressLint({"MissingPermission", "HardwareIds"})
     @SuppressWarnings("unused")
     public void getLocation() {
 
@@ -332,7 +343,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
         IMEI = getDeviceID(telephonyManager);
         dev_Model = android.os.Build.MODEL;
-        Log.d("Device Model",""+dev_Model);
+        Log.d("Device Model", "" + dev_Model);
 
         if (telephonyManager.getSimState() != TelephonyManager.SIM_STATE_ABSENT) {
             sim_No = "" + telephonyManager.getSimSerialNumber();
@@ -372,7 +383,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
 
     String getDeviceID(TelephonyManager phonyManager) {
 
-        String id = phonyManager.getDeviceId();
+        @SuppressLint("MissingPermission") String id = phonyManager.getDeviceId();
         if (id == null) {
             id = "not available";
         }
@@ -407,6 +418,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
                 break;
 
             case R.id.btnsubmit_login_xml:
+
                 String pidcode = et_pid.getText().toString();
                 String password = et_pid_pwd.getText().toString();
 
@@ -467,6 +479,8 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
                         if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
 
                             if (isOnline()) {
+
+
                                 new Async_task_login().execute();
                             } else {
                                 showToast("Please check your network connection !");
@@ -506,6 +520,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         }
     }
 
+
     protected void showGPSDisabledAlertToUser() {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         alertDialogBuilder.setMessage("    GPS is Disabled in your Device \n            Please Enable GPS?")
@@ -528,10 +543,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
     public Boolean isOnline() {
         ConnectivityManager conManager = (ConnectivityManager) this.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo nwInfo = conManager.getActiveNetworkInfo();
-        if (nwInfo != null && nwInfo.isConnected()) {
-            return true;
-        }
-        return false;
+        return nwInfo != null && nwInfo.isConnected();
     }
 
     public Boolean dataConnection() {
@@ -551,6 +563,15 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         @Override
         protected String doInBackground(Void... params) {
             // TODO Auto-generated method stub
+            if (isLive) {
+                if (isAvailable(URL)) {
+                    URL = "" + services_url + "" + url_to_fix;
+                } else if (isAvailable("" + live_url + "" + url_to_fix)) {
+                    URL = "" + live_url + "" + url_to_fix;
+                } else {
+                    URL = "" + ip_url + "" + url_to_fix;
+                }
+            }
 
             String[] version_split = appVersion.split("\\-");
             ServiceHelper.login("" + user_id, "" + e_user_tmp, "" + IMEI, "" + sim_No, "" + latitude, "" + longitude,
@@ -575,18 +596,18 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
 
                 if (ServiceHelper.Opdata_Chalana != null && !Objects.equals("0", ServiceHelper.Opdata_Chalana)) {
 
-                    if (ServiceHelper.Opdata_Chalana.toString().trim().equals("1")) {
+                    if (ServiceHelper.Opdata_Chalana.trim().equals("1")) {
                         showToast("Invalid Login ID");
-                    } else if (ServiceHelper.Opdata_Chalana.toString().trim().equals("2")) {
+                    } else if (ServiceHelper.Opdata_Chalana.trim().equals("2")) {
                         showToast("Invalid Password");
-                    } else if (ServiceHelper.Opdata_Chalana.toString().trim().equals("3")) {
+                    } else if (ServiceHelper.Opdata_Chalana.trim().equals("3")) {
                         showToast("Unauthorized Device");
-                    } else if (ServiceHelper.Opdata_Chalana.toString().trim().equals("4")) {
+                    } else if (ServiceHelper.Opdata_Chalana.trim().equals("4")) {
                         showToast("Error, Please Contact E Challan Team at 040-27852721");
-                    } else if (ServiceHelper.Opdata_Chalana.toString().trim().equals("5")) {
+                    } else if (ServiceHelper.Opdata_Chalana.trim().equals("5")) {
                         showToast(
                                 "You have Exceeded Number of \n Attempts with Wrong Password,\n Please Contact E Challan Team at 040-27852721 ");
-                    } else if (ServiceHelper.Opdata_Chalana.toString().trim().equals("0")) {
+                    } else if (ServiceHelper.Opdata_Chalana.trim().equals("0")) {
                         showToast("Please Check Your Network And Try Again");
                     } else {
 
@@ -619,9 +640,9 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
                             String mobileNo_flg = "" + arr_logindetails[13];
                             MainActivity.otpno = "" + arr_logindetails[14];
 
-                            if (arr_logindetails != null && arr_logindetails.length == 16) {
+                            //if (arr_logindetails != null && arr_logindetails.length == 16) {
                                 officerLogin_Otp = "" + arr_logindetails[15];
-                            }
+                            //}
 
                             editors.putString("PID_CODE", pidCode);
                             editors.putString("PID_NAME", pidName);
@@ -679,9 +700,15 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
                 return dg_splash;
 
             case PROGRESS_DIALOG:
-                ProgressDialog pd = ProgressDialog.show(this, "", "", true);
+                final ProgressDialog pd = ProgressDialog.show(this, "", "", true);
                 pd.setContentView(R.layout.custom_progress_dialog);
                 pd.setCancelable(false);
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    public void run() {
+                        pd.dismiss();
+                    }
+                }, 30000);
                 return pd;
 
 
@@ -777,7 +804,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
 
         alertDialog.getWindow().getAttributes();
 
-        TextView textView = (TextView) alertDialog.findViewById(android.R.id.message);
+        TextView textView = alertDialog.findViewById(android.R.id.message);
         textView.setTextSize(28);
         textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
         textView.setGravity(Gravity.CENTER);
@@ -932,9 +959,9 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
 
-        alertDialog.getWindow().getAttributes();
+        Objects.requireNonNull(alertDialog.getWindow()).getAttributes();
 
-        TextView textView = (TextView) alertDialog.findViewById(android.R.id.message);
+        TextView textView = alertDialog.findViewById(android.R.id.message);
         textView.setTextSize(28);
         textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
         textView.setGravity(Gravity.CENTER);
@@ -1031,7 +1058,7 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
 
                             alertDialog.getWindow().getAttributes();
 
-                            TextView textView = (TextView) alertDialog.findViewById(android.R.id.message);
+                            TextView textView = alertDialog.findViewById(android.R.id.message);
                             textView.setTextSize(28);
                             textView.setTypeface(textView.getTypeface(), Typeface.BOLD);
                             textView.setGravity(Gravity.CENTER);
@@ -1145,13 +1172,13 @@ public class MainActivity extends Activity implements OnClickListener, LocationL
         dialog.setTitle("Download Progress");
         dialog.setCancelable(false);
 
-        TextView text = (TextView) dialog.findViewById(R.id.tv1);
+        TextView text = dialog.findViewById(R.id.tv1);
         text.setText("Downloading file ... ");
-        cur_val = (TextView) dialog.findViewById(R.id.cur_pg_tv);
+        cur_val = dialog.findViewById(R.id.cur_pg_tv);
         cur_val.setText("It may Take Few Minutes.....");
         dialog.show();
 
-        progress = (ProgressBar) dialog.findViewById(R.id.progress_bar);
+        progress = dialog.findViewById(R.id.progress_bar);
         progress.setProgress(0);
         progress.setMax(100);
         progress.setIndeterminate(true);

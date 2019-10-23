@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        mavenCentral()
+        //mavenCentral()
+        jcenter()
         maven { url 'https://maven.fabric.io/public' }
         maven {
             url 'https://maven.google.com/'
@@ -9,7 +10,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:3.5.1'
         classpath 'io.fabric.tools:gradle:1.27.1'
     }
 }
@@ -19,6 +20,7 @@ apply plugin: 'com.android.application'
 repositories {
     maven { url 'https://maven.fabric.io/public' }
 }
+
 repositories {
     jcenter()
     maven {
@@ -26,7 +28,6 @@ repositories {
         name 'Google'
     }
 }
-
 
 dependencies {
     implementation fileTree(include: '*.jar', dir: 'libs')
@@ -37,7 +38,7 @@ dependencies {
     implementation 'com.android.support:support-core-utils:28.0.0'
     implementation 'ru.bartwell:exfilepicker:2.1'
     implementation 'com.intuit.sdp:sdp-android:1.0.5'
-    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.github.bumptech.glide:glide:4.7.1'
     //implementation 'com.android.volley:volley:1.1.0'
     //noinspection GradleDynamicVersion
@@ -47,12 +48,13 @@ dependencies {
         transitive = true;
     }
     implementation project(':dsprint')
-    implementation (
+    implementation(
             [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.1'],
             [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.1'],
             [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.1']
     )
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation files('libs/ksoap2-android-assembly-3.3.0-jar-with-dependencies.jar')
 }
 configurations {
     all*.exclude group: 'com.android.support', module: 'support-v4'

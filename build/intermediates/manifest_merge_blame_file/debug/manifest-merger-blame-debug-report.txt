@@ -1,0 +1,548 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mtpv.mobilee_ticket"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:5-66
+11-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:10:22-63
+12    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+12-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:5-12:47
+12-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:11:22-70
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:5-67
+13-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:13:22-64
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:5-81
+14-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:14:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:5-79
+15-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:15:22-76
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:5-79
+16-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:16:22-76
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:5-81
+17-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:17:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:5-80
+18-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:18:22-77
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:19:5-75
+19-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:19:22-72
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:20:5-65
+20-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:20:22-62
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:21:5-76
+21-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:21:22-73
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:22:5-68
+22-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:22:22-65
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+23-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:23:5-74
+23-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:23:22-71
+24    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+24-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:5-88
+24-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:24:22-85
+25    <uses-permission android:name="android.permission.READ_LOGS" />
+25-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:5-26:47
+25-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:25:22-65
+26    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+26-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:27:5-82
+26-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:27:22-80
+27    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+27-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:28:5-29:47
+27-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:28:22-72
+28    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+28-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:30:5-31:47
+28-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:30:22-71
+29    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER" />
+29-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:11:5-75
+29-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:11:22-72
+30    <uses-permission android:name="android.permission.WIZARPOS_PRINTER" />
+30-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:12:5-75
+30-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:12:22-72
+31
+32    <application
+32-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:33:5-287:19
+33        android:allowBackup="false"
+33-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:34:9-36
+34        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+34-->[com.android.support:support-compat:28.0.0] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\f2095bf78e19bb84aed4e4d26c6e1034\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+35        android:debuggable="true"
+36        android:icon="@drawable/logo_hyd"
+36-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:35:9-42
+37        android:label="@string/app_name"
+37-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:36:9-41
+38        android:largeHeap="true"
+38-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:37:9-33
+39        android:supportsRtl="true"
+39-->[com.bogdwellers:pinchtozoom:0.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\8aad92731a37263462db2a2ab187ec65\pinchtozoom-0.1\AndroidManifest.xml:14:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:39:9-40
+42        <provider
+42-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:41:9-49:20
+43            android:name="android.support.v4.content.FileProvider"
+43-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:42:13-67
+44            android:authorities="com.mtpv.mobilee_ticket.provider"
+44-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:43:13-67
+45            android:exported="false"
+45-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:44:13-37
+46            android:grantUriPermissions="true" >
+46-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:45:13-47
+47            <meta-data
+47-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:46:13-48:53
+48                android:name="android.support.FILE_PROVIDER_PATHS"
+48-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:47:17-67
+49                android:resource="@xml/file_paths" />
+49-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:48:17-51
+50        </provider>
+51
+52        <activity
+52-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:51:9-61:20
+53            android:name="com.mtpv.mobilee_ticket.MainActivity"
+53-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:52:13-41
+54            android:label="@string/app_name"
+54-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:53:13-45
+55            android:screenOrientation="portrait"
+55-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:54:13-49
+56            android:windowSoftInputMode="adjustPan" >
+56-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:55:13-52
+57            <intent-filter>
+57-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:56:13-60:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:57:17-69
+58-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:57:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:59:17-77
+60-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:59:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:62:9-67:20
+64            android:name="com.mtpv.mobilee_ticket.GenerateDrunkDriveCase"
+64-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:63:13-51
+65            android:excludeFromRecents="true"
+65-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:64:13-46
+66            android:screenOrientation="portrait"
+66-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:65:13-49
+67            android:windowSoftInputMode="adjustPan" >
+67-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:66:13-52
+68        </activity>
+69        <activity
+69-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:68:9-73:20
+70            android:name="com.mtpv.mobilee_ticket.Dashboard"
+70-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:69:13-38
+71            android:excludeFromRecents="true"
+71-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:70:13-46
+72            android:screenOrientation="portrait"
+72-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:71:13-49
+73            android:windowSoftInputMode="adjustPan" >
+73-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:72:13-52
+74        </activity>
+75        <activity
+75-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:76:9-81:20
+76            android:name="com.mtpv.mobilee_ticket.Settings_New"
+76-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:77:13-41
+77            android:excludeFromRecents="true"
+77-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:78:13-46
+78            android:screenOrientation="portrait"
+78-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:79:13-49
+79            android:windowSoftInputMode="adjustPan" >
+79-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:80:13-52
+80        </activity>
+81        <activity
+81-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:82:9-87:20
+82            android:name="com.mtpv.mobilee_ticket.DrunkResponse"
+82-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:83:13-42
+83            android:excludeFromRecents="true"
+83-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:84:13-46
+84            android:screenOrientation="portrait"
+84-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:85:13-49
+85            android:windowSoftInputMode="adjustPan" >
+85-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:86:13-52
+86        </activity>
+87        <activity
+87-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:88:9-93:20
+88            android:name="com.mtpv.mobilee_ticket.PendingChallans"
+88-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:89:13-44
+89            android:excludeFromRecents="true"
+89-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:90:13-46
+90            android:screenOrientation="portrait"
+90-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:91:13-49
+91            android:windowSoftInputMode="adjustPan" >
+91-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:92:13-52
+92        </activity>
+93        <activity
+93-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:94:9-101:20
+94            android:name="com.mtpv.mobilee_ticket.Drunk_Drive"
+94-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:95:13-40
+95            android:excludeFromRecents="true"
+95-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:96:13-46
+96            android:screenOrientation="portrait"
+96-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:97:13-49
+97            android:windowSoftInputMode="adjustPan" >
+97-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:98:13-52
+98
+99            <!--  -->
+100        </activity>
+101        <activity
+101-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:102:9-107:20
+102            android:name="com.mtpv.mobilee_ticket.DuplicatePrint"
+102-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:103:13-43
+103            android:excludeFromRecents="true"
+103-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:104:13-46
+104            android:screenOrientation="portrait"
+104-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:105:13-49
+105            android:windowSoftInputMode="adjustPan" >
+105-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:106:13-52
+106        </activity>
+107        <activity
+107-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:108:9-113:20
+108            android:name="com.mtpv.mobilee_ticket.IPSettings"
+108-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:109:13-39
+109            android:excludeFromRecents="true"
+109-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:110:13-46
+110            android:screenOrientation="portrait"
+110-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:111:13-49
+111            android:windowSoftInputMode="adjustPan" >
+111-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:112:13-52
+112        </activity>
+113        <activity
+113-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:114:9-119:20
+114            android:name="com.mtpv.mobilee_ticket.SpotChallan"
+114-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:115:13-40
+115            android:excludeFromRecents="true"
+115-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:116:13-46
+116            android:screenOrientation="portrait"
+116-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:117:13-49
+117            android:windowSoftInputMode="adjustPan" >
+117-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:118:13-52
+118        </activity>
+119        <activity
+119-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:120:9-125:20
+120            android:name="com.mtpv.mobilee_ticket.SpotResponse"
+120-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:121:13-41
+121            android:excludeFromRecents="true"
+121-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:122:13-46
+122            android:screenOrientation="portrait"
+122-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:123:13-49
+123            android:windowSoftInputMode="adjustPan" >
+123-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:124:13-52
+124        </activity>
+125        <activity
+125-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:126:9-131:20
+126            android:name="com.mtpv.mobilee_ticket.VehicleHistoryPendingChallans"
+126-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:127:13-58
+127            android:excludeFromRecents="true"
+127-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:128:13-46
+128            android:screenOrientation="portrait"
+128-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:129:13-49
+129            android:windowSoftInputMode="adjustPan" >
+129-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:130:13-52
+130        </activity>
+131        <activity
+131-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:132:9-136:20
+132            android:name="com.mtpv.mobilee_ticket.OfflineDashboardActivity"
+132-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:133:13-53
+133            android:label="@string/title_activity_offline_dashboard"
+133-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:134:13-69
+134            android:windowSoftInputMode="adjustPan" >
+134-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:135:13-52
+135        </activity>
+136        <activity
+136-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:137:9-141:20
+137            android:name="com.mtpv.mobilee_ticket.Offline_GenerateCase"
+137-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:138:13-49
+138            android:label="@string/title_activity_offline__generate_case"
+138-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:139:13-74
+139            android:windowSoftInputMode="adjustPan" >
+139-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:140:13-52
+140        </activity>
+141        <activity
+141-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:142:9-146:20
+142            android:name="com.mtpv.mobilee_ticket.Offline_Settings"
+142-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:143:13-45
+143            android:label="@string/title_activity_offline__settings"
+143-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:144:13-69
+144            android:windowSoftInputMode="adjustPan" >
+144-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:145:13-52
+145        </activity>
+146        <activity
+146-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:147:9-151:20
+147            android:name="com.mtpv.mobilee_ticket.Respone_Print"
+147-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:148:13-42
+148            android:label="@string/title_activity_respone__print"
+148-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:149:13-66
+149            android:windowSoftInputMode="adjustPan" >
+149-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:150:13-52
+150        </activity>
+151        <activity
+151-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:152:9-157:20
+152            android:name="com.mtpv.mobilee_ticket.Fake_NO_Dialog"
+152-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:153:13-43
+153            android:label="@string/title_activity_Fake_NO_Dialog"
+153-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:154:13-66
+154            android:theme="@android:style/Theme.Dialog"
+154-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:155:13-56
+155            android:windowSoftInputMode="adjustPan" >
+155-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:156:13-52
+156        </activity>
+157        <activity
+157-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:158:9-162:20
+158            android:name="com.mtpv.mobilee_ticket.OTP_input"
+158-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:159:13-38
+159            android:label="@string/title_activity_otp_input"
+159-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:160:13-61
+160            android:theme="@android:style/Theme.Dialog" >
+160-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:161:13-56
+161        </activity>
+162        <activity
+162-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:163:9-167:20
+163            android:name="com.mtpv.mobilee_ticket.ExtraPassengers"
+163-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:164:13-44
+164            android:label="title_activity_extra_passenger"
+164-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:165:13-59
+165            android:theme="@android:style/Theme.Dialog" >
+165-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:166:13-56
+166        </activity>
+167        <activity
+167-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:168:9-172:20
+168            android:name="com.mtpv.mobilee_ticket.E_Challan"
+168-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:169:13-38
+169            android:label="@string/title_activity_e__challan"
+169-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:170:13-62
+170            android:windowSoftInputMode="adjustPan" >
+170-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:171:13-52
+171        </activity>
+172        <activity
+172-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:173:9-177:20
+173            android:name="com.mtpv.mobilee_ticket.E_Challan_Reports"
+173-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:174:13-46
+174            android:label="@string/title_activity_e__challan__reports"
+174-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:175:13-71
+175            android:windowSoftInputMode="adjustPan" >
+175-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:176:13-52
+176        </activity>
+177        <activity
+177-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:178:9-182:20
+178            android:name="com.mtpv.mobilee_ticket.MinorActivity"
+178-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:179:13-42
+179            android:label="@string/title_activity_minor"
+179-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:180:13-57
+180            android:theme="@android:style/Theme.Dialog" >
+180-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:181:13-56
+181        </activity>
+182        <activity
+182-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:183:9-186:20
+183            android:name="com.mtpv.mobilee_ticket.DD_Print"
+183-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:184:13-37
+184            android:label="@string/title_activity_dd__print" >
+184-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:185:13-61
+185        </activity>
+186        <activity
+186-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:187:9-191:20
+187            android:name="com.mtpv.mobilee_ticket.PopupDetails"
+187-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:188:13-41
+188            android:label="paymentDetails"
+188-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:189:13-43
+189            android:windowSoftInputMode="adjustPan" >
+189-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:190:13-52
+190        </activity>
+191        <activity
+191-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:192:9-199:20
+192            android:name="com.mtpv.mobilee_ticket.DeviceListActivity"
+192-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:193:13-47
+193            android:label="@string/app_name"
+193-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:194:13-45
+194            android:theme="@android:style/Theme.Dialog" >
+194-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:195:13-56
+195            <intent-filter>
+195-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:196:13-198:29
+196                <action android:name="android.intent.action.VIEW" />
+196-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:197:17-69
+196-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:197:25-66
+197            </intent-filter>
+198        </activity>
+199        <activity
+199-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:200:9-207:20
+200            android:name="com.pinpad.mtpv.PinPad_ListActivity"
+200-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:201:13-63
+201            android:label="@string/title_activity_pin_pad__list"
+201-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:202:13-65
+202            android:theme="@android:style/Theme.Dialog" >
+202-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:203:13-56
+203            <intent-filter>
+203-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:196:13-198:29
+204                <action android:name="android.intent.action.VIEW" />
+204-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:197:17-69
+204-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:197:25-66
+205            </intent-filter>
+206        </activity>
+207        <activity
+207-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:208:9-211:20
+208            android:name="com.pinpad.mtpv.PinPadList"
+208-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:209:13-54
+209            android:label="@string/title_activity_pin_pad_list" >
+209-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:210:13-64
+210        </activity>
+211        <activity
+211-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:212:9-215:20
+212            android:name="com.pinpad.mtpv.GetPinPad"
+212-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:213:13-53
+213            android:label="@string/title_activity_get_pin_pad" >
+213-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:214:13-63
+214        </activity>
+215        <activity
+215-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:216:9-219:20
+216            android:name="com.mtpv.mobilee_ticket.Bluetooth"
+216-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:217:13-38
+217            android:label="@string/title_activity_blue_tooth_list" >
+217-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:218:13-67
+218        </activity>
+219        <activity
+219-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:220:9-223:20
+220            android:name="com.mtpv.mobilee_ticket.BluetoothListActivity"
+220-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:221:13-50
+221            android:label="@string/title_activity_bluetooth_list" >
+221-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:222:13-66
+222        </activity>
+223        <activity
+223-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:224:9-227:20
+224            android:name="com.mtpv.mobilee_ticket.Settings_Old"
+224-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:225:13-41
+225            android:label="@string/title_activity_settings__old" >
+225-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:226:13-65
+226        </activity>
+227        <activity
+227-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:228:9-231:20
+228            android:name="com.mtpv.mobilee_ticket.Dashboard_Old"
+228-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:229:13-42
+229            android:label="@string/title_activity_dashboard__old" >
+229-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:230:13-66
+230        </activity>
+231        <activity
+231-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:232:9-235:20
+232            android:name="com.mtpv.mobilee_ticket.DD_Response_Print"
+232-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:233:13-46
+233            android:label="@string/title_activity_dd__response__print" >
+233-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:234:13-71
+234        </activity>
+235        <activity
+235-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:236:9-239:20
+236            android:name="com.mtpv.mobilee_ticket.AadhaarUpdate"
+236-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:237:13-42
+237            android:label="@string/title_activity_aadhaar_update" >
+237-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:238:13-66
+238        </activity>
+239        <activity
+239-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:240:9-243:20
+240            android:name="com.mtpv.mobilee_ticket.Aadhaar_Update_Print"
+240-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:241:13-49
+241            android:label="@string/title_activity_aadhaar__update__print" >
+241-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:242:13-74
+242        </activity>
+243        <activity
+243-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:244:9-248:20
+244            android:name="com.mtpv.mobilee_ticket.DateOfBirth_Update"
+244-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:245:13-47
+245            android:label="@string/title_activity_date_of_birth__update"
+245-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:246:13-73
+246            android:theme="@android:style/Theme.Dialog" >
+246-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:247:13-56
+247        </activity>
+248        <activity
+248-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:249:9-253:20
+249            android:name="com.mtpv.mobilee_ticket.ChangePassword"
+249-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:250:13-43
+250            android:label="@string/title_activity_change_password"
+250-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:251:13-67
+251            android:theme="@android:style/Theme.Dialog" >
+251-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:252:13-56
+252        </activity>
+253        <activity
+253-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:254:9-257:20
+254            android:name="com.mtpv.mobilee_ticket.ReleaseversionActivity"
+254-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:255:13-51
+255            android:label="@string/title_activity_releaseversion" >
+255-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:256:13-66
+256        </activity>
+257        <activity
+257-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:258:9-263:20
+258            android:name="com.mtpv.mobilee_ticket.Dashboard_PC"
+258-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:259:13-41
+259            android:excludeFromRecents="true"
+259-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:260:13-46
+260            android:screenOrientation="portrait"
+260-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:261:13-49
+261            android:windowSoftInputMode="adjustPan" >
+261-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:262:13-52
+262        </activity>
+263        <activity
+263-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:264:9-268:20
+264            android:name="com.mtpv.mobilee_ticket.Login_otp"
+264-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:265:13-38
+265            android:label="@string/title_activity_otp_input"
+265-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:266:13-61
+266            android:theme="@android:style/Theme.Dialog" >
+266-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:267:13-56
+267        </activity>
+268        <activity
+268-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:269:9-272:20
+269            android:name="com.mtpv.mobilee_ticket.Drunk_Drive_Fake_Dialog"
+269-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:270:13-52
+270            android:label="@string/title_activity_drunk__drive__fake__dialog" >
+270-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:271:13-78
+271        </activity>
+272        <activity android:name="com.mtpv.mobilee_ticket.mtpv_SpecialDrive" />
+272-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:274:9-64
+272-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:274:19-52
+273        <activity android:name="com.mtpv.mobilee_ticket.SpecialDriveResponse_Print" />
+273-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:275:9-73
+273-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:275:19-61
+274        <activity android:name="com.mtpv.mobilee_ticket.E_Challan_Non_ContactModule" />
+274-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:276:9-74
+274-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:276:19-62
+275
+276        <meta-data
+276-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:281:9-283:72
+277            android:name="io.fabric.ApiKey"
+277-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:282:13-44
+278            android:value="2cdc37f0ea9fc03062bf6c77c47b64d3bb01fda8" />
+278-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:283:13-69
+279
+280        <service android:name="com.mtpv.mobilee_ticket_services.RingToneService" />
+280-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:286:9-84
+280-->E:\Android\Workspace\ETicketHYDAll\AndroidManifest.xml:286:18-81
+281
+282        <activity
+282-->[ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cc12f7c15f11fecd9731802cf070f703\exfilepicker-2.1\AndroidManifest.xml:15:9-17:61
+283            android:name="ru.bartwell.exfilepicker.ui.activity.ExFilePickerActivity"
+283-->[ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cc12f7c15f11fecd9731802cf070f703\exfilepicker-2.1\AndroidManifest.xml:16:13-85
+284            android:theme="@style/ExFilePickerThemeLight" />
+284-->[ru.bartwell:exfilepicker:2.1] C:\Users\VINAY\.gradle\caches\transforms-2\files-2.1\cc12f7c15f11fecd9731802cf070f703\exfilepicker-2.1\AndroidManifest.xml:17:13-58
+285        <activity
+285-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:18:9-20:52
+286            android:name="com.digitsecure.pymnt.SampleActivity"
+286-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:19:13-64
+287            android:screenOrientation="portrait" />
+287-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:20:13-49
+288        <activity
+288-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:21:9-23:52
+289            android:name="com.digitsecure.camera.CameraActivity"
+289-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:22:13-65
+290            android:screenOrientation="portrait" />
+290-->[:dsprint] E:\Android\Workspace\ETicketHYDAll\dsprint\build\.transforms\ba8503046f5e1868e15cb1abbf538af7\dsprint\AndroidManifest.xml:23:13-49
+291    </application>
+292
+293</manifest>

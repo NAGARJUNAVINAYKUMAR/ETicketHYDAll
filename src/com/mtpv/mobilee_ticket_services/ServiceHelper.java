@@ -12,10 +12,17 @@ import com.mtpv.mobilee_ticket.SpotChallan;
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.SoapFault;
 import org.ksoap2.serialization.SoapObject;
+import org.ksoap2.serialization.SoapPrimitive;
 import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
+import org.kxml2.kdom.Element;
+import org.kxml2.kdom.Node;
+import org.xmlpull.v1.XmlPullParserException;
 
+import java.io.IOException;
+import java.net.SocketTimeoutException;
 import java.util.Map;
+import java.util.concurrent.TimeoutException;
 
 @SuppressWarnings("unused")
 public class ServiceHelper {
@@ -27,7 +34,7 @@ public class ServiceHelper {
             aadhaarVehicle_resp, UpdateAadhaar_resp, aadhaarDetailsCheck_resp, changePswd_otp, changePSWDconfirm,
             version_response, offender_remarks,
             rta_data, license_data, aadhar_data, result = "", output = "", rc_send, dl_send, adhr_send,
-            versionData, getOfficerLimit, spot_finalPrintNDevice;
+            versionData, getOfficerLimit, spot_finalPrintNDevice, str_imgDDInfo,str_SameChlnDuplicatePrint="";
 
     public static Map<String, String> viodetMap = null;
     public static String rtaapproovedresponse, validregnoresponse, insertDetainItemsresponse, remarksresult, otpStatusnTime, noncontactresponse;
@@ -52,7 +59,7 @@ public class ServiceHelper {
     public static String GET_TERMINAL_DETAILS = "getTerminalDetails", GET_CHALLAN_DETAILS_FOR_AADHAAR = "getChallanDetailsForAadharUpdate";
     public static String GET_AADHAAR_UPDATE = "aadharUpdateForChallanGeneration", OCCUPATIONS = "getOccupations", QUALIFICATIONS = "getQualifications";
     public static String GET_CHANGE_PSWD_OTP = "aadharUpdateForChallanGeneration", GET_AADHAAR_TICKET = "checkAadharTicket";
-    public static String get_OffenceDetailsbyWheelerChallanType = "getOffenceDetailsbyWheelerChallanType";
+    public static String get_OffenceDetailsbyWheelerChallanType = "getOffenceDetailsbyWheelerChallanType", getPrevFRSInfo = "getPrevFRSInfo";
 
     public static String[] login_details_arr, whlr_details_master, psNames_master, violation_points_masters, violation_points_masters_split,
             occupationlist_master, PointNamesBypsNames_master, occupation_master, qualification_master, bar_master, vchle_cat_master,
@@ -65,6 +72,12 @@ public class ServiceHelper {
     static StringBuffer sbuffer_allViolations;
 
     public static StringBuffer onlinebuff = new StringBuffer();
+
+    private static int timeLimit=60000*2;
+
+    public static String api_key ="AIzaSyDK_kuC51e_BK7T7rShVYT7ukAwLY6ugGU";
+
+    public static String duplicateChaln_Data="";
 
     public static void login(String pid, String pidpwd, String mob_imei, String sim_No, String lat, String log,
                              String appVersion) {
@@ -80,7 +93,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -100,13 +113,17 @@ public class ServiceHelper {
                 MainActivity.arr_logindetails = Opdata_Chalana.split(":");
             }
 
-        } catch (SoapFault fault) {
+        }catch (SoapFault fault) {
+            fault.printStackTrace();
+            Opdata_Chalana = "0";
+        }catch (SocketTimeoutException fault) {
+            fault.printStackTrace();
+            Opdata_Chalana = "0";
         } catch (Exception E) {
             E.printStackTrace();
             Opdata_Chalana = "0";
         }
     }
-
 
     public static String VersionCheck(String appVersion) {
         try {
@@ -117,7 +134,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -132,7 +149,10 @@ public class ServiceHelper {
         } catch (SoapFault fault) {
             versionData = "0";
             fault.printStackTrace();
-        } catch (Exception E) {
+        } catch (SocketTimeoutException fault) {
+            versionData = "0";
+            fault.printStackTrace();
+        }catch (Exception E) {
             E.printStackTrace();
             versionData = "0";
         }
@@ -150,7 +170,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -181,7 +201,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -209,7 +229,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -237,7 +257,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(NAMESPACE + "confirmLoginOTP", envelope);
             Object result = envelope.getResponse();
             Opdata_Chalana = "";
@@ -254,14 +274,13 @@ public class ServiceHelper {
         }
     }
 
-
     public static void getWheeler() {
         try {
             SoapObject request = new SoapObject(NAMESPACE, "" + WHEELER_MEHOD_NAME);
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -297,7 +316,11 @@ public class ServiceHelper {
             fault.printStackTrace();
             Opdata_Chalana = "0";
             whlr_details_master = new String[0];
-        } catch (Exception e) {
+        } catch (SocketTimeoutException fault) {
+            fault.printStackTrace();
+            Opdata_Chalana = "0";
+            whlr_details_master = new String[0];
+        }catch (Exception e) {
             // TODO: handle exception
             Opdata_Chalana = "0";
             whlr_details_master = new String[0];
@@ -313,7 +336,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -357,7 +380,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -387,6 +410,9 @@ public class ServiceHelper {
         } catch (SoapFault fault) {
             Opdata_Chalana = "0";
             psNames_master = new String[0];
+        }catch (SocketTimeoutException fault) {
+            Opdata_Chalana = "0";
+            psNames_master = new String[0];
         } catch (Exception e) {
             // TODO: handle exception
             Opdata_Chalana = "0";
@@ -401,7 +427,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -435,7 +461,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -449,10 +475,13 @@ public class ServiceHelper {
                 PointNamesBypsNames_master = new String[0];
                 PointNamesBypsNames_master = Opdata_Chalana.split("!");
                 for (int i = 0; i < ServiceHelper.PointNamesBypsNames_master.length; i++) {
-                    Log.i("**POINTNAMEBYPSNAMES MASTER***", "" + ServiceHelper.PointNamesBypsNames_master[i]);
+                    Log.i("**POINTPSNAMES MAS", "" + ServiceHelper.PointNamesBypsNames_master[i]);
                 }
             }
         } catch (SoapFault fault) {
+            PointNamesBypsNames_master = new String[0];
+        }catch (SocketTimeoutException fault) {
+            PointNamesBypsNames_master = new String[0];
         } catch (Exception e) {
             // TODO: handle exception
             PointNamesBypsNames_master = new String[0];
@@ -467,7 +496,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -510,7 +539,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -550,7 +579,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -597,7 +626,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -639,7 +668,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -667,7 +696,7 @@ public class ServiceHelper {
 
                     vchle_mainCat_master = Opdata_Chalana.split("!");
                     for (int i = 0; i < ServiceHelper.vchle_mainCat_master.length; i++) {
-                        Log.i("**VCHLE MIAN CAT MASTER***", "" + ServiceHelper.vchle_mainCat_master[i]);
+                        Log.i("CAT MASTER***", "" + ServiceHelper.vchle_mainCat_master[i]);
                     }
                 }
             }
@@ -690,7 +719,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -705,13 +734,38 @@ public class ServiceHelper {
                 vchle_subCat_master = new String[0];
                 vchle_subCat_master = Opdata_Chalana.split("!");
                 for (int i = 0; i < ServiceHelper.vchle_subCat_master.length; i++) {
-                    Log.i("**VCHLE SUB CAT MASTER***", "" + ServiceHelper.vchle_subCat_master[i]);
+                    Log.i("**VCHLE SUB", "" + ServiceHelper.vchle_subCat_master[i]);
                 }
             }
         } catch (SoapFault fault) {
         } catch (Exception e) {
             // TODO: handle exception
             vchle_subCat_master = new String[0];
+        }
+    }
+
+    public static void getPrevFRSInfo(String driverBase64ImgData) {
+        try {
+            SoapObject request = new SoapObject(NAMESPACE, "" + getPrevFRSInfo);
+            request.addProperty("driverBase64ImgData", "" + driverBase64ImgData);
+            SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+            envelope.dotNet = true;
+            envelope.setOutputSoapObject(request);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
+            httpTransportSE.call(SOAP_ACTION, envelope);
+            Object result = envelope.getResponse();
+            try {
+                str_imgDDInfo = result.toString();
+            } catch (Exception e) {
+                e.printStackTrace();
+                str_imgDDInfo = "";
+            }
+        } catch (SoapFault soapFault) {
+            soapFault.printStackTrace();
+            str_imgDDInfo = "";
+        } catch (Exception e) {
+            e.printStackTrace();
+            str_imgDDInfo = "";
         }
     }
 
@@ -791,7 +845,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -819,7 +873,26 @@ public class ServiceHelper {
                 }
             }
         } catch (SoapFault fault) {
-        } catch (Exception e) {
+            if (final_reponse_split.length == 0) {
+                final_reponse_split = new String[0];
+            }
+            if (final_response_master.length == 0) {
+                final_response_master = new String[0];
+            }
+            if ((final_reponse_split.length == 0) && (final_response_master.length == 0)) {
+                Opdata_Chalana = "0";
+            }
+        } catch (SocketTimeoutException fault) {
+            if (final_reponse_split.length == 0) {
+                final_reponse_split = new String[0];
+            }
+            if (final_response_master.length == 0) {
+                final_response_master = new String[0];
+            }
+            if ((final_reponse_split.length == 0) && (final_response_master.length == 0)) {
+                Opdata_Chalana = "0";
+            }
+        }catch (Exception e) {
             // TODO: handle exception
             if (final_reponse_split.length == 0) {
                 final_reponse_split = new String[0];
@@ -914,7 +987,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -959,6 +1032,10 @@ public class ServiceHelper {
             Opdata_Chalana = "0";
             final_reponse_split = new String[0];
             final_response_master = new String[0];
+        }catch (SocketTimeoutException fault) {
+            Opdata_Chalana = "0";
+            final_reponse_split = new String[0];
+            final_response_master = new String[0];
         } catch (Exception e) {
             // TODO: handle exception
             Opdata_Chalana = "0";
@@ -981,7 +1058,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             offender_remarks = "";
@@ -1000,12 +1077,13 @@ public class ServiceHelper {
             }
         } catch (SoapFault fault) {
             offender_remarks = "0";
+        }catch (SocketTimeoutException fault) {
+            offender_remarks = "0";
         } catch (Exception e) {
             // TODO: handle exception
             offender_remarks = "0";
         }
     }
-
 
     public static void getVehRemarks(String vhle_num, String license, String aadhar) {
 
@@ -1018,7 +1096,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             offender_remarks = "";
@@ -1037,6 +1115,8 @@ public class ServiceHelper {
             }
         } catch (SoapFault fault) {
             offender_remarks = "0";
+        }catch (SocketTimeoutException fault) {
+            offender_remarks = "0";
         } catch (Exception e) {
             // TODO: handle exception
             offender_remarks = "0";
@@ -1050,7 +1130,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -1121,6 +1201,17 @@ public class ServiceHelper {
             /*else if (Dashboard.rta_details_request_from.equals("noncontact")) {
                 SpotChallan.rta_details_spot_master = new String[0];
             }*/
+        }catch (SocketTimeoutException fault) {
+
+            rta_data = "0";
+            if (Dashboard.rta_details_request_from.equals("RTACLASS")) {
+                Drunk_Drive.rta_details_master = new String[0];
+            } else if (Dashboard.rta_details_request_from.equals("SPOT")) {
+                SpotChallan.rta_details_spot_master = new String[0];
+            }
+            /*else if (Dashboard.rta_details_request_from.equals("noncontact")) {
+                SpotChallan.rta_details_spot_master = new String[0];
+            }*/
         } catch (Exception e) {
             // TODO: handle exception
             // Opdata_Chalana = "0";
@@ -1160,7 +1251,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -1187,6 +1278,10 @@ public class ServiceHelper {
                     pending_challans_details[i] = pending_challans_master[i].split("!");
                 }
             }
+        } catch (SocketTimeoutException e) {
+            Opdata_Chalana = "nodata";
+            pending_challans_master = new String[0];
+            pending_challans_details = new String[0][0];
         } catch (Exception e) {
             Opdata_Chalana = "nodata";
             pending_challans_master = new String[0];
@@ -1202,7 +1297,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -1241,6 +1336,16 @@ public class ServiceHelper {
             }
 
         } catch (SoapFault f) {
+            f.printStackTrace();
+
+            license_data = "0";
+            if (Dashboard.licence_details_request_from.equals("RTACLASS")) {
+                Drunk_Drive.licene_details_master = new String[0];
+            } else if (Dashboard.licence_details_request_from.equals("SPOT")) {
+                SpotChallan.licence_details_spot_master = new String[0];
+            }
+
+        }catch (SocketTimeoutException f) {
             f.printStackTrace();
 
             license_data = "0";
@@ -1327,7 +1432,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -1349,7 +1454,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             System.out.println(" getviolations by wheeler response :" + result.toString());
@@ -1412,7 +1517,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -1458,14 +1563,18 @@ public class ServiceHelper {
             Opdata_Chalana = "0";
             violation_details_master = new String[0];
             violation_detailed_views = new String[0][0];
-        } catch (Exception e) {
+        } catch (SocketTimeoutException fault) {
+            Opdata_Chalana = "0";
+            violation_details_master = new String[0];
+            violation_detailed_views = new String[0][0];
+        }catch (Exception e) {
             Opdata_Chalana = "0";
             violation_details_master = new String[0];
             violation_detailed_views = new String[0][0];
         }
     }
 
-    public static void getOffenceDetailsbyWheelerChallanTypeUnitRemark(String wheelercode,String chllanType,String pidCode,String remark){
+    public static void getOffenceDetailsbyWheelerChallanTypeUnitRemark(String wheelercode, String chllanType, String pidCode, String remark) {
         try {
             SoapObject request = new SoapObject(NAMESPACE, "getOffenceDetailsbyWheelerChallanTypeUnitRemark");
             request.addProperty("wheelercode", wheelercode);
@@ -1475,12 +1584,12 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
-                if(result!=null) {
-                    Opdata_Chalana="";
+                if (result != null) {
+                    Opdata_Chalana = "";
                     Opdata_Chalana = new com.mtpv.mobilee_ticket_services.PidSecEncrypt().decrypt(result.toString());
 
                     if (Opdata_Chalana != null && Opdata_Chalana.toString().trim().equals("0")) {
@@ -1503,7 +1612,7 @@ public class ServiceHelper {
                             violation_detailed_views = new String[0][0];
                         }
                     }
-                }else {
+                } else {
                     Opdata_Chalana = "0";
                     violation_details_master = new String[0];
                     violation_detailed_views = new String[0][0];
@@ -1520,7 +1629,11 @@ public class ServiceHelper {
             Opdata_Chalana = "0";
             violation_details_master = new String[0];
             violation_detailed_views = new String[0][0];
-        } catch (Exception e) {
+        } catch (SocketTimeoutException fault) {
+            Opdata_Chalana = "0";
+            violation_details_master = new String[0];
+            violation_detailed_views = new String[0][0];
+        }catch (Exception e) {
             Opdata_Chalana = "0";
             violation_details_master = new String[0];
             violation_detailed_views = new String[0][0];
@@ -1536,7 +1649,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -1579,6 +1692,10 @@ public class ServiceHelper {
             }
 
         } catch (SoapFault fault) {
+            Opdata_Chalana = "0";
+            violation_details_master = new String[0];
+            violation_detailed_views = new String[0][0];
+        }catch (SocketTimeoutException fault) {
             Opdata_Chalana = "0";
             violation_details_master = new String[0];
             violation_detailed_views = new String[0][0];
@@ -1600,7 +1717,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -1640,6 +1757,11 @@ public class ServiceHelper {
             detained_items_list_master = new String[0];
             detained_items_list_details = new String[0][0];
             fault.printStackTrace();
+        }catch (SocketTimeoutException fault) {
+            Opdata_Chalana = null;
+            detained_items_list_master = new String[0];
+            detained_items_list_details = new String[0][0];
+            fault.printStackTrace();
         } catch (Exception e) {
 
             Opdata_Chalana = null;
@@ -1659,7 +1781,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -1711,7 +1833,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -1733,7 +1855,6 @@ public class ServiceHelper {
             Opdata_Chalana = "0";
         }
     }
-
 
     public static void mobileSpotChallanPayingNew1_5_2(String selectedPendingChallans, String regnCd, String vehicleNo,
                                                        String regnNo, String gtwyCd, String dOfPay, String pmtTime, String unitCode, String unitName,
@@ -1828,7 +1949,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             spot_final_res_status = "";
@@ -1892,6 +2013,40 @@ public class ServiceHelper {
             if (final_spot_reponse_violations_master.length == 0) {
                 final_spot_reponse_violations = new String[0][0];
             }
+        }
+    }
+
+
+    public static void checkSameChallan(String regnNo, String offenceDt, String pointCode,String selectedVioCodes,String pidCd) {
+        try {
+            SoapObject request = new SoapObject(NAMESPACE, "checkSameChallan");
+            request.addProperty("regnNo", regnNo);
+            request.addProperty("offenceDt", offenceDt);
+            request.addProperty("pointCode", pointCode);
+            request.addProperty("selectedVioCodes", selectedVioCodes);
+            request.addProperty("pidCd", pidCd);
+            SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+            envelope.dotNet = true;
+            envelope.setOutputSoapObject(request);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
+            androidHttpTransport.call(SOAP_ACTION, envelope);
+            Object result = envelope.getResponse();
+            try {
+                if (null!=result) {
+                    duplicateChaln_Data = result.toString();
+                }else {
+                    duplicateChaln_Data="NA";
+                }
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                duplicateChaln_Data="NA";
+            }
+        } catch (SoapFault fault) {
+            duplicateChaln_Data="NA";
+        } catch (Exception E) {
+            E.printStackTrace();
+            duplicateChaln_Data = "NA";
         }
     }
 
@@ -1959,7 +2114,7 @@ public class ServiceHelper {
 
             }
 
-            Log.i("Online Buffer Spot Challan", onlinebuff.toString());
+            Log.i("Online Buffer", onlinebuff.toString());
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -2048,16 +2203,17 @@ public class ServiceHelper {
             // if (Dashboard.check_vhleHistory_or_Spot.equals("spot")) {
             request.addProperty(utils.TOWING_DOB, "" + dl_dob);
 
-            //}
-
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
+            envelope.implicitTypes = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
-            httpTransportSE.call(SOAP_ACTION, envelope);
-            Object result = envelope.getResponse();
+
             try {
+                HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL, timeLimit);
+                httpTransportSE.call(SOAP_ACTION, envelope);
+                SoapPrimitive result = (SoapPrimitive) envelope.getResponse();
+                //Object result = (Object) envelope.bodyIn;
                 spot_final_res_status = "";
                 spot_finalPrintNDevice = "";
                 // String resPrint=new com.mtpv.mobilee_ticket_services.PidSecEncrypt().decrypt(result.toString());
@@ -2066,7 +2222,18 @@ public class ServiceHelper {
                 spot_finalPrintNDevice=resPrint.split("\\*")[1];*/
 
 
-            } catch (Exception e) {
+            }catch (SoapFault fault) {
+                Log.d("SoapaultExp: ", "" + fault.getMessage());
+                spot_final_res_status = "SF";
+                final_spot_reponse_master = new String[0];
+            } catch (SocketTimeoutException t) {
+                t.printStackTrace();
+                spot_final_res_status = "0";
+                final_spot_reponse_master = new String[0];
+                final_spot_reponse_violations_master = new String[0];
+                final_spot_reponse_details = new String[0];
+                final_spot_reponse_violations = new String[0][0];
+            }catch (Exception e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
                 spot_final_res_status = "0";
@@ -2094,7 +2261,7 @@ public class ServiceHelper {
                 final_spot_reponse_violations = new String[0][0];
                 // }
 
-            } else if (spot_final_res_status.toString().trim() != null && !"0".equals(spot_final_res_status.toString())) {
+            } else if (spot_final_res_status.toString() != null && !"0".equals(spot_final_res_status.toString())&&!"SF".equals(spot_final_res_status)) {
 
                 final_spot_reponse_master = spot_final_res_status.split("\\^");
 
@@ -2124,27 +2291,12 @@ public class ServiceHelper {
 
             }
 
-        } catch (SoapFault fault) {
+        }  catch (Exception e) {
             spot_final_res_status = "0";
-        } catch (Exception e) {
-            // TODO: handle exception
-            spot_final_res_status = "0";
-
-            // if (  final_spot_reponse_master.length == 0) {
             final_spot_reponse_master = new String[0];
-            // }
-
-            // if (final_spot_reponse_violations_master.length == 0) {
             final_spot_reponse_violations_master = new String[0];
-            // }
-
-            // if (final_spot_reponse_details.length == 0) {
             final_spot_reponse_details = new String[0];
-            // }
-
-            //if (final_spot_reponse_violations_master.length == 0) {
             final_spot_reponse_violations = new String[0][0];
-            //}
         }
     }
 
@@ -2238,7 +2390,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -2382,7 +2534,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
 
             Object result = envelope.getResponse();
@@ -2467,6 +2619,17 @@ public class ServiceHelper {
 
             fault.printStackTrace();
 
+        }catch (SocketTimeoutException fault) {
+            spot_final_res_status = "0";
+            final_spot_reponse_master = new String[0];
+            final_spot_reponse_violations_master = new String[0];
+            final_spot_reponse_details = new String[0];
+            final_spot_reponse_violations = new String[0][0];
+            selected_paid_challans_master = new String[0];
+            selected_paid_challans_details = new String[0][0];
+
+            fault.printStackTrace();
+
         } catch (Exception E) {
 
             spot_final_res_status = "0";
@@ -2480,7 +2643,6 @@ public class ServiceHelper {
             E.printStackTrace();
         }
     }
-
 
     public static String insertDetainItems(String eticketNo, String challanNo, String regnNo, String offenceDate,
                                            String detainItems, String detainDate, String detainTime, String detainPid,
@@ -2537,7 +2699,7 @@ public class ServiceHelper {
 
             }
 
-            Log.i("Online Buffer Specail Drive", onlinebuff.toString());
+            Log.d("Online Buf", onlinebuff.toString());
         } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -2592,7 +2754,6 @@ public class ServiceHelper {
 
         return insertDetainItemsresponse;
     }
-
 
     public static String validateRegno(String regnNo, String drivingLicense, String aadhaarNO, String
             chasisNo, String engineNo, String pidCd, String unitCode,
@@ -2651,7 +2812,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -2669,6 +2830,9 @@ public class ServiceHelper {
         } catch (SoapFault fault) {
             remarksresult = "2";
             fault.printStackTrace();
+        }catch (SocketTimeoutException fault) {
+            remarksresult = "2";
+            fault.printStackTrace();
         } catch (Exception E) {
             E.printStackTrace();
             remarksresult = "2";
@@ -2676,7 +2840,6 @@ public class ServiceHelper {
 
         return remarksresult;
     }
-
 
     public static void releaserDocumentsModule(String vhle_hist_penchallans, String pen_challans, String regn_No,
                                                String gtwy_cd, String unit_cd, String ps_code, String ps_name, String pid_cd, String pid_name,
@@ -2849,7 +3012,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             Opdata_Chalana = "";
@@ -2885,7 +3048,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             Opdata_Chalana = "";
@@ -2902,6 +3065,44 @@ public class ServiceHelper {
         } catch (Exception e) {
             // TODO: handle exception
             Opdata_Chalana = "NA";
+        }
+    }
+
+    public static void getSameChlnDuplicatePrint(String unitcode, String pidcd, String pidname, String regno,
+                                               String reportdate, String simid, String imeino) {
+        Utils utils = new Utils();
+        try {
+            SoapObject request = new SoapObject(NAMESPACE, "" + DUPLCIATE_ONLINE_PRINT_METHOD_NAME);
+            request.addProperty("" + utils.SPOT_UNIT_CODE, "" + unitcode);
+            request.addProperty("" + utils.SPOT_PID_CODE, "" + pidcd);
+            request.addProperty("" + utils.SPOT_PID_NAME, "" + pidname);
+            request.addProperty("" + utils.REG_NO, "" + regno);
+            request.addProperty("" + utils.REPORT_DATE, "" + reportdate);
+            request.addProperty("" + utils.SIM_ID, "" + simid);
+            request.addProperty("" + utils.SPOT_IMEI, "" + imeino);
+
+            SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
+            envelope.dotNet = true;
+            envelope.setOutputSoapObject(request);
+
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
+            httpTransportSE.call(SOAP_ACTION, envelope);
+            Object result = envelope.getResponse();
+            str_SameChlnDuplicatePrint = "";
+
+            try {
+                str_SameChlnDuplicatePrint = new com.mtpv.mobilee_ticket_services.PidSecEncrypt().decrypt(result.toString());
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+                str_SameChlnDuplicatePrint = "NA";
+            }
+
+        } catch (SoapFault fault) {
+            str_SameChlnDuplicatePrint = "NA";
+        } catch (Exception e) {
+            // TODO: handle exception
+            str_SameChlnDuplicatePrint = "NA";
         }
     }
 
@@ -2926,7 +3127,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             try {
@@ -2985,7 +3186,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             makePayment_resp = "";
@@ -3014,7 +3215,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
             terminaldetails_resp = "";
@@ -3054,7 +3255,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -3068,8 +3269,10 @@ public class ServiceHelper {
             }
 
         } catch (SoapFault fault) {
-
-        } catch (Exception e) {
+            aadhaarVehicle_resp = "0";
+        } catch (SocketTimeoutException fault) {
+            aadhaarVehicle_resp = "0";
+        }catch (Exception e) {
             // TODO: handle exception
             e.printStackTrace();
             aadhaarVehicle_resp = "0";
@@ -3112,7 +3315,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE httpTransportSE = new HttpTransportSE(MainActivity.URL,timeLimit);
             httpTransportSE.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -3146,7 +3349,7 @@ public class ServiceHelper {
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -3252,7 +3455,7 @@ public class ServiceHelper {
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -3279,7 +3482,6 @@ public class ServiceHelper {
             version_response = "NA";
         }
     }
-
 
     public static String getApprovefromRtaforPoint(String eticketNO, String regnNo,
                                                    String offenceDt, String offenceTime, String stateCd, String unitCode,
@@ -3320,13 +3522,12 @@ public class ServiceHelper {
             request.addProperty("pointCode", pointCode);
             request.addProperty("totalVioPoints", totalVioPoints);
 
-
             SoapSerializationEnvelope envelope = new SoapSerializationEnvelope(SoapEnvelope.VER11);
             envelope.dotNet = true;
             envelope.setOutputSoapObject(request);
 
 
-            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL);
+            HttpTransportSE androidHttpTransport = new HttpTransportSE(MainActivity.URL,timeLimit);
             androidHttpTransport.call(SOAP_ACTION, envelope);
             Object result = envelope.getResponse();
 
@@ -3347,6 +3548,11 @@ public class ServiceHelper {
             fault.printStackTrace();
             rtaapproovedresponse = "NA|NA|NA";
 
+        }catch (SocketTimeoutException fault) {
+
+            fault.printStackTrace();
+            rtaapproovedresponse = "NA|NA|NA";
+
         } catch (Exception E) {
             E.printStackTrace();
             rtaapproovedresponse = "NA|NA|NA";
@@ -3354,7 +3560,6 @@ public class ServiceHelper {
 
         return rtaapproovedresponse;
     }
-
 
     public static String getOtpStatusNTime(String unitcode) {
         try {

@@ -4,7 +4,7 @@
             "outputFile": "E:\\Android\\Workspace\\ETicketHYDAll\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\b2eca4b623b16954a5847a5b263204aa\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\VINAY\\.gradle\\caches\\transforms-2\\files-2.1\\125f866e69009e3e5820f32b939db106\\appcompat-v7-28.0.0\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

@@ -1790,6 +1790,7 @@ drawable vehiclehistory
 drawable vhcle_history
 drawable watermark
 drawable wgl_logo
+drawable wgl_logow
 drawable white
 id ALT
 id CTRL
@@ -1855,6 +1856,7 @@ id btn_dateselection_dp_xml
 id btn_enable
 id btn_finalsubmit_dd3_xml
 id btn_finalsubmit_spotchallantwo_xml
+id btn_imgSubmit
 id btn_maker_code_dd2_xml
 id btn_movetofirst_dd2_xml
 id btn_movetolast_dd2_xml
@@ -1918,6 +1920,7 @@ id cancel
 id cancel_dialog
 id capturebtn
 id cardView
+id cb_Img
 id cb_fake
 id center
 id center_horizontal
@@ -2303,6 +2306,7 @@ id prompt
 id ps_name
 id qr_code
 id radio
+id radioButton_IPAdress
 id radioButton_live
 id radioButton_test
 id radioGroupButton_card_type0
